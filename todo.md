@@ -50,3 +50,7 @@
 - [ ] Remove "& Principal" from the title in `Office.tsx`
 
 - [ ] Update bio in `Office.tsx` to include "built and exited numerous tech and ecom companies"
+
+- [ ] Initialize git repository
+- [ ] Create GitHub repository `bde-io`
+- [ ] Push code to GitHub
