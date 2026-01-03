@@ -13,9 +13,8 @@ export default function Office() {
               <div className="sticky top-32">
                 <div className="relative aspect-[3/4] rounded-2xl overflow-hidden border border-white/10 mb-8 group">
                   <div className="absolute inset-0 bg-gradient-to-b from-transparent to-black/80 z-10" />
-                  {/* Placeholder for Brian's photo - using abstract for now */}
                   <img 
-                    src="/images/texture-grain.jpg" 
+                    src="/images/brian-d-evans-portrait.webp" 
                     alt="Brian D. Evans" 
                     className="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-700"
                   />
@@ -52,7 +51,10 @@ export default function Office() {
                 </p>
                 
                 <p>
-                  Most capital is passive. Ours is active. Brian spent a decade in the trenches—building Influencive from zero to millions of readers, scaling BDE Ventures into a top-tier advisory firm, and navigating the volatility of the crypto markets since the early days.
+                  Most capital is passive. Ours is active. Brian has spent over two decades in the trenches—building a media empire that reached over 100 million people, scaling multiple ventures to successful exits, and navigating the volatility of emerging markets since the early days.
+                </p>
+                <p>
+                  His work has influenced millions, running massive marketing campaigns for some of the world's biggest brands in their early stages. He didn't just watch the industry evolve; he helped shape it.
                 </p>
                 <p>
                   We don't just read the whitepaper; we understand the go-to-market. We don't just look at the cap table; we look at the community. When we partner with a founder, we bring the scars, the network, and the playbook of someone who has actually built.
