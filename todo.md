@@ -48,3 +48,5 @@
 - [ ] Ensure the narrative emphasizes "building a media empire" without specific brand names
 
 - [ ] Remove "& Principal" from the title in `Office.tsx`
+
+- [ ] Update bio in `Office.tsx` to include "built and exited numerous tech and ecom companies"
