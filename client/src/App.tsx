@@ -5,16 +5,16 @@ import { Route, Switch } from "wouter";
 import ErrorBoundary from "./components/ErrorBoundary";
 import { ThemeProvider } from "./contexts/ThemeContext";
 import Home from "./pages/Home";
-import Thesis from "./pages/Thesis";
-import Portfolio from "./pages/Portfolio";
+import Focus from "./pages/Focus";
+import Approach from "./pages/Approach";
 import Office from "./pages/Office";
 
 function Router() {
   return (
     <Switch>
       <Route path="/" component={Home} />
-      <Route path="/thesis" component={Thesis} />
-      <Route path="/portfolio" component={Portfolio} />
+      <Route path="/focus" component={Focus} />
+      <Route path="/approach" component={Approach} />
       <Route path="/office" component={Office} />
       <Route path="/404" component={NotFound} />
       <Route component={NotFound} />

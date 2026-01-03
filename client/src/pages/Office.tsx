@@ -81,9 +81,9 @@ export default function Office() {
               </div>
 
               <div className="mt-16 pt-16 border-t border-white/10">
-                <h3 className="text-3xl font-serif mb-6">Get in touch</h3>
+                <h3 className="text-3xl font-serif mb-6">Let's build the future.</h3>
                 <p className="text-muted-foreground mb-8">
-                  We are selective with our partnerships. If you are building something that aligns with our thesis, we want to hear from you.
+                  We partner with a limited number of teams each year. If you are a founder or leader working on a generational challenge in our areas of focus, we invite you to connect.
                 </p>
                 
                 <form className="space-y-6">
@@ -102,7 +102,7 @@ export default function Office() {
                     <textarea rows={4} className="w-full bg-white/5 border border-white/10 rounded-lg px-4 py-3 focus:outline-none focus:border-primary/50 transition-colors"></textarea>
                   </div>
                   <Button size="lg" className="w-full bg-primary text-primary-foreground hover:bg-primary/90 rounded-lg">
-                    Send Secure Message
+                    Request Introduction
                   </Button>
                 </form>
               </div>

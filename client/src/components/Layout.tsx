@@ -19,8 +19,8 @@ export default function Layout({ children }: { children: React.ReactNode }) {
 
   const navLinks = [
     { href: "/", label: "Home" },
-    { href: "/thesis", label: "Thesis" },
-    { href: "/portfolio", label: "Portfolio" },
+    { href: "/focus", label: "Areas of Focus" },
+    { href: "/approach", label: "Our Approach" },
     { href: "/office", label: "The Office" },
   ];
 

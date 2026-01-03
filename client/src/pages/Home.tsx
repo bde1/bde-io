@@ -1,6 +1,6 @@
 import Layout from "@/components/Layout";
 import { Button } from "@/components/ui/button";
-import { ArrowRight, Terminal, Activity, ShieldCheck, Zap } from "lucide-react";
+import { ArrowRight, Terminal, Activity, ShieldCheck } from "lucide-react";
 import { Link } from "wouter";
 
 export default function Home() {
@@ -25,26 +25,26 @@ export default function Home() {
               <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-primary opacity-75"></span>
               <span className="relative inline-flex rounded-full h-2 w-2 bg-primary"></span>
             </span>
-            <span className="text-xs font-mono tracking-widest text-primary uppercase">System Operational</span>
+            <span className="text-xs font-mono tracking-widest text-primary uppercase">Strategic Advisory Active</span>
           </div>
 
           <h1 className="text-5xl md:text-7xl lg:text-8xl font-serif font-medium tracking-tight leading-[1.1] mb-8 animate-in fade-in slide-in-from-bottom-8 duration-1000 delay-200">
-            Architect <span className="italic text-muted-foreground">your</span> legacy at the digital <span className="italic text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-primary">frontier</span>.
+            Guidance for the <span className="italic text-muted-foreground">architects</span> of <span className="italic text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-primary">tomorrow</span>.
           </h1>
 
-          <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mb-12 leading-relaxed animate-in fade-in slide-in-from-bottom-8 duration-1000 delay-400">
-            BDE is the family office of Brian D. Evans. We partner with exceptional founders building the critical infrastructure for the next generation of the internet.
+          <p className="text-lg md:text-xl text-muted-foreground max-w-3xl mb-12 leading-relaxed animate-in fade-in slide-in-from-bottom-8 duration-1000 delay-400">
+            We provide operator-led advisory for founders and leadership teams building at the intersection of technology, blockchain, and culture. Our experience becomes your strategic advantage.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-6 animate-in fade-in slide-in-from-bottom-8 duration-1000 delay-600">
-            <Link href="/thesis">
+            <Link href="/focus">
               <Button size="lg" className="h-14 px-8 text-base bg-primary text-primary-foreground hover:bg-primary/90 rounded-full transition-all hover:scale-105 shadow-[0_0_30px_-5px_rgba(255,215,0,0.3)]">
-                Read Our Thesis <ArrowRight className="ml-2 h-4 w-4" />
+                Explore Our Focus <ArrowRight className="ml-2 h-4 w-4" />
               </Button>
             </Link>
-            <Link href="/portfolio">
+            <Link href="/approach">
               <Button size="lg" variant="outline" className="h-14 px-8 text-base border-white/10 hover:bg-white/5 hover:text-white rounded-full transition-all">
-                View Portfolio
+                Our Approach
               </Button>
             </Link>
           </div>
@@ -60,12 +60,11 @@ export default function Home() {
       <section className="py-12 border-y border-white/5 bg-black/20 backdrop-blur-sm">
         <div className="container overflow-hidden">
           <div className="flex justify-between items-center gap-12 opacity-50 grayscale hover:grayscale-0 transition-all duration-500">
-            {/* Placeholder for logos - using text for now as per prompt instructions to not use external images yet */}
-            <span className="text-xl font-serif font-bold">WINKLEVOSS</span>
-            <span className="text-xl font-serif font-bold">FOUNDERS FUND</span>
-            <span className="text-xl font-serif font-bold">SEQUOIA</span>
-            <span className="text-xl font-serif font-bold">A16Z</span>
-            <span className="text-xl font-serif font-bold">PANTERA</span>
+            <span className="text-xl font-serif font-bold">STRATEGY</span>
+            <span className="text-xl font-serif font-bold">NARRATIVE</span>
+            <span className="text-xl font-serif font-bold">ECOSYSTEM</span>
+            <span className="text-xl font-serif font-bold">CAPITAL</span>
+            <span className="text-xl font-serif font-bold">GROWTH</span>
           </div>
         </div>
       </section>
@@ -81,7 +80,7 @@ export default function Home() {
               </div>
               <h3 className="text-2xl font-serif mb-4">Operator DNA</h3>
               <p className="text-muted-foreground leading-relaxed">
-                Born from the trenches of building, not just allocating. We bring decades of operational experience to every partnership.
+                Born from the trenches of building, not just advising. We bring decades of operational experience to every partnership.
               </p>
             </div>
 
@@ -90,9 +89,9 @@ export default function Home() {
               <div className="h-12 w-12 rounded-full bg-blue-500/10 flex items-center justify-center mb-6 text-blue-400 group-hover:scale-110 transition-transform duration-500">
                 <Activity className="h-6 w-6" />
               </div>
-              <h3 className="text-2xl font-serif mb-4">Active Thesis</h3>
+              <h3 className="text-2xl font-serif mb-4">Active Strategy</h3>
               <p className="text-muted-foreground leading-relaxed">
-                We don't follow trends; we anticipate shifts. Our capital is deployed with high conviction in category-defining protocols.
+                We don't follow trends; we help you shape them. Our guidance is grounded in high conviction and deep market intelligence.
               </p>
             </div>
 
@@ -101,36 +100,36 @@ export default function Home() {
               <div className="h-12 w-12 rounded-full bg-purple-500/10 flex items-center justify-center mb-6 text-purple-400 group-hover:scale-110 transition-transform duration-500">
                 <ShieldCheck className="h-6 w-6" />
               </div>
-              <h3 className="text-2xl font-serif mb-4">Legacy Focus</h3>
+              <h3 className="text-2xl font-serif mb-4">Enduring Value</h3>
               <p className="text-muted-foreground leading-relaxed">
-                Building for the next decade, not the next quarter. We structure wealth and impact for multi-generational endurance.
+                Building for the next decade, not the next quarter. We help structure your narrative and operations for long-term resilience.
               </p>
             </div>
           </div>
         </div>
       </section>
 
-      {/* Thesis Teaser */}
+      {/* Focus Teaser */}
       <section className="py-32 relative overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-r from-blue-900/10 to-purple-900/10 opacity-30" />
         <div className="container relative z-10 grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
           <div>
-            <span className="font-mono text-xs text-primary tracking-widest uppercase mb-4 block">The Manifesto</span>
+            <span className="font-mono text-xs text-primary tracking-widest uppercase mb-4 block">Areas of Focus</span>
             <h2 className="text-4xl md:text-6xl font-serif mb-8 leading-tight">
               The future doesn't arrive. It's <span className="italic text-muted-foreground">built</span>.
             </h2>
             <div className="space-y-6 text-lg text-muted-foreground leading-relaxed">
               <p>
-                We entered the blockchain space when the infrastructure was primitive and the believers were few. We stayed because we recognized something that most missed: this wasn't just a new asset class. It was a new architecture for trust.
+                We don't just follow the trends; we've been shaping them for over a decade. Our advisory is grounded in a deep, nuanced understanding of the forces that will define the next generation of the internet.
               </p>
               <p>
-                A decade later, the landscape has transformed. The question is no longer whether digital assets belong in sophisticated portfolios. The question now is who will build the critical infrastructure for the next phase.
+                From the convergence of AI and decentralized infrastructure to the tokenization of real-world assets, we focus our expertise where the impact is highest.
               </p>
             </div>
             <div className="mt-10">
-              <Link href="/thesis">
+              <Link href="/focus">
                 <Button variant="link" className="text-primary p-0 text-lg hover:text-primary/80">
-                  Read the full thesis <ArrowRight className="ml-2 h-4 w-4" />
+                  Explore our focus areas <ArrowRight className="ml-2 h-4 w-4" />
                 </Button>
               </Link>
             </div>
@@ -138,7 +137,7 @@ export default function Home() {
           <div className="relative h-[600px] rounded-2xl overflow-hidden border border-white/10 group">
             <img 
               src="/images/abstract-network.jpg" 
-              alt="Thesis Visualization" 
+              alt="Focus Visualization" 
               className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
             />
             <div className="absolute inset-0 bg-gradient-to-t from-background via-transparent to-transparent" />
@@ -160,8 +159,8 @@ export default function Home() {
                   <div className="h-full bg-primary w-[75%]" />
                 </div>
                 <div className="flex justify-between text-xs font-mono text-muted-foreground">
-                  <span>INFRASTRUCTURE</span>
-                  <span>75% ALLOCATION</span>
+                  <span>AI INFRASTRUCTURE</span>
+                  <span>HIGH PRIORITY</span>
                 </div>
               </div>
             </div>
@@ -181,9 +180,9 @@ export default function Home() {
         </div>
         
         <div className="container relative z-10 text-center max-w-3xl">
-          <h2 className="text-4xl md:text-5xl font-serif mb-8">Ready to build the <span className="italic text-primary">future</span>?</h2>
+          <h2 className="text-4xl md:text-5xl font-serif mb-8">Let's build the <span className="italic text-primary">future</span>.</h2>
           <p className="text-xl text-muted-foreground mb-10">
-            We are always looking for the next generation of category-defining founders.
+            We partner with a limited number of teams each year. If you are a founder or leader working on a generational challenge, we invite you to connect.
           </p>
           <div className="flex flex-col sm:flex-row justify-center gap-6">
             <Button size="lg" className="h-14 px-10 text-base bg-white text-black hover:bg-white/90 rounded-full">
