@@ -46,3 +46,5 @@
 
 - [ ] Update bio to reflect "over two decades" of experience instead of one
 - [ ] Ensure the narrative emphasizes "building a media empire" without specific brand names
+
+- [ ] Remove "& Principal" from the title in `Office.tsx`

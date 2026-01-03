@@ -20,7 +20,7 @@ export default function Office() {
                   />
                   <div className="absolute bottom-8 left-8 z-20">
                     <h2 className="text-3xl font-serif font-bold text-white mb-1">Brian D. Evans</h2>
-                    <p className="font-mono text-sm text-primary tracking-widest uppercase">Founder & Principal</p>
+                    <p className="font-mono text-sm text-primary tracking-widest uppercase">Founder</p>
                   </div>
                 </div>
 
