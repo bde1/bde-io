@@ -34,24 +34,22 @@ export default function Layout({ children }: { children: React.ReactNode }) {
         )}
       >
         <div className="container flex items-center justify-between">
-          <Link href="/">
-            <a className="text-2xl font-serif font-bold tracking-tighter hover:opacity-80 transition-opacity">
-              BDE<span className="text-primary">.</span>
-            </a>
+          <Link href="/" className="text-2xl font-serif font-bold tracking-tighter hover:opacity-80 transition-opacity">
+            BDE<span className="text-primary">.</span>
           </Link>
 
           {/* Desktop Nav */}
           <nav className="hidden md:flex items-center gap-8">
             {navLinks.map((link) => (
-              <Link key={link.href} href={link.href}>
-                <a
-                  className={cn(
-                    "text-sm font-medium tracking-wide transition-colors hover:text-primary",
-                    location === link.href ? "text-primary" : "text-muted-foreground"
-                  )}
-                >
-                  {link.label}
-                </a>
+              <Link 
+                key={link.href} 
+                href={link.href}
+                className={cn(
+                  "text-sm font-medium tracking-wide transition-colors hover:text-primary",
+                  location === link.href ? "text-primary" : "text-muted-foreground"
+                )}
+              >
+                {link.label}
               </Link>
             ))}
             <Button 
@@ -76,16 +74,16 @@ export default function Layout({ children }: { children: React.ReactNode }) {
       {mobileMenuOpen && (
         <div className="fixed inset-0 z-40 bg-background/95 backdrop-blur-xl flex flex-col items-center justify-center gap-8 md:hidden animate-in fade-in duration-200">
           {navLinks.map((link) => (
-            <Link key={link.href} href={link.href}>
-              <a
-                onClick={() => setMobileMenuOpen(false)}
-                className={cn(
-                  "text-3xl font-serif font-medium transition-colors hover:text-primary",
-                  location === link.href ? "text-primary" : "text-muted-foreground"
-                )}
-              >
-                {link.label}
-              </a>
+            <Link 
+              key={link.href} 
+              href={link.href}
+              onClick={() => setMobileMenuOpen(false)}
+              className={cn(
+                "text-3xl font-serif font-medium transition-colors hover:text-primary",
+                location === link.href ? "text-primary" : "text-muted-foreground"
+              )}
+            >
+              {link.label}
             </Link>
           ))}
           <Button 
@@ -117,8 +115,8 @@ export default function Layout({ children }: { children: React.ReactNode }) {
             <ul className="space-y-4">
               {navLinks.map((link) => (
                 <li key={link.href}>
-                  <Link href={link.href}>
-                    <a className="text-sm hover:text-primary transition-colors">{link.label}</a>
+                  <Link href={link.href} className="text-sm hover:text-primary transition-colors">
+                    {link.label}
                   </Link>
                 </li>
               ))}
