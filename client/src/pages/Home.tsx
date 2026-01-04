@@ -2,6 +2,7 @@ import Layout from "@/components/Layout";
 import { Button } from "@/components/ui/button";
 import { ArrowRight, Terminal, Activity, ShieldCheck } from "lucide-react";
 import { Link } from "wouter";
+import AnimatedHeroBackground from "@/components/AnimatedHeroBackground";
 
 import { useEffect } from "react";
 
@@ -15,15 +16,10 @@ export default function Home() {
       {/* Hero Section */}
       <section className="relative min-h-screen flex items-center justify-center overflow-hidden pt-20">
         {/* Background Effects */}
-        <div className="absolute inset-0 z-0">
-          <img 
-            src="/images/bg-city-metropolis.jpg" 
-            alt="City Skyline" 
-            className="absolute inset-0 w-full h-full object-cover opacity-40 mix-blend-luminosity"
-          />
-          <div className="absolute inset-0 bg-background/60" />
-          <div className="absolute inset-0 bg-gradient-to-b from-background via-transparent to-background" />
-          <div className="absolute inset-0 bg-[radial-gradient(circle_at_50%_30%,rgba(59,130,246,0.15),transparent_60%)]" />
+        <div className="absolute inset-0 z-0 bg-background">
+          <AnimatedHeroBackground />
+          <div className="absolute inset-0 bg-gradient-to-b from-background/20 via-transparent to-background" />
+          <div className="absolute inset-0 bg-[radial-gradient(circle_at_50%_30%,rgba(255,215,0,0.05),transparent_60%)]" />
         </div>
 
         <div className="container relative z-30 flex flex-col items-center text-center max-w-5xl mx-auto px-4">
