@@ -102,3 +102,5 @@
 
 - [ ] Replace CoinDesk logo with a version definitely NOT containing "Data"
 - [ ] Verify and adjust logo sizing to ensure visual vertical height consistency (accounting for whitespace)
+
+- [ ] Fix CoinDesk logo visibility (currently showing as a white box) by using a transparent PNG or adjusting CSS filters
