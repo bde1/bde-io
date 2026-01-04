@@ -26,7 +26,7 @@ import { useEffect } from "react";
 
 function App() {
   useEffect(() => {
-    document.title = "BDE Ventures | Strategic Investment & Advisory Firm";
+    document.title = "BDE Ventures | Strategic Advisory & Investment";
   }, []);
 
   return (

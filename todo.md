@@ -130,3 +130,7 @@
 - [ ] Verify content of `index.html` for correct title and meta tags
 - [ ] Verify `Home.tsx` for `document.title` update
 - [ ] Re-apply SEO fixes if missing or incorrect
+
+- [ ] Search codebase for `document.title` assignments > 60 chars
+- [ ] Standardize all title assignments to "BDE Ventures | Strategic Investment & Advisory Firm"
+- [ ] Verify meta description and keywords placement in `index.html`
