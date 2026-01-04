@@ -136,3 +136,6 @@
 - [ ] Verify meta description and keywords placement in `index.html`
 
 - [ ] Update "The Office" page copy to "BDE is the Strategic Advisory & Investment firm of Brian D. Evans"
+
+- [ ] Remove text gradients from headlines in `Home.tsx` and `Office.tsx`
+- [ ] Replace gradients with a solid primary color (likely the gold/amber accent) for emphasized text

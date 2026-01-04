@@ -36,7 +36,7 @@ export default function Home() {
           </div>
 
           <h1 className="text-5xl md:text-7xl lg:text-8xl font-serif font-medium tracking-tight leading-[1.1] mb-8 animate-in fade-in slide-in-from-bottom-8 duration-1000 delay-200">
-            Guidance for the <span className="italic text-muted-foreground">architects</span> of <span className="italic text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-primary">tomorrow</span>.
+            Guidance for the <span className="italic text-muted-foreground">architects</span> of <span className="italic text-primary">tomorrow</span>.
           </h1>
 
           <p className="text-lg md:text-xl text-muted-foreground max-w-3xl mb-12 leading-relaxed animate-in fade-in slide-in-from-bottom-8 duration-1000 delay-400">

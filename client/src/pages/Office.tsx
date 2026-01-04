@@ -62,7 +62,7 @@ export default function Office() {
             <div className="lg:col-span-7">
               <span className="font-mono text-xs text-primary tracking-widest uppercase mb-6 block">The Office</span>
               <h1 className="text-5xl md:text-6xl font-serif mb-12 leading-tight">
-                Built by an <span className="italic text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-primary">operator</span>.
+                Built by an <span className="italic text-primary">operator</span>.
               </h1>
 
               <div className="prose prose-invert prose-lg max-w-none text-muted-foreground">
