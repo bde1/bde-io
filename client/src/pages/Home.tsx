@@ -190,9 +190,11 @@ export default function Home() {
             We partner with a limited number of teams each year. If you are a founder or leader working on a generational challenge, we invite you to connect.
           </p>
           <div className="flex flex-col sm:flex-row justify-center gap-6">
-            <Button size="lg" className="h-14 px-10 text-base bg-white text-black hover:bg-white/90 rounded-full">
-              Request Introduction
-            </Button>
+            <Link href="/office#contact">
+              <Button size="lg" className="h-14 px-10 text-base bg-white text-black hover:bg-white/90 rounded-full">
+                Request Intro
+              </Button>
+            </Link>
             <Link href="/office">
               <Button size="lg" variant="outline" className="h-14 px-10 text-base border-white/20 hover:bg-white/10 rounded-full">
                 Explore The Office

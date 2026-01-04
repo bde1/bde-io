@@ -52,12 +52,14 @@ export default function Layout({ children }: { children: React.ReactNode }) {
                 {link.label}
               </Link>
             ))}
-            <Button 
-              variant="outline" 
-              className="ml-4 border-primary/20 hover:bg-primary/10 hover:text-primary hover:border-primary/50 transition-all duration-300 font-mono text-xs tracking-widest uppercase"
-            >
-              Request Access
-            </Button>
+            <Link href="/office#contact">
+              <Button 
+                variant="outline" 
+                className="ml-4 border-primary/20 hover:bg-primary/10 hover:text-primary hover:border-primary/50 transition-all duration-300 font-mono text-xs tracking-widest uppercase"
+              >
+                Request Intro
+              </Button>
+            </Link>
           </nav>
 
           {/* Mobile Menu Toggle */}
@@ -86,12 +88,14 @@ export default function Layout({ children }: { children: React.ReactNode }) {
               {link.label}
             </Link>
           ))}
-          <Button 
-            variant="outline" 
-            className="mt-8 border-primary/50 text-primary hover:bg-primary/10 px-8 py-6 text-lg"
-          >
-            Request Access
-          </Button>
+          <Link href="/office#contact" onClick={() => setMobileMenuOpen(false)}>
+            <Button 
+              variant="outline" 
+              className="mt-8 border-primary/50 text-primary hover:bg-primary/10 px-8 py-6 text-lg"
+            >
+              Request Intro
+            </Button>
+          </Link>
         </div>
       )}
 

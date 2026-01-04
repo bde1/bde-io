@@ -1,6 +1,7 @@
 import Layout from "@/components/Layout";
 import { Button } from "@/components/ui/button";
 import { ArrowRight, Target, Users, TrendingUp } from "lucide-react";
+import { Link } from "wouter";
 
 export default function Approach() {
   return (
@@ -53,9 +54,11 @@ export default function Approach() {
           </div>
 
           <div className="mt-20 text-center">
-            <Button size="lg" className="h-14 px-10 text-base bg-white text-black hover:bg-white/90 rounded-full">
-              Connect with Us <ArrowRight className="ml-2 h-4 w-4" />
-            </Button>
+            <Link href="/office#contact">
+              <Button size="lg" className="h-14 px-10 text-base bg-white text-black hover:bg-white/90 rounded-full">
+                Request Intro <ArrowRight className="ml-2 h-4 w-4" />
+              </Button>
+            </Link>
           </div>
         </div>
       </div>

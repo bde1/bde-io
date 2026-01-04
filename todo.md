@@ -72,3 +72,7 @@
 - [ ] Update email to `hello@bde.io` in `Layout.tsx` and `Office.tsx`
 - [ ] Update X handle to `x.com/briandevans` in `Layout.tsx` and `Office.tsx`
 - [ ] Update LinkedIn URL to `https://www.linkedin.com/in/briandevansla/` in `Layout.tsx` and `Office.tsx`
+
+- [ ] Update "Request Access" to "Request Intro" in `Layout.tsx`
+- [ ] Link "Request Intro" buttons to `/office#contact` in `Layout.tsx` and `Home.tsx`
+- [ ] Add `id="contact"` to the contact form section in `Office.tsx`
