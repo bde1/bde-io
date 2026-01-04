@@ -1,6 +1,6 @@
 import Layout from "@/components/Layout";
 import { Button } from "@/components/ui/button";
-import { Mail, Twitter, Linkedin } from "lucide-react";
+import { Mail, Twitter, Linkedin, ArrowRight } from "lucide-react";
 import { useState } from "react";
 
 export default function Office() {
@@ -78,6 +78,17 @@ export default function Office() {
                 </p>
                 <p>
                   We don't just read the whitepaper; we understand the go-to-market. We don't just look at the cap table; we look at the community. When we partner with a founder, we bring the scars, the network, and the playbook of someone who has actually built.
+                </p>
+                
+                <p className="mt-6">
+                  <a 
+                    href="https://briandevans.com" 
+                    target="_blank" 
+                    rel="noopener noreferrer" 
+                    className="inline-flex items-center text-primary hover:text-primary/80 transition-colors border-b border-primary/30 hover:border-primary pb-0.5"
+                  >
+                    Read more about Brian <ArrowRight className="ml-1 h-3 w-3" />
+                  </a>
                 </p>
 
                 <h3 className="text-white font-serif text-2xl mt-12 mb-6">Accolades & Recognition</h3>
