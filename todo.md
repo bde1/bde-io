@@ -116,3 +116,6 @@
 
 - [ ] Verify existence and path of `bg-city-metropolis.jpg`
 - [ ] Debug CSS layering and opacity in `Home.tsx` to ensure background visibility
+
+- [ ] Research premium synonyms for "investment vehicle" used by high-profile founders
+- [ ] Propose a list of alternative terms that convey "family office" prestige without using the phrase

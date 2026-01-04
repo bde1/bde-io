@@ -26,7 +26,7 @@ export default function Home() {
               <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-primary opacity-75"></span>
               <span className="relative inline-flex rounded-full h-2 w-2 bg-primary"></span>
             </span>
-            <span className="text-xs font-mono tracking-widest text-primary uppercase">Strategic Advisory Active</span>
+            <span className="text-xs font-mono tracking-widest text-primary uppercase">Strategic Investment Firm</span>
           </div>
 
           <h1 className="text-5xl md:text-7xl lg:text-8xl font-serif font-medium tracking-tight leading-[1.1] mb-8 animate-in fade-in slide-in-from-bottom-8 duration-1000 delay-200">
