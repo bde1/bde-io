@@ -24,18 +24,18 @@ export default function Focus() {
               {/* Focus Area 1 */}
               <div>
                 <span className="font-mono text-primary text-sm block mb-2">01</span>
-                <h3 className="font-serif text-3xl mb-4 text-white">Blockchain Technology & Web3</h3>
+                <h3 className="font-serif text-3xl mb-4 text-white">The Convergence of AI & Decentralized Infrastructure</h3>
                 <p className="text-muted-foreground">
-                  We are native to this space. We back the protocols and platforms that are re-architecting the internet's trust layer. From Layer 1 infrastructure to decentralized finance (DeFi) and governance mechanisms, we support the builders who are creating a more open, permissionless, and user-owned web.
+                  The next wave of artificial intelligence will be autonomous, requiring a new financial and computational substrate. We advise on the critical intersection of AI and blockchain, helping partners build the decentralized protocols, machine-to-machine payment rails, and verifiable compute layers that will power the future of intelligent systems.
                 </p>
               </div>
 
               {/* Focus Area 2 */}
               <div>
                 <span className="font-mono text-primary text-sm block mb-2">02</span>
-                <h3 className="font-serif text-3xl mb-4 text-white">The Convergence of AI & Decentralized Infrastructure</h3>
+                <h3 className="font-serif text-3xl mb-4 text-white">Blockchain Technology & Web3</h3>
                 <p className="text-muted-foreground">
-                  The next wave of artificial intelligence will be autonomous, requiring a new financial and computational substrate. We advise on the critical intersection of AI and blockchain, helping partners build the decentralized protocols, machine-to-machine payment rails, and verifiable compute layers that will power the future of intelligent systems.
+                  We are native to this space. We back the protocols and platforms that are re-architecting the internet's trust layer. From Layer 1 infrastructure to decentralized finance (DeFi) and governance mechanisms, we support the builders who are creating a more open, permissionless, and user-owned web.
                 </p>
               </div>
 
