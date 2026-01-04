@@ -88,3 +88,6 @@
 
 - [ ] Find/Generate white logos for Forbes, Inc., Entrepreneur, CoinDesk
 - [ ] Add "As Featured In" section below hero buttons in `Home.tsx`
+
+- [ ] Move "As Featured In" logos to a dedicated full-width bar below the hero section in `Home.tsx`
+- [ ] Remove the "Strategy / Narrative / Ecosystem" text row to reduce clutter

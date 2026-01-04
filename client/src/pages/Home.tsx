@@ -49,16 +49,6 @@ export default function Home() {
             </Link>
           </div>
 
-          {/* As Featured In */}
-          <div className="mt-12 animate-in fade-in slide-in-from-bottom-8 duration-1000 delay-800">
-            <p className="text-xs font-mono text-muted-foreground uppercase tracking-widest mb-6">As Featured In</p>
-            <div className="flex flex-wrap justify-center items-center gap-8 md:gap-12 opacity-50 grayscale hover:grayscale-0 transition-all duration-500">
-              <img src="/images/logo-forbes.png" alt="Forbes" className="h-6 md:h-8 w-auto object-contain brightness-0 invert" />
-              <img src="/images/logo-inc.png" alt="Inc." className="h-6 md:h-8 w-auto object-contain brightness-0 invert" />
-              <img src="/images/logo-entrepreneur.png" alt="Entrepreneur" className="h-6 md:h-8 w-auto object-contain brightness-0 invert" />
-              <img src="/images/logo-coindesk.png" alt="CoinDesk" className="h-6 md:h-8 w-auto object-contain brightness-0 invert" />
-            </div>
-          </div>
         </div>
 
         {/* Scroll Indicator */}
@@ -67,15 +57,17 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Trust Indicators / Marquee */}
-      <section className="py-12 border-y border-white/5 bg-black/20 backdrop-blur-sm">
-        <div className="container overflow-hidden">
-          <div className="flex justify-between items-center gap-12 opacity-50 grayscale hover:grayscale-0 transition-all duration-500">
-            <span className="text-xl font-serif font-bold">STRATEGY</span>
-            <span className="text-xl font-serif font-bold">NARRATIVE</span>
-            <span className="text-xl font-serif font-bold">ECOSYSTEM</span>
-            <span className="text-xl font-serif font-bold">CAPITAL</span>
-            <span className="text-xl font-serif font-bold">GROWTH</span>
+      {/* As Featured In Bar */}
+      <section className="py-10 border-y border-white/5 bg-black/40 backdrop-blur-md">
+        <div className="container">
+          <div className="flex flex-col md:flex-row items-center justify-center gap-8 md:gap-16">
+            <span className="text-xs font-mono text-muted-foreground uppercase tracking-widest whitespace-nowrap">As Featured In</span>
+            <div className="flex flex-wrap justify-center items-center gap-8 md:gap-16 opacity-60 grayscale hover:grayscale-0 transition-all duration-500">
+              <img src="/images/logo-forbes.png" alt="Forbes" className="h-5 md:h-7 w-auto object-contain brightness-0 invert" />
+              <img src="/images/logo-inc.png" alt="Inc." className="h-5 md:h-7 w-auto object-contain brightness-0 invert" />
+              <img src="/images/logo-entrepreneur.png" alt="Entrepreneur" className="h-5 md:h-7 w-auto object-contain brightness-0 invert" />
+              <img src="/images/logo-coindesk.png" alt="CoinDesk" className="h-5 md:h-7 w-auto object-contain brightness-0 invert" />
+            </div>
           </div>
         </div>
       </section>
