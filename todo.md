@@ -85,3 +85,6 @@
 
 - [ ] Update email icon button in `Office.tsx` to link to `#contact`
 - [ ] Update email link in `Layout.tsx` footer to link to `/office#contact`
+
+- [ ] Find/Generate white logos for Forbes, Inc., Entrepreneur, CoinDesk
+- [ ] Add "As Featured In" section below hero buttons in `Home.tsx`
