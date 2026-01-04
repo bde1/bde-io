@@ -76,3 +76,7 @@
 - [ ] Update "Request Access" to "Request Intro" in `Layout.tsx`
 - [ ] Link "Request Intro" buttons to `/office#contact` in `Layout.tsx` and `Home.tsx`
 - [ ] Add `id="contact"` to the contact form section in `Office.tsx`
+
+- [ ] Implement `mailto` functionality in `Office.tsx` contact form
+- [ ] Add state management for form fields (Name, Email, Message)
+- [ ] Construct `mailto` link with subject and body from form data

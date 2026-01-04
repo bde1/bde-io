@@ -1,8 +1,22 @@
 import Layout from "@/components/Layout";
 import { Button } from "@/components/ui/button";
 import { Mail, Twitter, Linkedin } from "lucide-react";
+import { useState } from "react";
 
 export default function Office() {
+  const [formData, setFormData] = useState({
+    name: "",
+    email: "",
+    message: ""
+  });
+
+  const handleSubmit = (e: React.FormEvent) => {
+    e.preventDefault();
+    const subject = `Introduction Request from ${formData.name}`;
+    const body = `Name: ${formData.name}%0D%0AEmail: ${formData.email}%0D%0A%0D%0AMessage:%0D%0A${formData.message}`;
+    window.location.href = `mailto:hello@bde.io?subject=${encodeURIComponent(subject)}&body=${body}`;
+  };
+
   return (
     <Layout>
       <div className="pt-32 pb-20">
@@ -94,22 +108,40 @@ export default function Office() {
                   We partner with a limited number of teams each year. If you are a founder or leader working on a generational challenge in our areas of focus, we invite you to connect.
                 </p>
                 
-                <form className="space-y-6">
+                <form className="space-y-6" onSubmit={handleSubmit}>
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                     <div className="space-y-2">
                       <label className="text-xs font-mono uppercase tracking-widest text-muted-foreground">Name</label>
-                      <input type="text" className="w-full bg-white/5 border border-white/10 rounded-lg px-4 py-3 focus:outline-none focus:border-primary/50 transition-colors" />
+                      <input 
+                        type="text" 
+                        required
+                        value={formData.name}
+                        onChange={(e) => setFormData({...formData, name: e.target.value})}
+                        className="w-full bg-white/5 border border-white/10 rounded-lg px-4 py-3 focus:outline-none focus:border-primary/50 transition-colors" 
+                      />
                     </div>
                     <div className="space-y-2">
                       <label className="text-xs font-mono uppercase tracking-widest text-muted-foreground">Email</label>
-                      <input type="email" className="w-full bg-white/5 border border-white/10 rounded-lg px-4 py-3 focus:outline-none focus:border-primary/50 transition-colors" />
+                      <input 
+                        type="email" 
+                        required
+                        value={formData.email}
+                        onChange={(e) => setFormData({...formData, email: e.target.value})}
+                        className="w-full bg-white/5 border border-white/10 rounded-lg px-4 py-3 focus:outline-none focus:border-primary/50 transition-colors" 
+                      />
                     </div>
                   </div>
                   <div className="space-y-2">
                     <label className="text-xs font-mono uppercase tracking-widest text-muted-foreground">Message</label>
-                    <textarea rows={4} className="w-full bg-white/5 border border-white/10 rounded-lg px-4 py-3 focus:outline-none focus:border-primary/50 transition-colors"></textarea>
+                    <textarea 
+                      rows={4} 
+                      required
+                      value={formData.message}
+                      onChange={(e) => setFormData({...formData, message: e.target.value})}
+                      className="w-full bg-white/5 border border-white/10 rounded-lg px-4 py-3 focus:outline-none focus:border-primary/50 transition-colors"
+                    ></textarea>
                   </div>
-                  <Button size="lg" className="w-full bg-primary text-primary-foreground hover:bg-primary/90 rounded-lg">
+                  <Button type="submit" size="lg" className="w-full bg-primary text-primary-foreground hover:bg-primary/90 rounded-lg">
                     Request Introduction
                   </Button>
                 </form>
