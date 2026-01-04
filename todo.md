@@ -82,3 +82,6 @@
 - [ ] Construct `mailto` link with subject and body from form data
 
 - [ ] Ensure "Global Presence" is explicitly mentioned in `Home.tsx` or `Office.tsx`
+
+- [ ] Update email icon button in `Office.tsx` to link to `#contact`
+- [ ] Update email link in `Layout.tsx` footer to link to `/office#contact`

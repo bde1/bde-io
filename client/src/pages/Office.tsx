@@ -49,7 +49,7 @@ export default function Office() {
                       <Linkedin className="h-4 w-4" />
                     </Button>
                   </a>
-                  <a href="mailto:hello@bde.io">
+                  <a href="#contact">
                     <Button variant="outline" size="icon" className="rounded-full border-white/10 hover:bg-white/5 hover:text-primary">
                       <Mail className="h-4 w-4" />
                     </Button>

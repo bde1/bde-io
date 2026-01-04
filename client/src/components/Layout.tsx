@@ -137,7 +137,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
                 <a href="https://www.linkedin.com/in/briandevansla/" target="_blank" rel="noopener noreferrer" className="text-sm hover:text-primary transition-colors">LinkedIn</a>
               </li>
               <li>
-                <a href="mailto:hello@bde.io" className="text-sm hover:text-primary transition-colors">hello@bde.io</a>
+                <Link href="/office#contact" className="text-sm hover:text-primary transition-colors">hello@bde.io</Link>
               </li>
             </ul>
           </div>
