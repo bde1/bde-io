@@ -53,7 +53,7 @@ export default function Home() {
 
         {/* Scroll Indicator */}
         <div className="absolute bottom-10 left-1/2 -translate-x-1/2 animate-bounce duration-2000 text-muted-foreground/50">
-          <div className="w-[1px] h-16 bg-gradient-to-b from-transparent via-primary/50 to-transparent" />
+          {/* Vertical line removed as requested */}
         </div>
       </section>
 
