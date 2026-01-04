@@ -11,7 +11,7 @@ export default function Approach() {
           <div className="max-w-3xl mb-20 mx-auto text-center">
             <span className="font-mono text-xs text-primary tracking-widest uppercase mb-6 block">Our Approach</span>
             <h1 className="text-5xl md:text-7xl font-serif mb-8 leading-tight">
-              Hands-on <span className="italic text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-primary">partnership</span>.
+              Hands-on <span className="italic text-primary">partnership</span>.
             </h1>
             <p className="text-xl text-muted-foreground leading-relaxed">
               Our advisory is not theoretical. It is a hands-on partnership built on years of operational experience. We work with a select group of founders and leadership teams, providing tailored guidance to solve their most critical challenges.
