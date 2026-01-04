@@ -10,14 +10,14 @@ export default function Home() {
       <section className="relative min-h-screen flex items-center justify-center overflow-hidden pt-20">
         {/* Background Effects */}
         <div className="absolute inset-0 z-0">
-          <div className="absolute inset-0 bg-background/90 z-10" />
           <img 
             src="/images/bg-city-metropolis.jpg" 
             alt="City Skyline" 
-            className="w-full h-full object-cover opacity-50 mix-blend-luminosity"
+            className="absolute inset-0 w-full h-full object-cover opacity-40 mix-blend-luminosity"
           />
-          <div className="absolute inset-0 bg-gradient-to-b from-background via-background/50 to-background z-20" />
-          <div className="absolute inset-0 bg-[radial-gradient(circle_at_50%_30%,rgba(59,130,246,0.1),transparent_70%)] z-20" />
+          <div className="absolute inset-0 bg-background/60" />
+          <div className="absolute inset-0 bg-gradient-to-b from-background via-transparent to-background" />
+          <div className="absolute inset-0 bg-[radial-gradient(circle_at_50%_30%,rgba(59,130,246,0.15),transparent_60%)]" />
         </div>
 
         <div className="container relative z-30 flex flex-col items-center text-center max-w-5xl mx-auto px-4">

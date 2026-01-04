@@ -113,3 +113,6 @@
 
 - [ ] Source and implement "business-like" city background options (similar to Newman Group)
 - [ ] Apply the best city background to the Home page with appropriate overlays for text readability
+
+- [ ] Verify existence and path of `bg-city-metropolis.jpg`
+- [ ] Debug CSS layering and opacity in `Home.tsx` to ensure background visibility
