@@ -50,7 +50,7 @@ export default function Home() {
           </div>
 
           {/* As Featured In */}
-          <div className="mt-20 animate-in fade-in slide-in-from-bottom-8 duration-1000 delay-800">
+          <div className="mt-12 animate-in fade-in slide-in-from-bottom-8 duration-1000 delay-800">
             <p className="text-xs font-mono text-muted-foreground uppercase tracking-widest mb-6">As Featured In</p>
             <div className="flex flex-wrap justify-center items-center gap-8 md:gap-12 opacity-50 grayscale hover:grayscale-0 transition-all duration-500">
               <img src="/images/logo-forbes.png" alt="Forbes" className="h-6 md:h-8 w-auto object-contain brightness-0 invert" />
