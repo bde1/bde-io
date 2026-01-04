@@ -107,3 +107,6 @@
 
 - [ ] Adjust Forbes and Entrepreneur logo heights to visually match others (likely increasing them)
 - [ ] Improve mobile responsiveness and alignment of the "As Featured In" logo section
+
+- [ ] Search for and identify any remaining instances of "Family Office" in the codebase
+- [ ] Propose and implement alternative terminology (e.g., "Private Investment Firm", "Strategic Capital") if found

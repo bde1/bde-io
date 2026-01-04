@@ -22,7 +22,7 @@ export default function Thesis() {
 
             <h3 className="font-serif text-3xl mb-6">The Shift to Digital Sovereignty</h3>
             <p>
-              A decade later, the landscape has transformed. Regulatory clarity has arrived. Institutional infrastructure has matured. The question is no longer whether digital assets belong in sophisticated portfolios—74% of family offices have already answered that question. The question now is who will build the critical infrastructure for the next phase.
+              A decade later, the landscape has transformed. Regulatory clarity has arrived. Institutional infrastructure has matured. The question is no longer whether digital assets belong in sophisticated portfolios—74% of institutional capital has already answered that question. The question now is who will build the critical infrastructure for the next phase.
             </p>
             <p>
               We believe that the next decade will be defined by the transition from centralized intermediaries to decentralized protocols. This isn't just about currency; it's about identity, governance, and the very fabric of how we organize society.
