@@ -134,3 +134,5 @@
 - [ ] Search codebase for `document.title` assignments > 60 chars
 - [ ] Standardize all title assignments to "BDE Ventures | Strategic Investment & Advisory Firm"
 - [ ] Verify meta description and keywords placement in `index.html`
+
+- [ ] Update "The Office" page copy to "BDE is the Strategic Advisory & Investment firm of Brian D. Evans"
