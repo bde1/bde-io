@@ -94,3 +94,6 @@
 
 - [ ] Restore "Strategy / Narrative / Ecosystem" bar below hero in `Home.tsx`
 - [ ] Move "As Featured In" logos to the "Areas of Focus" section in `Home.tsx`
+
+- [ ] Replace CoinDesk logo with the correct version (without "Data")
+- [ ] Standardize logo heights in `Home.tsx` to ensure visual consistency

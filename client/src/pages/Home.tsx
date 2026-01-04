@@ -138,11 +138,11 @@ export default function Home() {
             {/* As Featured In (Moved here) */}
             <div className="mt-16 pt-10 border-t border-white/5">
               <p className="text-xs font-mono text-muted-foreground uppercase tracking-widest mb-6">As Featured In</p>
-              <div className="flex flex-wrap items-center gap-8 opacity-50 grayscale hover:grayscale-0 transition-all duration-500">
-                <img src="/images/logo-forbes.png" alt="Forbes" className="h-5 w-auto object-contain brightness-0 invert" />
-                <img src="/images/logo-inc.png" alt="Inc." className="h-5 w-auto object-contain brightness-0 invert" />
-                <img src="/images/logo-entrepreneur.png" alt="Entrepreneur" className="h-5 w-auto object-contain brightness-0 invert" />
-                <img src="/images/logo-coindesk.png" alt="CoinDesk" className="h-5 w-auto object-contain brightness-0 invert" />
+              <div className="flex flex-wrap items-center gap-10 opacity-50 grayscale hover:grayscale-0 transition-all duration-500">
+                <img src="/images/logo-forbes.png" alt="Forbes" className="h-6 w-auto object-contain brightness-0 invert" />
+                <img src="/images/logo-inc.png" alt="Inc." className="h-6 w-auto object-contain brightness-0 invert" />
+                <img src="/images/logo-entrepreneur.png" alt="Entrepreneur" className="h-6 w-auto object-contain brightness-0 invert" />
+                <img src="/images/logo-coindesk.png" alt="CoinDesk" className="h-6 w-auto object-contain brightness-0 invert" />
               </div>
             </div>
           </div>
