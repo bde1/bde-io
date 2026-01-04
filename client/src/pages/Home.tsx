@@ -145,22 +145,27 @@ export default function Home() {
             {/* Floating Data Card */}
             <div className="absolute bottom-8 left-8 right-8 p-6 bg-black/60 backdrop-blur-xl border border-white/10 rounded-xl">
               <div className="flex items-center justify-between mb-4">
-                <span className="text-xs font-mono text-muted-foreground">MARKET INTELLIGENCE</span>
-                <span className="flex items-center gap-2 text-xs font-mono text-green-400">
+                <span className="text-xs font-mono text-muted-foreground">GLOBAL REACH</span>
+                <span className="flex items-center gap-2 text-xs font-mono text-primary">
                   <span className="relative flex h-2 w-2">
-                    <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-green-400 opacity-75"></span>
-                    <span className="relative inline-flex rounded-full h-2 w-2 bg-green-400"></span>
+                    <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-primary opacity-75"></span>
+                    <span className="relative inline-flex rounded-full h-2 w-2 bg-primary"></span>
                   </span>
-                  LIVE
+                  ACTIVE
                 </span>
               </div>
-              <div className="space-y-2">
-                <div className="h-1 w-full bg-white/10 rounded-full overflow-hidden">
-                  <div className="h-full bg-primary w-[75%]" />
+              <div className="grid grid-cols-3 gap-4">
+                <div className="text-center p-2 rounded bg-white/5 border border-white/5">
+                  <div className="text-lg font-serif font-bold text-white">100M+</div>
+                  <div className="text-[10px] font-mono text-muted-foreground uppercase">Audience</div>
                 </div>
-                <div className="flex justify-between text-xs font-mono text-muted-foreground">
-                  <span>AI INFRASTRUCTURE</span>
-                  <span>HIGH PRIORITY</span>
+                <div className="text-center p-2 rounded bg-white/5 border border-white/5">
+                  <div className="text-lg font-serif font-bold text-white">20+</div>
+                  <div className="text-[10px] font-mono text-muted-foreground uppercase">Years</div>
+                </div>
+                <div className="text-center p-2 rounded bg-white/5 border border-white/5">
+                  <div className="text-lg font-serif font-bold text-white">∞</div>
+                  <div className="text-[10px] font-mono text-muted-foreground uppercase">Potential</div>
                 </div>
               </div>
             </div>

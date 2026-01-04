@@ -63,3 +63,5 @@
 - [ ] Add "Blockchain Technology & Web3" to Areas of Focus in `Focus.tsx`
 - [ ] Add "Consumer & Enterprise SaaS" to Areas of Focus in `Focus.tsx`
 - [ ] Add "Privacy Technology" to Areas of Focus in `Focus.tsx`
+
+- [ ] Replace "Market Intelligence" chart in `Home.tsx` with a more relevant graphic (e.g., abstract network or ecosystem visualization)
