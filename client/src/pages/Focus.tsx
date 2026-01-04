@@ -15,7 +15,7 @@ export default function Focus() {
           
           <div className="prose prose-invert prose-lg md:prose-xl max-w-none">
             <p className="lead text-2xl text-muted-foreground leading-relaxed mb-12 font-light">
-              We don't just follow the trends; we've been shaping them for over a decade. Our advisory is grounded in a deep, nuanced understanding of the forces that will define the next generation of the internet.
+              We don't just follow the trends; we've been shaping them for almost two decades. Our advisory is grounded in a deep, nuanced understanding of the forces that will define the next generation of the internet.
             </p>
 
             <div className="h-px w-full bg-gradient-to-r from-transparent via-white/20 to-transparent my-16" />
@@ -24,33 +24,60 @@ export default function Focus() {
               {/* Focus Area 1 */}
               <div>
                 <span className="font-mono text-primary text-sm block mb-2">01</span>
-                <h3 className="font-serif text-3xl mb-4 text-white">The Convergence of AI & Decentralized Infrastructure</h3>
+                <h3 className="font-serif text-3xl mb-4 text-white">Blockchain Technology & Web3</h3>
                 <p className="text-muted-foreground">
-                  The next wave of artificial intelligence will be autonomous, requiring a new financial and computational substrate. We advise on the critical intersection of AI and blockchain, helping partners build the decentralized protocols, machine-to-machine payment rails, and verifiable compute layers that will power the future of intelligent systems.
+                  We are native to this space. We back the protocols and platforms that are re-architecting the internet's trust layer. From Layer 1 infrastructure to decentralized finance (DeFi) and governance mechanisms, we support the builders who are creating a more open, permissionless, and user-owned web.
                 </p>
               </div>
 
               {/* Focus Area 2 */}
               <div>
                 <span className="font-mono text-primary text-sm block mb-2">02</span>
-                <h3 className="font-serif text-3xl mb-4 text-white">Tokenization of Real-World Assets (RWAs)</h3>
+                <h3 className="font-serif text-3xl mb-4 text-white">The Convergence of AI & Decentralized Infrastructure</h3>
                 <p className="text-muted-foreground">
-                  The boundary between physical and digital value is dissolving. We provide strategic guidance on tokenizing real-world assets, from navigating the complex regulatory landscape to designing novel financial instruments. Our expertise helps partners unlock liquidity, create new markets, and build the infrastructure for a tokenized economy.
+                  The next wave of artificial intelligence will be autonomous, requiring a new financial and computational substrate. We advise on the critical intersection of AI and blockchain, helping partners build the decentralized protocols, machine-to-machine payment rails, and verifiable compute layers that will power the future of intelligent systems.
                 </p>
               </div>
 
               {/* Focus Area 3 */}
               <div>
                 <span className="font-mono text-primary text-sm block mb-2">03</span>
-                <h3 className="font-serif text-3xl mb-4 text-white">The Future of Digital Identity & Social Platforms</h3>
+                <h3 className="font-serif text-3xl mb-4 text-white">Tokenization of Real-World Assets (RWAs)</h3>
                 <p className="text-muted-foreground">
-                  As digital life becomes central, verifiable identity and user-owned data are no longer optional. We partner with teams building the next generation of social platforms, decentralized identity solutions, and data sovereignty protocols. We help them design sustainable ecosystems that empower users and create long-term value.
+                  The boundary between physical and digital value is dissolving. We provide strategic guidance on tokenizing real-world assets, from navigating the complex regulatory landscape to designing novel financial instruments. Our expertise helps partners unlock liquidity, create new markets, and build the infrastructure for a tokenized economy.
                 </p>
               </div>
 
               {/* Focus Area 4 */}
               <div>
                 <span className="font-mono text-primary text-sm block mb-2">04</span>
+                <h3 className="font-serif text-3xl mb-4 text-white">Consumer & Enterprise SaaS</h3>
+                <p className="text-muted-foreground">
+                  Software is still eating the world, but the menu has changed. We look for vertical SaaS solutions that solve deep, specific problems for overlooked industries, and consumer applications that leverage new technologies to create delightful, sticky experiences. We value capital efficiency and clear paths to profitability.
+                </p>
+              </div>
+
+              {/* Focus Area 5 */}
+              <div>
+                <span className="font-mono text-primary text-sm block mb-2">05</span>
+                <h3 className="font-serif text-3xl mb-4 text-white">Entertainment & Media</h3>
+                <p className="text-muted-foreground">
+                  The lines between content, gaming, and ownership are blurring. We advise projects at the forefront of this shift, helping them build immersive experiences, creator economies, and new media formats that leverage blockchain and AI to redefine how we consume and interact with culture.
+                </p>
+              </div>
+
+              {/* Focus Area 6 */}
+              <div>
+                <span className="font-mono text-primary text-sm block mb-2">06</span>
+                <h3 className="font-serif text-3xl mb-4 text-white">Privacy Technology</h3>
+                <p className="text-muted-foreground">
+                  In an era of surveillance capitalism, privacy is the ultimate luxury—and a fundamental right. We support the development of zero-knowledge proofs, privacy-preserving computation, and secure communication tools. We believe that privacy is a prerequisite for a free and open digital society.
+                </p>
+              </div>
+
+              {/* Focus Area 7 */}
+              <div>
+                <span className="font-mono text-primary text-sm block mb-2">07</span>
                 <h3 className="font-serif text-3xl mb-4 text-white">Go-to-Market for Complex Technologies</h3>
                 <p className="text-muted-foreground">
                   Breakthrough technology requires a breakthrough strategy. We specialize in crafting and executing go-to-market plans for companies with complex products. From developer relations and community building to enterprise sales and narrative design, we provide a playbook for reaching critical adoption and achieving market leadership.

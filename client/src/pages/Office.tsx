@@ -51,7 +51,7 @@ export default function Office() {
                 </p>
                 
                 <p>
-                  Most capital is passive. Ours is active. Brian has spent over two decades in the trenches—building a media empire that reached over 100 million people, building and exiting numerous tech and e-commerce companies, and navigating the volatility of emerging markets since the early days.
+                  Most capital is passive. Ours is active. Brian has spent almost two decades in the trenches—building a media empire that reached over 100 million people, building and exiting numerous tech and e-commerce companies, and navigating the volatility of emerging markets since the early days.
                 </p>
                 <p>
                   His work has influenced millions, running massive marketing campaigns for some of the world's biggest brands in their early stages. He didn't just watch the industry evolve; he helped shape it.

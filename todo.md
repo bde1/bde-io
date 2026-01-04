@@ -56,3 +56,10 @@
 - [ ] Push code to GitHub
 
 - [ ] Remove explicit "family office" mentions in `Office.tsx` and `Layout.tsx`
+
+- [ ] Add "Entertainment & Media" to Areas of Focus in `Focus.tsx`
+- [ ] Update experience timeframe to "almost two decades" in `Office.tsx` and `Focus.tsx` (if applicable)
+
+- [ ] Add "Blockchain Technology & Web3" to Areas of Focus in `Focus.tsx`
+- [ ] Add "Consumer & Enterprise SaaS" to Areas of Focus in `Focus.tsx`
+- [ ] Add "Privacy Technology" to Areas of Focus in `Focus.tsx`
