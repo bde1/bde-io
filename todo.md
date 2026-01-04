@@ -110,3 +110,6 @@
 
 - [ ] Search for and identify any remaining instances of "Family Office" in the codebase
 - [ ] Propose and implement alternative terminology (e.g., "Private Investment Firm", "Strategic Capital") if found
+
+- [ ] Source and implement "business-like" city background options (similar to Newman Group)
+- [ ] Apply the best city background to the Home page with appropriate overlays for text readability
