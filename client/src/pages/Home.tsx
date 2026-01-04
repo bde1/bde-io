@@ -33,7 +33,7 @@ export default function Home() {
           </h1>
 
           <p className="text-lg md:text-xl text-muted-foreground max-w-3xl mb-12 leading-relaxed animate-in fade-in slide-in-from-bottom-8 duration-1000 delay-400">
-            We provide operator-led advisory for founders and leadership teams building at the intersection of technology, blockchain, and culture. Our experience becomes your strategic advantage.
+            We provide operator-led advisory for founders and leadership teams building at the intersection of technology, blockchain, and culture. With a global presence and deep roots in key innovation hubs, our experience becomes your strategic advantage.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-6 animate-in fade-in slide-in-from-bottom-8 duration-1000 delay-600">

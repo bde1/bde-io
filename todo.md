@@ -80,3 +80,5 @@
 - [ ] Implement `mailto` functionality in `Office.tsx` contact form
 - [ ] Add state management for form fields (Name, Email, Message)
 - [ ] Construct `mailto` link with subject and body from form data
+
+- [ ] Ensure "Global Presence" is explicitly mentioned in `Home.tsx` or `Office.tsx`
