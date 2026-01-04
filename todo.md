@@ -54,3 +54,5 @@
 - [ ] Initialize git repository
 - [ ] Create GitHub repository `bde-io`
 - [ ] Push code to GitHub
+
+- [ ] Remove explicit "family office" mentions in `Office.tsx` and `Layout.tsx`

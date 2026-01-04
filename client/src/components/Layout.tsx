@@ -106,7 +106,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
           <div className="col-span-1 md:col-span-2">
             <h3 className="text-2xl font-serif font-bold mb-6">BDE<span className="text-primary">.</span></h3>
             <p className="text-muted-foreground max-w-md leading-relaxed">
-              The family office of Brian D. Evans. Partnering with exceptional founders building the critical infrastructure for the next generation of the internet.
+              Partnering with exceptional founders building the critical infrastructure for the next generation of the internet.
             </p>
           </div>
           
