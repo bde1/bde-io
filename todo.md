@@ -65,3 +65,6 @@
 - [ ] Add "Privacy Technology" to Areas of Focus in `Focus.tsx`
 
 - [ ] Replace "Market Intelligence" chart in `Home.tsx` with a more relevant graphic (e.g., abstract network or ecosystem visualization)
+
+- [ ] Weave "distribution as a moat" concept into `Approach.tsx` and `Home.tsx`
+- [ ] Emphasize Brian's media empire and marketing expertise as a key differentiator

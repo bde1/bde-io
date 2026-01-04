@@ -34,9 +34,9 @@ export default function Approach() {
               <div className="h-14 w-14 rounded-full bg-blue-500/10 flex items-center justify-center mb-8 text-blue-400 group-hover:scale-110 transition-transform duration-500">
                 <Users className="h-7 w-7" />
               </div>
-              <h3 className="text-2xl font-serif mb-4 group-hover:text-blue-400 transition-colors">Ecosystem & Go-to-Market Activation</h3>
+              <h3 className="text-2xl font-serif mb-4 group-hover:text-blue-400 transition-colors">Distribution as a Moat</h3>
               <p className="text-muted-foreground leading-relaxed flex-grow">
-                A great product is not enough. We help you build and activate your ecosystem. This includes tokenomics design, developer relations, community growth strategies, and forging key partnerships that accelerate your path to market leadership.
+                In a noisy world, attention is the scarcest asset. Leveraging Brian's background in building media empires that reach hundreds of millions, we help you engineer distribution advantages that competitors can't copy. We turn your narrative into a distribution engine, ensuring your product doesn't just launch—it lands.
               </p>
             </div>
 
