@@ -142,7 +142,7 @@ export default function Home() {
                 <img src="/images/logo-forbes.png" alt="Forbes" className="h-6 w-auto object-contain brightness-0 invert" />
                 <img src="/images/logo-inc.png" alt="Inc." className="h-6 w-auto object-contain brightness-0 invert" />
                 <img src="/images/logo-entrepreneur.png" alt="Entrepreneur" className="h-6 w-auto object-contain brightness-0 invert" />
-                <img src="/images/logo-coindesk.png" alt="CoinDesk" className="h-6 w-auto object-contain brightness-0 invert" />
+                <img src="/images/logo-coindesk-clean.jpg" alt="CoinDesk" className="h-6 w-auto object-contain brightness-0 invert mix-blend-screen" />
               </div>
             </div>
           </div>
