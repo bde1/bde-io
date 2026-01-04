@@ -23,12 +23,10 @@ export default function Home() {
         </div>
 
         <div className="container relative z-30 flex flex-col items-center text-center max-w-5xl mx-auto px-4">
-          <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full border border-primary/20 bg-primary/5 backdrop-blur-sm mb-8 animate-in fade-in slide-in-from-bottom-4 duration-1000">
-            <span className="relative flex h-2 w-2">
-              <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-primary opacity-75"></span>
-              <span className="relative inline-flex rounded-full h-2 w-2 bg-primary"></span>
+          <div className="mb-8 animate-in fade-in slide-in-from-bottom-4 duration-1000">
+            <span className="text-xs md:text-sm font-mono tracking-[0.3em] text-primary/90 uppercase border-b border-primary/20 pb-2">
+              Strategic Investment & Advisory Firm
             </span>
-            <span className="text-xs font-mono tracking-widest text-primary uppercase">Strategic Investment & Advisory Firm</span>
           </div>
 
           <h1 className="text-5xl md:text-7xl lg:text-8xl font-serif font-medium tracking-tight leading-[1.1] mb-8 animate-in fade-in slide-in-from-bottom-8 duration-1000 delay-200">
