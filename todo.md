@@ -68,3 +68,7 @@
 
 - [ ] Weave "distribution as a moat" concept into `Approach.tsx` and `Home.tsx`
 - [ ] Emphasize Brian's media empire and marketing expertise as a key differentiator
+
+- [ ] Update email to `hello@bde.io` in `Layout.tsx` and `Office.tsx`
+- [ ] Update X handle to `x.com/briandevans` in `Layout.tsx` and `Office.tsx`
+- [ ] Update LinkedIn URL to `https://www.linkedin.com/in/briandevansla/` in `Layout.tsx` and `Office.tsx`

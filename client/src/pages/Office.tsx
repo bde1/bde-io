@@ -25,15 +25,21 @@ export default function Office() {
                 </div>
 
                 <div className="flex gap-4 justify-center lg:justify-start">
-                  <Button variant="outline" size="icon" className="rounded-full border-white/10 hover:bg-white/5 hover:text-primary">
-                    <Twitter className="h-4 w-4" />
-                  </Button>
-                  <Button variant="outline" size="icon" className="rounded-full border-white/10 hover:bg-white/5 hover:text-primary">
-                    <Linkedin className="h-4 w-4" />
-                  </Button>
-                  <Button variant="outline" size="icon" className="rounded-full border-white/10 hover:bg-white/5 hover:text-primary">
-                    <Mail className="h-4 w-4" />
-                  </Button>
+                  <a href="https://x.com/briandevans" target="_blank" rel="noopener noreferrer">
+                    <Button variant="outline" size="icon" className="rounded-full border-white/10 hover:bg-white/5 hover:text-primary">
+                      <Twitter className="h-4 w-4" />
+                    </Button>
+                  </a>
+                  <a href="https://www.linkedin.com/in/briandevansla/" target="_blank" rel="noopener noreferrer">
+                    <Button variant="outline" size="icon" className="rounded-full border-white/10 hover:bg-white/5 hover:text-primary">
+                      <Linkedin className="h-4 w-4" />
+                    </Button>
+                  </a>
+                  <a href="mailto:hello@bde.io">
+                    <Button variant="outline" size="icon" className="rounded-full border-white/10 hover:bg-white/5 hover:text-primary">
+                      <Mail className="h-4 w-4" />
+                    </Button>
+                  </a>
                 </div>
               </div>
             </div>

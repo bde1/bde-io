@@ -127,13 +127,13 @@ export default function Layout({ children }: { children: React.ReactNode }) {
             <h4 className="font-mono text-xs uppercase tracking-widest text-muted-foreground mb-6">Connect</h4>
             <ul className="space-y-4">
               <li>
-                <a href="#" className="text-sm hover:text-primary transition-colors">Twitter / X</a>
+                <a href="https://x.com/briandevans" target="_blank" rel="noopener noreferrer" className="text-sm hover:text-primary transition-colors">Twitter / X</a>
               </li>
               <li>
-                <a href="#" className="text-sm hover:text-primary transition-colors">LinkedIn</a>
+                <a href="https://www.linkedin.com/in/briandevansla/" target="_blank" rel="noopener noreferrer" className="text-sm hover:text-primary transition-colors">LinkedIn</a>
               </li>
               <li>
-                <a href="#" className="text-sm hover:text-primary transition-colors">Email</a>
+                <a href="mailto:hello@bde.io" className="text-sm hover:text-primary transition-colors">hello@bde.io</a>
               </li>
             </ul>
           </div>
