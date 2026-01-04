@@ -30,7 +30,7 @@ export default function Home() {
         <div className="container relative z-30 flex flex-col items-center text-center max-w-5xl mx-auto px-4">
           <div className="mb-8 animate-in fade-in slide-in-from-bottom-4 duration-1000">
             <span className="text-xs md:text-sm font-mono tracking-[0.3em] text-primary/90 uppercase border-b border-primary/20 pb-2">
-              Strategic Investment & Advisory Firm
+              Strategic Advisory & Investment
             </span>
           </div>
 
