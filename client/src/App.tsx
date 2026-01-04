@@ -22,7 +22,13 @@ function Router() {
   );
 }
 
+import { useEffect } from "react";
+
 function App() {
+  useEffect(() => {
+    document.title = "BDE Ventures | Strategic Investment & Advisory Firm";
+  }, []);
+
   return (
     <ErrorBoundary>
       <ThemeProvider defaultTheme="dark">

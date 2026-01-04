@@ -126,3 +126,7 @@
 - [ ] Add meta description (50-160 chars) to `index.html`
 - [ ] Add meta keywords to `index.html`
 - [ ] Implement `document.title` update in `Home.tsx` for dynamic title setting
+
+- [ ] Verify content of `index.html` for correct title and meta tags
+- [ ] Verify `Home.tsx` for `document.title` update
+- [ ] Re-apply SEO fixes if missing or incorrect
