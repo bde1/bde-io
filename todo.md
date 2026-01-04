@@ -91,3 +91,6 @@
 
 - [ ] Move "As Featured In" logos to a dedicated full-width bar below the hero section in `Home.tsx`
 - [ ] Remove the "Strategy / Narrative / Ecosystem" text row to reduce clutter
+
+- [ ] Restore "Strategy / Narrative / Ecosystem" bar below hero in `Home.tsx`
+- [ ] Move "As Featured In" logos to the "Areas of Focus" section in `Home.tsx`

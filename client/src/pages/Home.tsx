@@ -57,17 +57,15 @@ export default function Home() {
         </div>
       </section>
 
-      {/* As Featured In Bar */}
-      <section className="py-10 border-y border-white/5 bg-black/40 backdrop-blur-md">
-        <div className="container">
-          <div className="flex flex-col md:flex-row items-center justify-center gap-8 md:gap-16">
-            <span className="text-xs font-mono text-muted-foreground uppercase tracking-widest whitespace-nowrap">As Featured In</span>
-            <div className="flex flex-wrap justify-center items-center gap-8 md:gap-16 opacity-60 grayscale hover:grayscale-0 transition-all duration-500">
-              <img src="/images/logo-forbes.png" alt="Forbes" className="h-5 md:h-7 w-auto object-contain brightness-0 invert" />
-              <img src="/images/logo-inc.png" alt="Inc." className="h-5 md:h-7 w-auto object-contain brightness-0 invert" />
-              <img src="/images/logo-entrepreneur.png" alt="Entrepreneur" className="h-5 md:h-7 w-auto object-contain brightness-0 invert" />
-              <img src="/images/logo-coindesk.png" alt="CoinDesk" className="h-5 md:h-7 w-auto object-contain brightness-0 invert" />
-            </div>
+      {/* Trust Indicators / Marquee */}
+      <section className="py-12 border-y border-white/5 bg-black/20 backdrop-blur-sm">
+        <div className="container overflow-hidden">
+          <div className="flex justify-between items-center gap-12 opacity-50 grayscale hover:grayscale-0 transition-all duration-500">
+            <span className="text-xl font-serif font-bold">STRATEGY</span>
+            <span className="text-xl font-serif font-bold">NARRATIVE</span>
+            <span className="text-xl font-serif font-bold">ECOSYSTEM</span>
+            <span className="text-xl font-serif font-bold">CAPITAL</span>
+            <span className="text-xl font-serif font-bold">GROWTH</span>
           </div>
         </div>
       </section>
@@ -135,6 +133,17 @@ export default function Home() {
                   Explore our focus areas <ArrowRight className="ml-2 h-4 w-4" />
                 </Button>
               </Link>
+            </div>
+
+            {/* As Featured In (Moved here) */}
+            <div className="mt-16 pt-10 border-t border-white/5">
+              <p className="text-xs font-mono text-muted-foreground uppercase tracking-widest mb-6">As Featured In</p>
+              <div className="flex flex-wrap items-center gap-8 opacity-50 grayscale hover:grayscale-0 transition-all duration-500">
+                <img src="/images/logo-forbes.png" alt="Forbes" className="h-5 w-auto object-contain brightness-0 invert" />
+                <img src="/images/logo-inc.png" alt="Inc." className="h-5 w-auto object-contain brightness-0 invert" />
+                <img src="/images/logo-entrepreneur.png" alt="Entrepreneur" className="h-5 w-auto object-contain brightness-0 invert" />
+                <img src="/images/logo-coindesk.png" alt="CoinDesk" className="h-5 w-auto object-contain brightness-0 invert" />
+              </div>
             </div>
           </div>
           <div className="relative h-[600px] rounded-2xl overflow-hidden border border-white/10 group">
