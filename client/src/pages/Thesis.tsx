@@ -10,7 +10,7 @@ export default function Thesis() {
           <span className="font-mono text-xs text-primary tracking-widest uppercase mb-6 block">The Manifesto</span>
           <h1 className="text-5xl md:text-7xl font-serif mb-12 leading-tight">
             The future doesn't arrive. <br />
-            It's <span className="italic text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-primary">built</span>.
+            It's <span className="italic text-primary">built</span>.
           </h1>
           
           <div className="prose prose-invert prose-lg md:prose-xl max-w-none">
