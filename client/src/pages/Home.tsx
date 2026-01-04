@@ -3,7 +3,13 @@ import { Button } from "@/components/ui/button";
 import { ArrowRight, Terminal, Activity, ShieldCheck } from "lucide-react";
 import { Link } from "wouter";
 
+import { useEffect } from "react";
+
 export default function Home() {
+  useEffect(() => {
+    document.title = "BDE Ventures | Strategic Investment & Advisory Firm";
+  }, []);
+
   return (
     <Layout>
       {/* Hero Section */}

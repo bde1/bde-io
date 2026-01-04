@@ -121,3 +121,8 @@
 - [ ] Propose a list of alternative terms that convey "family office" prestige without using the phrase
 
 - [ ] Update terminology to "Strategic Investment and Advisory Firm" in `Home.tsx` and `Office.tsx`
+
+- [ ] Update page title to "BDE Ventures | Strategic Investment & Advisory Firm" (30-60 chars)
+- [ ] Add meta description (50-160 chars) to `index.html`
+- [ ] Add meta keywords to `index.html`
+- [ ] Implement `document.title` update in `Home.tsx` for dynamic title setting
