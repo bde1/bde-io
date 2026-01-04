@@ -67,7 +67,7 @@ export default function Office() {
 
               <div className="prose prose-invert prose-lg max-w-none text-muted-foreground">
                 <p className="lead text-xl text-white/90 mb-8">
-                  BDE is the Strategic Investment Firm of Brian D. Evans. We are operators first, investors second.
+                  BDE is the Strategic Investment and Advisory Firm of Brian D. Evans. We are operators first, investors second.
                 </p>
                 
                 <p>

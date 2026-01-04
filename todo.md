@@ -119,3 +119,5 @@
 
 - [ ] Research premium synonyms for "investment vehicle" used by high-profile founders
 - [ ] Propose a list of alternative terms that convey "family office" prestige without using the phrase
+
+- [ ] Update terminology to "Strategic Investment and Advisory Firm" in `Home.tsx` and `Office.tsx`
