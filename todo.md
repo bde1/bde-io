@@ -97,3 +97,5 @@
 
 - [ ] Replace CoinDesk logo with the correct version (without "Data")
 - [ ] Standardize logo heights in `Home.tsx` to ensure visual consistency
+
+- [ ] Add "40 Under 40 honoree" to the Accolades section

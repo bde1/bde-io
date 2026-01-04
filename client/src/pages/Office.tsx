@@ -94,6 +94,10 @@ export default function Office() {
                     <span className="font-serif text-2xl text-primary font-bold">Entrepreneur</span>
                     <span className="text-sm">Regular contributor and thought leader.</span>
                   </li>
+                  <li className="flex items-center gap-4 p-4 rounded-lg bg-white/5 border border-white/5">
+                    <span className="font-serif text-2xl text-primary font-bold">40 Under 40</span>
+                    <span className="text-sm">Multiple-time honoree recognizing exceptional leadership and impact.</span>
+                  </li>
                 </ul>
 
                 <h3 className="text-white font-serif text-2xl mt-12 mb-6">Philosophy</h3>
