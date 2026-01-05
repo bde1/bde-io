@@ -138,6 +138,10 @@ export default function TheOnlyThingThatMatters() {
             </p>
 
             <p className={pStyle}>
+              I don't care what anyone says. Currently having to run Claude Code from a terminal is not user friendly. Manus is.
+            </p>
+
+            <p className={pStyle}>
               Meta didn't spend $2 billion for another model. They have Llama. They bought Manus because they solved the product problem. They bought the interface that bridges the gap between "artificial intelligence" and "actual utility."
             </p>
 
