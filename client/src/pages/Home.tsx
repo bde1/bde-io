@@ -120,13 +120,13 @@ export default function Home() {
       <section className="py-32 relative">
         <div className="container grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
           <div className="relative order-2 lg:order-1">
-            <div className="relative h-[600px] w-full rounded-2xl overflow-hidden border border-white/10 group">
+            <div className="relative h-[600px] w-full rounded-2xl overflow-hidden border border-white/10 group bg-neutral-900">
               <img 
-                src="/images/brian-evans.jpg" 
+                src="/images/brian-evans-stylized.png" 
                 alt="Brian D. Evans" 
-                className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-105 grayscale hover:grayscale-0"
+                className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-105 opacity-90 group-hover:opacity-100"
               />
-              <div className="absolute inset-0 bg-gradient-to-t from-background via-transparent to-transparent opacity-60" />
+              <div className="absolute inset-0 bg-gradient-to-t from-background via-transparent to-transparent opacity-40" />
             </div>
             {/* Decorative element */}
             <div className="absolute -bottom-6 -right-6 w-32 h-32 bg-primary/10 rounded-full blur-3xl" />
