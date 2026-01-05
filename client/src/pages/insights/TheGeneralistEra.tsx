@@ -56,7 +56,7 @@ export default function TheGeneralistEra() {
                   </div>
                   <div>
                     <div className="font-serif text-lg">Brian D. Evans</div>
-                    <div className="text-sm text-neutral-500 font-mono uppercase tracking-wider">Founder & CEO</div>
+                    <div className="text-sm text-neutral-500 font-mono uppercase tracking-wider">Founder, BDE Ventures</div>
                   </div>
                 </div>
                 
