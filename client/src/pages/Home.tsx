@@ -122,7 +122,7 @@ export default function Home() {
           <div className="relative order-2 lg:order-1">
             <div className="relative h-[600px] w-full rounded-2xl overflow-hidden border border-white/10 group bg-neutral-900">
               <img 
-                src="/images/brian-evans-stylized-v2.png" 
+                src="/images/brian-evans-grayscale.jpg" 
                 alt="Brian D. Evans" 
                 className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-105 opacity-90 group-hover:opacity-100"
               />
