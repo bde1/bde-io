@@ -69,7 +69,7 @@ export default function Insights() {
                 <div className="relative aspect-[4/3] overflow-hidden mb-6 rounded-sm bg-neutral-900">
                   <div className="absolute inset-0 bg-gradient-to-t from-neutral-950/80 to-transparent z-10" />
                   <img 
-                    src="https://images.unsplash.com/photo-1620641788421-7a1c342ea42e?q=80&w=2874&auto=format&fit=crop" 
+                    src="/images/abstract-gold-rush.jpg" 
                     alt="The Only Thing That Matters in the AI Gold Rush" 
                     className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105 opacity-80 group-hover:opacity-100"
                   />
@@ -84,7 +84,7 @@ export default function Insights() {
                   <div className="flex items-center gap-6 text-xs font-mono uppercase tracking-widest text-neutral-500">
                     <div className="flex items-center gap-2">
                       <Calendar className="w-3 h-3" />
-                      <span>December 2025</span>
+                      <span>January 2026</span>
                     </div>
                     <div className="flex items-center gap-2">
                       <Clock className="w-3 h-3" />

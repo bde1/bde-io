@@ -22,7 +22,7 @@ export default function TheOnlyThingThatMatters() {
         <div className="relative h-[70vh] min-h-[600px] w-full overflow-hidden mb-20">
           <div className="absolute inset-0 bg-neutral-900">
             <img 
-              src="https://images.unsplash.com/photo-1620641788421-7a1c342ea42e?q=80&w=2874&auto=format&fit=crop" 
+              src="/images/abstract-gold-rush.jpg" 
               alt="The Only Thing That Matters in the AI Gold Rush" 
               className="w-full h-full object-cover opacity-60"
             />
@@ -41,7 +41,7 @@ export default function TheOnlyThingThatMatters() {
               <div className="flex items-center gap-4 text-sm text-yellow-500 mb-6 font-mono tracking-wider uppercase">
                 <span>Strategy</span>
                 <span className="w-12 h-px bg-yellow-500/30" />
-                <span>December 2025</span>
+                <span>January 2026</span>
               </div>
               
               <h1 className="text-4xl md:text-6xl lg:text-7xl font-serif font-medium leading-tight mb-8">
