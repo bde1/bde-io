@@ -6,6 +6,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
     { href: "/", label: "Home" },
     { href: "/focus", label: "Areas of Focus" },
     { href: "/approach", label: "Our Approach" },
+    { href: "/insights", label: "Insights" },
     { href: "/office", label: "The Office" },
   ];
 

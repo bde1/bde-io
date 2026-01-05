@@ -21,6 +21,7 @@ export default function AnimatedHeader() {
     { href: "/", label: "Home" },
     { href: "/focus", label: "Areas of Focus" },
     { href: "/approach", label: "Our Approach" },
+    { href: "/insights", label: "Insights" },
     { href: "/office", label: "The Office" },
   ];
 
@@ -52,7 +53,7 @@ export default function AnimatedHeader() {
                 href={link.href}
                 className={cn(
                   "text-sm font-medium tracking-wide transition-colors hover:text-primary",
-                  location === link.href ? "text-primary" : "text-muted-foreground"
+                  location === link.href || (link.href === "/insights" && location.startsWith("/insights")) ? "text-primary" : "text-muted-foreground"
                 )}
               >
                 {link.label}
@@ -93,7 +94,7 @@ export default function AnimatedHeader() {
               onClick={() => setMobileMenuOpen(false)}
               className={cn(
                 "text-3xl font-serif font-medium transition-colors hover:text-primary",
-                location === link.href ? "text-primary" : "text-muted-foreground"
+                location === link.href || (link.href === "/insights" && location.startsWith("/insights")) ? "text-primary" : "text-muted-foreground"
               )}
             >
               {link.label}
