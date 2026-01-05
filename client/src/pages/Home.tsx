@@ -140,7 +140,7 @@ export default function Home() {
             </h2>
             <div className="space-y-6 text-lg text-muted-foreground leading-relaxed">
               <p>
-                "True innovation isn't just about technology—it's about how that technology improves the human experience. At BDE Ventures, we look for founders who understand this balance."
+                "For over two decades, I've operated at the forefront of emerging tech, blending digital marketing mastery with human psychology. Technology is easily replicated, but attention is not. In this era, the final moat is distribution."
               </p>
               <p>
                 As an Inc. 500 entrepreneur and lifelong builder, Brian brings a unique operator's perspective to every investment. His approach combines deep technical understanding with a genuine commitment to long-term value creation.
