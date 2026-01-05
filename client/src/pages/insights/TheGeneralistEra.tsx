@@ -14,7 +14,7 @@ export default function TheGeneralistEra() {
   }, []);
 
   // Shared paragraph style for consistency
-  const pStyle = "text-2xl md:text-3xl font-serif text-neutral-200 leading-relaxed mb-24";
+  const pStyle = "text-xl md:text-2xl font-serif text-neutral-200 leading-relaxed mb-14";
 
   return (
     <Layout>
@@ -263,7 +263,7 @@ export default function TheGeneralistEra() {
               Company B is growing three times faster.
             </p>
 
-            <blockquote className="border-l-4 border-yellow-500 pl-6 my-24 italic text-3xl md:text-4xl text-white font-serif">
+            <blockquote className="border-l-4 border-yellow-500 pl-6 my-14 italic text-2xl md:text-3xl text-white font-serif">
               "Specialists optimize what exists. Generalists see what's possible."
             </blockquote>
 
