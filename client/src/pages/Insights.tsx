@@ -51,7 +51,7 @@ export default function Insights() {
                 <div className="flex items-center gap-6 text-sm text-neutral-500 mb-10 font-mono">
                   <div className="flex items-center gap-2">
                     <Calendar className="w-4 h-4" />
-                    <span>May 2025</span>
+                    <span>December 2025</span>
                   </div>
                   <div className="flex items-center gap-2">
                     <Clock className="w-4 h-4" />

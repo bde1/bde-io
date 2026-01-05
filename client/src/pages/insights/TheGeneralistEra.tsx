@@ -1,6 +1,6 @@
 import { useEffect } from "react";
 import { Link } from "wouter";
-import { ArrowLeft, Calendar, Clock, Share2, Twitter, Linkedin } from "lucide-react";
+import { ArrowLeft, Clock } from "lucide-react";
 import Layout from "@/components/Layout";
 
 export default function TheGeneralistEra() {
@@ -39,7 +39,7 @@ export default function TheGeneralistEra() {
               <div className="flex items-center gap-4 text-sm text-yellow-500 mb-6 font-mono tracking-wider uppercase">
                 <span>Market Thesis</span>
                 <span className="w-12 h-px bg-yellow-500/30" />
-                <span>May 2025</span>
+                <span>December 2025</span>
               </div>
 
               <h1 className="text-4xl md:text-6xl lg:text-7xl font-serif font-medium leading-tight mb-8">
@@ -62,11 +62,6 @@ export default function TheGeneralistEra() {
                     <Clock className="w-4 h-4" />
                     <span className="text-sm font-mono">5 min read</span>
                   </div>
-                  <div className="flex gap-4">
-                    <button className="hover:text-white transition-colors"><Share2 className="w-4 h-4" /></button>
-                    <button className="hover:text-white transition-colors"><Twitter className="w-4 h-4" /></button>
-                    <button className="hover:text-white transition-colors"><Linkedin className="w-4 h-4" /></button>
-                  </div>
                 </div>
               </div>
             </div>
@@ -75,7 +70,7 @@ export default function TheGeneralistEra() {
 
         {/* Article Content */}
         <div className="container mx-auto px-6 max-w-3xl">
-          <div className="prose prose-invert prose-lg md:prose-xl max-w-none prose-headings:font-serif prose-headings:font-medium prose-p:text-neutral-300 prose-p:leading-relaxed prose-a:text-yellow-500 prose-a:no-underline hover:prose-a:underline prose-blockquote:border-l-yellow-500 prose-blockquote:text-white prose-blockquote:font-serif prose-blockquote:italic prose-strong:text-white prose-strong:font-medium">
+          <div className="prose prose-invert prose-lg md:prose-xl max-w-none prose-headings:font-serif prose-headings:font-medium prose-p:text-neutral-300 prose-p:leading-relaxed prose-p:mb-8 prose-a:text-yellow-500 prose-a:no-underline hover:prose-a:underline prose-blockquote:border-l-yellow-500 prose-blockquote:text-white prose-blockquote:font-serif prose-blockquote:italic prose-strong:text-white prose-strong:font-medium">
             
             <p className="lead text-2xl md:text-3xl font-serif text-white leading-relaxed mb-12">
               Look, I'm going to tell you something that goes against basically everything you've heard about career advice.
