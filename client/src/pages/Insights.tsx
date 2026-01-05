@@ -32,7 +32,7 @@ export default function Insights() {
                   />
                   <div className="absolute top-4 left-4 z-20">
                     <span className="px-3 py-1 rounded-full border border-white/10 text-white text-xs font-mono uppercase tracking-widest bg-black/50 backdrop-blur-sm">
-                      Market Thesis
+                      Ponderings
                     </span>
                   </div>
                 </div>

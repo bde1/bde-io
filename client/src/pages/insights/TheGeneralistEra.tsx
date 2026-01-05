@@ -40,7 +40,7 @@ export default function TheGeneralistEra() {
               </Link>
 
               <div className="flex items-center gap-4 text-sm text-yellow-500 mb-6 font-mono tracking-wider uppercase">
-                <span>Market Thesis</span>
+                <span>Ponderings</span>
                 <span className="w-12 h-px bg-yellow-500/30" />
                 <span>December 2025</span>
               </div>
