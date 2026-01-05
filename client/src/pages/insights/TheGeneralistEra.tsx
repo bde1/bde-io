@@ -13,11 +13,14 @@ export default function TheGeneralistEra() {
     }
   }, []);
 
+  // Shared paragraph style for consistency
+  const pStyle = "text-2xl md:text-3xl font-serif text-neutral-200 leading-relaxed mb-24";
+
   return (
     <Layout>
-      <article className="min-h-screen bg-neutral-950 text-white selection:bg-yellow-500/30 pb-20">
+      <article className="min-h-screen bg-neutral-950 text-white selection:bg-yellow-500/30 pb-40">
         {/* Hero Header */}
-        <div className="relative h-[70vh] min-h-[600px] w-full overflow-hidden">
+        <div className="relative h-[70vh] min-h-[600px] w-full overflow-hidden mb-20">
           <div className="absolute inset-0 bg-neutral-900">
             <img 
               src="https://images.unsplash.com/photo-1639322537228-f710d846310a?q=80&w=2832&auto=format&fit=crop" 
@@ -68,233 +71,233 @@ export default function TheGeneralistEra() {
           </div>
         </div>
 
-        {/* Article Content */}
-        <div className="container mx-auto px-6 max-w-3xl">
-          <div className="prose prose-invert max-w-none prose-headings:font-serif prose-headings:font-medium prose-p:text-white prose-p:font-serif prose-p:text-2xl prose-p:md:text-3xl prose-p:leading-relaxed prose-p:mb-16 prose-a:text-yellow-500 prose-a:no-underline hover:prose-a:underline prose-blockquote:border-l-yellow-500 prose-blockquote:text-white prose-blockquote:font-serif prose-blockquote:italic prose-strong:text-white prose-strong:font-medium">
+        {/* Article Content - Medium Style Layout */}
+        <div className="container mx-auto px-6 max-w-2xl">
+          <div className="font-serif">
             
-            <p>
+            <p className={pStyle}>
               Look, I'm going to tell you something that goes against basically everything you've heard about career advice.
             </p>
 
-            <p>
+            <p className={pStyle}>
               Early in my career, someone I respected told me to pick one thing and get really, really good at it. Specialize. Go deep. That was the path. And honestly? It made sense at the time. Still makes sense for a lot of people.
             </p>
 
-            <p>
+            <p className={pStyle}>
               But I couldn't do it. Something felt off.
             </p>
 
-            <p>
+            <p className={pStyle}>
               I kept wanting to learn about product. Then development. Then marketing. Then how communities actually work. Finance. Operations. All of it. People definitely thought I was unfocused. Scattered, even. I get it. From the outside, it probably looked that way.
             </p>
 
-            <p>
+            <p className={pStyle}>
               Turns out I was onto something. I just didn't have the words for it yet.
             </p>
 
-            <p>
+            <p className={pStyle}>
               So here's what's actually happening right now.
             </p>
 
-            <p>
+            <p className={pStyle}>
               AI got good. Like, really good. And fast. Faster than most of us expected.
             </p>
 
-            <p>
+            <p className={pStyle}>
               That copywriter who spent years getting great at their craft? AI writes stuff that's maybe 85% as good. In seconds. The designer who put in a decade? AI makes designs that are close. Not perfect, but close. Engineers with 15 years of experience? Same story.
             </p>
 
-            <p>
+            <p className={pStyle}>
               And that gap? It's shrinking. Every few months, it shrinks more.
             </p>
 
-            <p>
+            <p className={pStyle}>
               I'm not trying to be dramatic here, but specialists are in trouble. Not "disrupted" trouble. Replaced trouble. The ones who'll make it are already pivoting toward knowing more things, not just one thing better.
             </p>
 
-            <p>
+            <p className={pStyle}>
               People push back on this. They say, okay, but can't AI also be a generalist? Can't it learn across a bunch of different areas too?
             </p>
 
-            <p>
+            <p className={pStyle}>
               Yeah. It can. But here's what it can't do.
             </p>
 
-            <p>
+            <p className={pStyle}>
               It can't choose.
             </p>
 
-            <p>
+            <p className={pStyle}>
               I ran an experiment last month. Had GPT look at fifty different investment opportunities for a fund I work with. Every single analysis it gave me was solid. Logical. Well-argued. Looked great on paper.
             </p>
 
-            <p>
+            <p className={pStyle}>
               But it couldn't tell me which founder actually had that thing. You know what I mean? That fire. The one who's going to push through when everything falls apart. It couldn't pick up on the fact that a certain market was about to shift because of conversations I'd had that week with people in the space. It couldn't feel which opportunity had real edge versus which one was just... fine.
             </p>
 
-            <p>
+            <p className={pStyle}>
               Here's the thing. AI doesn't lie awake at night wondering if it made the right call. It doesn't have anything on the line. No reputation. No consequences. It just processes stuff and spits out answers.
             </p>
 
-            <p>
+            <p className={pStyle}>
               You actually have to live with your decisions. And that changes how you think about them.
             </p>
 
-            <p>
+            <p className={pStyle}>
               There's another piece people miss.
             </p>
 
-            <p>
+            <p className={pStyle}>
               AI learns from what's out there. What's been written. Published. Documented. But what about the stuff that's so specific, so niche, that it barely exists online? Maybe it's been mentioned five times total on the entire internet.
             </p>
 
-            <p>
+            <p className={pStyle}>
               AI can't learn from what isn't there.
             </p>
 
-            <p>
+            <p className={pStyle}>
               Someone who's spent ten years deep in a specific market knows things that have never been written down anywhere. The unspoken rules. The weird edge cases. The lessons from screwing up that only exist in their head.
             </p>
 
-            <p>
+            <p className={pStyle}>
               AI will never have access to that. It literally can't.
             </p>
 
-            <p>
+            <p className={pStyle}>
               I didn't really get this next part until recently.
             </p>
 
-            <p>
+            <p className={pStyle}>
               It's not just about knowing a bunch of stuff across different areas. It's about how fast you can pick up something new when you need to.
             </p>
 
-            <p>
+            <p className={pStyle}>
               Think about Elon and The Boring Company. He had zero background in tunneling. Zero. Within months he was questioning assumptions that the industry had accepted for decades. Same thing happened with batteries at Tesla. With rockets at SpaceX.
             </p>
 
-            <p>
+            <p className={pStyle}>
               That's the actual skill. Not what you already know. How quickly you can get dangerous in something new.
             </p>
 
-            <p>
+            <p className={pStyle}>
               And here's the cool part. It compounds. The more different things you learn, the faster you learn the next thing. You start seeing patterns. Principles that work across domains. You build this mental framework that speeds everything up.
             </p>
 
-            <p>
+            <p className={pStyle}>
               The way I think about it now is this.
             </p>
 
-            <p>
+            <p className={pStyle}>
               The question isn't whether AI can beat a person at strategy, etc.. The question is whether a person using AI can beat a person not using AI.
             </p>
 
-            <p>
+            <p className={pStyle}>
               Obviously yes.
             </p>
 
-            <p>
+            <p className={pStyle}>
               So the real game is being great at using AI as a tool. And that means knowing enough about different areas to know what to ask for. To know when AI is giving you garbage. To actually direct it well.
             </p>
 
-            <p>
+            <p className={pStyle}>
               Someone who understands multiple domains and uses AI? That's a multiplier. A specialist using AI is just a slightly faster specialist. Still getting replaced.
             </p>
 
-            <p>
+            <p className={pStyle}>
               I keep coming back to Elon as an example because it's so clear.
             </p>
 
-            <p>
+            <p className={pStyle}>
               He's deep in engineering. Manufacturing. Physics. Business. He looks at a rocket problem and sees how it connects to cars. He sees a constraint in one industry and solves it using something from a completely different one.
             </p>
 
-            <p>
+            <p className={pStyle}>
               Put AI against him in a strategic decision. AI generates a thousand options. Elon looks at them and knows which one actually matters. Because he's been through manufacturing disasters. He understands the physics in ways that aren't in any dataset. He's built multiple companies across totally different industries. He has made decisions that were seemingly "odd" at the time, that AI wouldn't necessarily be able to choose.
             </p>
 
-            <p>
+            <p className={pStyle}>
               Plus his network. He can call the best engineers in the world. Get information that isn't public. But it's not just about information. It's about being able to run teams on rockets, cars, and brain interfaces all at the same time. Because he understands all of them well enough to actually direct them.
             </p>
 
-            <p>
+            <p className={pStyle}>
               AI loses that matchup every time. Not because it's dumb. Because Elon has stuff it can never have.
             </p>
 
-            <p>
+            <p className={pStyle}>
               I know what you're thinking. Cool, but I'm not Elon. What about normal people?
             </p>
 
-            <p>
+            <p className={pStyle}>
               Fair.
             </p>
 
-            <p>
+            <p className={pStyle}>
               You don't need to be world-class at forty five things. You need to be genuinely good at a few things. Good enough to have real judgment. Good enough to catch when AI is wrong. Good enough to point it in the right direction.
             </p>
 
-            <p>
+            <p className={pStyle}>
               The bar isn't genius across everything. It's being dangerous in three or four areas. Enough to see connections other people miss. Enough to make calls other people can't.
             </p>
 
-            <p>
+            <p className={pStyle}>
               That's doable. It just takes being intentional about it.
             </p>
 
-            <p>
+            <p className={pStyle}>
               I've been watching two companies in the same space this year. It's been interesting.
             </p>
 
-            <p>
+            <p className={pStyle}>
               <strong>Company A</strong> went all in on specialists. Best paid ads person they could find. Best SEO person. Best product designer. Everyone excellent at their one thing. They use AI to optimize within their lanes.
             </p>
 
-            <p>
+            <p className={pStyle}>
               <strong>Company B</strong> has fewer people. But each person gets product, growth, sales, customer psychology. None of them are the absolute best at any single thing. But they see how everything connects.
             </p>
 
-            <p>
+            <p className={pStyle}>
               Company B spotted an opportunity that required putting together insights from product, marketing, and sales all at once. Company A's specialists never saw it. It existed in the gaps between their areas.
             </p>
 
-            <p>
+            <p className={pStyle}>
               Company B is growing three times faster.
             </p>
 
-            <blockquote>
+            <blockquote className="border-l-4 border-yellow-500 pl-6 my-24 italic text-3xl md:text-4xl text-white font-serif">
               "Specialists optimize what exists. Generalists see what's possible."
             </blockquote>
 
-            <p>
+            <p className={pStyle}>
               If you're building something right now, look for people who are strong across multiple areas. People who don't just do what AI tells them. People who learn fast. People who actually care about outcomes.
             </p>
 
-            <p>
+            <p className={pStyle}>
               If you're building your own career, start getting good at more than one thing. Focus on learning faster. The goal isn't knowing a little about everything. It's being dangerous in several areas. Use AI to learn quicker, but don't let it replace your actual understanding.
             </p>
 
-            <p>
+            <p className={pStyle}>
               Don't just read about marketing. Run something. Don't just read about product. Build something. Don't just read about sales. Actually close something.
             </p>
 
-            <p>
+            <p className={pStyle}>
               Every era rewards a different kind of person.
             </p>
 
-            <p>
+            <p className={pStyle}>
               The specialist era is winding down. The generalist era is starting. Not because generalists know more than AI. But because they have real stakes. They learn fast. They have judgment and taste. They have knowledge from actually doing the work that doesn't exist anywhere else.
             </p>
 
-            <p>
+            <p className={pStyle}>
               That's something no algorithm is going to replicate.
             </p>
 
-            <p>
+            <p className={pStyle}>
               This is happening now.
             </p>
           </div>
 
           {/* Author Bio Footer */}
-          <div className="mt-20 pt-12 border-t border-white/10">
+          <div className="mt-32 pt-12 border-t border-white/10">
             <div className="flex flex-col md:flex-row items-center md:items-start gap-8">
               <div className="h-24 w-24 rounded-full overflow-hidden border border-white/10 shrink-0">
                 <img src="/images/brian-evans-grayscale.jpg" alt="Brian D. Evans" className="w-full h-full object-cover" />
