@@ -138,7 +138,19 @@ export default function TheOnlyThingThatMatters() {
             </p>
 
             <p className={pStyle}>
-              I don't care what anyone says. Currently having to run Claude Code from a terminal is not user friendly. Manus is.
+              I know the counter-argument. "What happens when Claude or GPT-5 does this natively? Won't they just Sherlock the wrappers?"
+            </p>
+
+            <p className={pStyle}>
+              It's a fair question. But it misunderstands the DNA of these companies. Foundation model labs are research organizations. They build for builders. They build for engineers who live in terminals.
+            </p>
+
+            <p className={pStyle}>
+              I don't care what anyone says. Currently having to run Claude Code from a terminal is not user friendly. It's powerful, yes. But it's not a product for the 99% of people who just want the job done.
+            </p>
+
+            <p className={pStyle}>
+              Manus is.
             </p>
 
             <p className={pStyle}>
@@ -166,7 +178,15 @@ export default function TheOnlyThingThatMatters() {
             </p>
 
             <p className={pStyle}>
-              And something even more important. Trust.
+              But let's be real. In an AI world, distribution itself is about to be commoditized. We are about to be flooded with infinite content, infinite emails, infinite noise.
+            </p>
+
+            <p className={pStyle}>
+              So distribution isn't enough. You need a filter. You need something that cuts through the noise.
+            </p>
+
+            <p className={pStyle}>
+              You need Trust.
             </p>
 
             <blockquote className="border-l-4 border-yellow-500 pl-6 my-14 italic text-2xl md:text-3xl text-white font-serif">
