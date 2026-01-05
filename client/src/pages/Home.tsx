@@ -116,21 +116,62 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Focus Teaser */}
-      <section className="py-32 relative overflow-hidden">
-        <div className="absolute inset-0 bg-gradient-to-r from-blue-900/10 to-purple-900/10 opacity-30" />
-        <div className="container relative z-10 grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
-          <div>
-            <span className="font-mono text-xs text-primary tracking-widest uppercase mb-4 block">Areas of Focus</span>
-            <h2 className="text-4xl md:text-6xl font-serif mb-8 leading-tight">
-              The future doesn't arrive. It's <span className="italic text-muted-foreground">built</span>.
+      {/* Founder Section */}
+      <section className="py-32 relative">
+        <div className="container grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+          <div className="relative order-2 lg:order-1">
+            <div className="relative h-[600px] w-full rounded-2xl overflow-hidden border border-white/10 group">
+              <img 
+                src="/images/brian-evans.jpg" 
+                alt="Brian D. Evans" 
+                className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-105 grayscale hover:grayscale-0"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-background via-transparent to-transparent opacity-60" />
+            </div>
+            {/* Decorative element */}
+            <div className="absolute -bottom-6 -right-6 w-32 h-32 bg-primary/10 rounded-full blur-3xl" />
+            <div className="absolute -top-6 -left-6 w-32 h-32 bg-blue-500/10 rounded-full blur-3xl" />
+          </div>
+          
+          <div className="order-1 lg:order-2">
+            <span className="font-mono text-xs text-primary tracking-widest uppercase mb-4 block">The Founder</span>
+            <h2 className="text-4xl md:text-5xl font-serif mb-8 leading-tight">
+              Brian D. Evans
             </h2>
             <div className="space-y-6 text-lg text-muted-foreground leading-relaxed">
               <p>
-                We don't just follow the trends; we've been shaping them for over a decade. Our advisory is grounded in a deep, nuanced understanding of the forces that will define the next generation of the internet.
+                "True innovation isn't just about technology—it's about how that technology improves the human experience. At BDE Ventures, we look for founders who understand this balance."
               </p>
               <p>
-                From the convergence of AI and decentralized infrastructure to the tokenization of real-world assets, we focus our expertise where the impact is highest.
+                As an Inc. 500 entrepreneur and lifelong builder, Brian brings a unique operator's perspective to every investment. His approach combines deep technical understanding with a genuine commitment to long-term value creation.
+              </p>
+            </div>
+            <div className="mt-10">
+              <Link href="/office">
+                <Button variant="outline" className="border-primary/20 hover:bg-primary/10 hover:text-primary hover:border-primary/50 transition-all duration-300">
+                  Read Full Bio
+                </Button>
+              </Link>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Focus Teaser (Updated with Impact Imagery) */}
+      <section className="py-32 relative overflow-hidden bg-white/[0.02]">
+        <div className="absolute inset-0 bg-gradient-to-r from-blue-900/10 to-purple-900/10 opacity-30" />
+        <div className="container relative z-10 grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+          <div>
+            <span className="font-mono text-xs text-primary tracking-widest uppercase mb-4 block">Our Impact</span>
+            <h2 className="text-4xl md:text-6xl font-serif mb-8 leading-tight">
+              Investing in a <span className="italic text-primary">better</span> future.
+            </h2>
+            <div className="space-y-6 text-lg text-muted-foreground leading-relaxed">
+              <p>
+                We believe that the most successful companies of tomorrow will be those that solve real-world problems. Our thesis goes beyond financial returns to consider the broader impact on society and the environment.
+              </p>
+              <p>
+                From sustainable infrastructure to inclusive financial systems, we back founders who are building technology that empowers people and communities.
               </p>
             </div>
             <div className="mt-10">
@@ -154,9 +195,9 @@ export default function Home() {
           </div>
           <div className="relative h-[600px] rounded-2xl overflow-hidden border border-white/10 group">
             <img 
-              src="/images/abstract-network.jpg" 
-              alt="Focus Visualization" 
-              className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
+              src="/images/impact-investing.jpg" 
+              alt="Impact Investing" 
+              className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-105 opacity-80"
             />
             <div className="absolute inset-0 bg-gradient-to-t from-background via-transparent to-transparent" />
             
