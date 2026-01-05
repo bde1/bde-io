@@ -70,9 +70,9 @@ export default function TheGeneralistEra() {
 
         {/* Article Content */}
         <div className="container mx-auto px-6 max-w-3xl">
-          <div className="prose prose-invert prose-xl max-w-none prose-headings:font-serif prose-headings:font-medium prose-p:text-neutral-300 prose-p:leading-relaxed prose-p:mb-10 prose-a:text-yellow-500 prose-a:no-underline hover:prose-a:underline prose-blockquote:border-l-yellow-500 prose-blockquote:text-white prose-blockquote:font-serif prose-blockquote:italic prose-strong:text-white prose-strong:font-medium">
+          <div className="prose prose-invert prose-xl max-w-none prose-headings:font-serif prose-headings:font-medium prose-p:text-neutral-300 prose-p:leading-loose prose-p:mb-16 prose-a:text-yellow-500 prose-a:no-underline hover:prose-a:underline prose-blockquote:border-l-yellow-500 prose-blockquote:text-white prose-blockquote:font-serif prose-blockquote:italic prose-strong:text-white prose-strong:font-medium">
             
-            <p className="lead text-2xl md:text-3xl font-serif text-white leading-relaxed mb-16">
+            <p className="lead text-2xl md:text-3xl font-serif text-white leading-relaxed mb-20">
               Look, I'm going to tell you something that goes against basically everything you've heard about career advice.
             </p>
 
@@ -148,7 +148,7 @@ export default function TheGeneralistEra() {
               It can't choose.
             </p>
 
-            <hr className="border-white/10 my-16" />
+            <hr className="border-white/10 my-20" />
 
             <p>
               I ran an experiment last month. Had GPT look at fifty different investment opportunities for a fund I work with.
@@ -206,7 +206,7 @@ export default function TheGeneralistEra() {
               AI will never have access to that. It literally can't.
             </p>
 
-            <hr className="border-white/10 my-16" />
+            <hr className="border-white/10 my-20" />
 
             <p>
               I didn't really get this next part until recently.
@@ -292,7 +292,7 @@ export default function TheGeneralistEra() {
               AI loses that matchup every time. Not because it's dumb. Because Elon has stuff it can never have.
             </p>
 
-            <hr className="border-white/10 my-16" />
+            <hr className="border-white/10 my-20" />
 
             <p>
               I know what you're thinking. Cool, but I'm not Elon. What about normal people?
