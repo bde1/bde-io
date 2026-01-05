@@ -62,7 +62,7 @@ export default function TheOnlyThingThatMatters() {
         <div className="container max-w-3xl mx-auto px-6">
           
             <p className={pStyle}>
-              I once advised a founder who had it all. A brilliant product, a world-class engineering team, and a solution that was objectively, demonstrably better than the competition.
+              I once advised a founder who had it all. A brilliant product, a world-class engineering team, and a solution that was objectively better than the competition.
             </p>
 
             <p className={pStyle}>
@@ -98,15 +98,15 @@ export default function TheOnlyThingThatMatters() {
             </p>
 
             <p className={pStyle}>
-              Here’s the thing everyone is missing about AI: the tech is becoming a commodity.
+              Here’s the thing everyone is missing about AI. The tech is becoming a commodity.
             </p>
 
             <p className={pStyle}>
-              Look, I’m not saying the technology is easy. It’s not. But the gap is closing. Fast. A few years ago, OpenAI looked like they had an untouchable lead. Now? Google, Anthropic, Meta, a dozen other startups… they all have models that are damn good. The gap between the best and the second-best is shrinking every month. Soon, for most practical purposes, the models will be indistinguishable.
+              Look, I’m not saying the technology is easy. It isn't. But the gap is closing fast. A few years ago, OpenAI looked like they had an untouchable lead. Now? Google, Anthropic, Meta, a dozen other startups. They all have models that are damn good. The gap between the best and the second-best is shrinking every month. Soon, for most practical purposes, the models will be indistinguishable.
             </p>
 
             <p className={pStyle}>
-              Consider the recent acquisition of Manus by Meta. The headline number was $2 billion. The reaction from the technical elite was predictable: "It's just a wrapper."
+              Consider the recent acquisition of Manus by Meta. The headline number was $2 billion. The reaction from the technical elite was predictable. "It's just a wrapper."
             </p>
 
             <p className={pStyle}>
@@ -118,7 +118,7 @@ export default function TheOnlyThingThatMatters() {
             </p>
 
             <p className={pStyle}>
-              Yet, they built a business generating nine figures in revenue in less than a year.
+              Yet they built a business generating nine figures in revenue in less than a year.
             </p>
 
             <p className={pStyle}>
@@ -130,11 +130,11 @@ export default function TheOnlyThingThatMatters() {
             </p>
 
             <p className={pStyle}>
-              Manus didn't try to build a better engine. They built the best possible car.
+              Manus didn't try to build a better engine. They just built a better car.
             </p>
 
             <p className={pStyle}>
-              They focused on the "last mile" of AI—the messy, complex orchestration required to take a vague human instruction and translate it into a tangible result. They built the infrastructure that allows the AI to browse the web, manage files, and execute multi-step workflows without human hand-holding.
+              They focused on the "last mile" of AI. The messy, complex orchestration required to take a vague human instruction and translate it into a tangible result. They built the infrastructure that allows the AI to browse the web, manage files, and execute multi-step workflows without human hand-holding.
             </p>
 
             <p className={pStyle}>
@@ -162,7 +162,7 @@ export default function TheOnlyThingThatMatters() {
             </p>
 
             <p className={pStyle}>
-              And something even more important: Trust.
+              And something even more important. Trust.
             </p>
 
             <blockquote className="border-l-4 border-yellow-500 pl-6 my-14 italic text-2xl md:text-3xl text-white font-serif">
@@ -194,7 +194,7 @@ export default function TheOnlyThingThatMatters() {
             </p>
 
             <p className={pStyle}>
-              So, if you’re building in the AI space, stop worrying about whether your model is slightly better than the next guy’s. It won’t be for long.
+              So if you’re building in the AI space, stop worrying about whether your model is slightly better than the next guy’s. It won’t be for long.
             </p>
 
             <p className={pStyle}>
