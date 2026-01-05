@@ -106,87 +106,47 @@ export default function TheOnlyThingThatMatters() {
             </p>
 
             <p className={pStyle}>
-              Here's an interesting perspective. Why would Meta pay $2 billion for Manus when it's essentially a "wrapper"?
+              Consider the recent acquisition of Manus by Meta. The headline number was $2 billion. The reaction from the technical elite was predictable: "It's just a wrapper."
             </p>
 
             <p className={pStyle}>
-              The answer to this question tells you everything about the future of GenAI. (And it isn't larger LLMs).
+              They missed the point entirely.
             </p>
 
             <p className={pStyle}>
-              Manus runs on Claude 3.5 Sonnet. It uses fine-tuned Qwen models. It doesn't have proprietary foundation models. It doesn't have some breakthrough in AI architecture.
+              Under the hood, Manus relies on the same foundation models available to any developer. They didn't train a better LLM. They didn't discover a new transformer architecture. By the standard definition of "deep tech," they shouldn't have a moat.
             </p>
 
             <p className={pStyle}>
-              By the logic that dominates AI discourse, Manus is "just a wrapper." No moat. Easily replicable. A commodity.
+              Yet, they built a business generating nine figures in revenue in less than a year.
             </p>
 
             <p className={pStyle}>
-              And yet Meta just paid over $2 billion for it, up from a $500 million valuation eight months earlier.
+              Why? Because they understood the difference between raw intelligence and completed work.
             </p>
 
             <p className={pStyle}>
-              In that same period, Manus hit $100 million in annual recurring revenue and a $125 million run rate.
+              Foundation models are engines. They are powerful, loud, and increasingly commoditized. But you cannot drive an engine to work. You need a chassis, a transmission, a steering wheel, and a comfortable seat. You need a car.
             </p>
 
             <p className={pStyle}>
-              So either Mark Zuckerberg doesn't understand AI, or the "wrapper" narrative is wrong.
+              Manus didn't try to build a better engine. They built the best possible car.
             </p>
 
             <p className={pStyle}>
-              I'll bet on the narrative being wrong.
+              They focused on the "last mile" of AI—the messy, complex orchestration required to take a vague human instruction and translate it into a tangible result. They built the infrastructure that allows the AI to browse the web, manage files, and execute multi-step workflows without human hand-holding.
             </p>
 
             <p className={pStyle}>
-              Here's what Manus actually built: They took Claude, the same Claude anyone can access, and turned it into something that finishes work.
+              Meta didn't spend $2 billion for another model. They have Llama. They bought Manus because they solved the product problem. They bought the interface that bridges the gap between "artificial intelligence" and "actual utility."
             </p>
 
             <p className={pStyle}>
-              You give it a task. You close your laptop. You come back to a completed deliverable: a research report, a ranked list of job candidates, a deployed website.
+              This is the reality of the application layer. As models converge in capability, the value shifts to the companies that can harness that power to solve specific, high-value problems.
             </p>
 
             <p className={pStyle}>
-              Claude is an operating system. Manus built the application.
-            </p>
-
-            <p className={pStyle}>
-              The technical "secret sauce" isn't a new model. It's multi-agent orchestration. It's asynchronous cloud execution. It's context engineering. It's an actual interface where you can watch it browse, click, and fill forms in real time.
-            </p>
-
-            <p className={pStyle}>
-              None of this is magic. All of it is product work. The hard, unglamorous work of understanding what users actually need and building the scaffolding that turns a general-purpose AI into a tool that does a job.
-            </p>
-
-            <p className={pStyle}>
-              Meta didn't pay $2 billion for Claude access. They paid for the application layer that Anthropic didn't build.
-            </p>
-
-            <p className={pStyle}>
-              This is the future of AI value creation.
-            </p>
-
-            <p className={pStyle}>
-              The foundation model companies will keep raising billions to build bigger models. Some of that will matter.
-            </p>
-
-            <p className={pStyle}>
-              But the real opportunity, the place where problems get solved and value gets captured, is in the application layer.
-            </p>
-
-            <p className={pStyle}>
-              The "wrappers."
-            </p>
-
-            <p className={pStyle}>
-              The companies that understand a specific workflow, a specific user, a specific job-to-be-done, and build precisely for that.
-            </p>
-
-            <p className={pStyle}>
-              Manus proved you can build a $2 billion company on top of someone else's model in under a year.
-            </p>
-
-            <p className={pStyle}>
-              The lesson isn't that wrappers are easy. The lesson is that wrappers are the product. The model is infrastructure. The wrapper is the business.
+              We need to retire "wrapper" as an insult. The wrapper is the product. The wrapper is the workflow. The wrapper is the business.
             </p>
 
             <p className={pStyle}>
