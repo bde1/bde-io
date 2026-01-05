@@ -1,5 +1,7 @@
 import Layout from "@/components/Layout";
 import { useEffect } from "react";
+import { Link } from "wouter";
+import { ArrowLeft, Clock } from "lucide-react";
 
 export default function TheOnlyThingThatMatters() {
   useEffect(() => {
@@ -17,41 +19,51 @@ export default function TheOnlyThingThatMatters() {
     <Layout>
       <article className="min-h-screen bg-neutral-950 text-white selection:bg-yellow-500/30 pb-40">
         {/* Hero Section */}
-        <div className="relative h-[70vh] w-full overflow-hidden">
+        <div className="relative h-[70vh] min-h-[600px] w-full overflow-hidden mb-20">
           <div className="absolute inset-0 bg-neutral-900">
-            <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1620641788421-7a1c342ea42e?q=80&w=2874&auto=format&fit=crop')] bg-cover bg-center opacity-40 mix-blend-overlay" />
-            <div className="absolute inset-0 bg-gradient-to-b from-neutral-950/30 via-neutral-950/60 to-neutral-950" />
+            <img 
+              src="https://images.unsplash.com/photo-1620641788421-7a1c342ea42e?q=80&w=2874&auto=format&fit=crop" 
+              alt="The Only Thing That Matters in the AI Gold Rush" 
+              className="w-full h-full object-cover opacity-60"
+            />
+            <div className="absolute inset-0 bg-gradient-to-t from-neutral-950 via-neutral-950/50 to-transparent" />
           </div>
           
-          <div className="relative h-full container flex flex-col justify-end pb-24">
-            <div className="max-w-4xl">
-              <div className="flex items-center gap-4 mb-8">
-                <span className="px-3 py-1 rounded-full border border-yellow-500/30 text-yellow-500 text-xs font-mono uppercase tracking-widest bg-yellow-500/5 backdrop-blur-sm">
-                  Strategy
-                </span>
-                <span className="text-neutral-400 font-mono text-xs uppercase tracking-widest">
-                  December 2025
-                </span>
-                <span className="text-neutral-400 font-mono text-xs uppercase tracking-widest">
-                  6 min read
-                </span>
+          <div className="absolute inset-0 flex flex-col justify-end pb-20">
+            <div className="container mx-auto px-6 max-w-4xl">
+              <Link href="/insights">
+                <button className="group flex items-center gap-2 text-sm font-mono uppercase tracking-widest text-neutral-400 hover:text-yellow-500 transition-colors mb-8">
+                  <ArrowLeft className="w-4 h-4 transition-transform group-hover:-translate-x-1" />
+                  Back to Insights
+                </button>
+              </Link>
+
+              <div className="flex items-center gap-4 text-sm text-yellow-500 mb-6 font-mono tracking-wider uppercase">
+                <span>Strategy</span>
+                <span className="w-12 h-px bg-yellow-500/30" />
+                <span>December 2025</span>
               </div>
               
-              <h1 className="text-5xl md:text-7xl lg:text-8xl font-serif font-medium tracking-tight text-white mb-8 leading-[1.1]">
+              <h1 className="text-4xl md:text-6xl lg:text-7xl font-serif font-medium leading-tight mb-8">
                 The Only Thing That Matters in the <span className="italic text-yellow-500">AI Gold Rush</span>
               </h1>
               
-              <div className="flex items-center gap-4">
-                <div className="h-12 w-12 rounded-full bg-neutral-800 overflow-hidden border border-white/10">
-                  <img 
-                    src="/images/brian-d-evans-portrait.webp" 
-                    alt="Brian D. Evans" 
-                    className="h-full w-full object-cover"
-                  />
+              <div className="flex items-center justify-between border-t border-white/10 pt-8">
+                <div className="flex items-center gap-4">
+                  <div className="h-12 w-12 rounded-full overflow-hidden border border-white/10">
+                    <img src="/images/brian-d-evans-portrait.webp" alt="Brian D. Evans" className="w-full h-full object-cover" />
+                  </div>
+                  <div>
+                    <div className="font-serif text-lg">Brian D. Evans</div>
+                    <div className="text-sm text-neutral-500 font-mono uppercase tracking-wider">Founder, BDE Ventures</div>
+                  </div>
                 </div>
-                <div>
-                  <div className="text-white font-serif text-lg">Brian D. Evans</div>
-                  <div className="text-neutral-500 text-xs font-mono uppercase tracking-widest">Founder, BDE Ventures</div>
+                
+                <div className="flex items-center gap-6 text-neutral-500">
+                  <div className="flex items-center gap-2">
+                    <Clock className="w-4 h-4" />
+                    <span className="text-sm font-mono">6 min read</span>
+                  </div>
                 </div>
               </div>
             </div>
