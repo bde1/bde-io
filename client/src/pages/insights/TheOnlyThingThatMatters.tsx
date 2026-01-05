@@ -19,7 +19,7 @@ export default function TheOnlyThingThatMatters() {
         {/* Hero Section */}
         <div className="relative h-[70vh] w-full overflow-hidden">
           <div className="absolute inset-0 bg-neutral-900">
-            <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1639322537228-f710d846310a?q=80&w=2832&auto=format&fit=crop')] bg-cover bg-center opacity-40 mix-blend-overlay" />
+            <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1620641788421-7a1c342ea42e?q=80&w=2874&auto=format&fit=crop')] bg-cover bg-center opacity-40 mix-blend-overlay" />
             <div className="absolute inset-0 bg-gradient-to-b from-neutral-950/30 via-neutral-950/60 to-neutral-950" />
           </div>
           
