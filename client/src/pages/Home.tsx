@@ -120,7 +120,7 @@ export default function Home() {
       <section className="py-32 relative">
         <div className="container grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
           <div className="relative order-2 lg:order-1">
-            <div className="relative h-[450px] w-full max-w-[400px] mx-auto lg:mx-0 rounded-2xl overflow-hidden border border-white/10 group bg-neutral-900">
+            <div className="relative h-[450px] w-full max-w-[400px] mx-auto rounded-2xl overflow-hidden border border-white/10 group bg-neutral-900">
               <img 
                 src="/images/brian-evans-grayscale.jpg" 
                 alt="Brian D. Evans" 
