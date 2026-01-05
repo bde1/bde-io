@@ -143,7 +143,7 @@ export default function Home() {
                 "For over two decades, I've operated at the forefront of emerging tech, blending digital marketing mastery with human psychology. Technology is easily replicated, but attention is not. In this era, the final moat is distribution."
               </p>
               <p>
-                As an Inc. 500 entrepreneur and lifelong builder, Brian brings a unique operator's perspective to every investment. His approach combines deep technical understanding with a genuine commitment to long-term value creation.
+                As an Inc. 500 entrepreneur and lifelong builder, Brian brings a unique operator's perspective to every project. His approach combines deep marketing understanding with a genuine commitment to long-term value creation.
               </p>
             </div>
             <div className="mt-10">
