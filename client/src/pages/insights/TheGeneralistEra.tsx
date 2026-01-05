@@ -70,7 +70,7 @@ export default function TheGeneralistEra() {
 
         {/* Article Content */}
         <div className="container mx-auto px-6 max-w-3xl">
-          <div className="prose prose-invert prose-xl max-w-none prose-headings:font-serif prose-headings:font-medium prose-p:text-neutral-300 prose-p:leading-relaxed prose-p:mb-8 prose-a:text-yellow-500 prose-a:no-underline hover:prose-a:underline prose-blockquote:border-l-yellow-500 prose-blockquote:text-white prose-blockquote:font-serif prose-blockquote:italic prose-strong:text-white prose-strong:font-medium">
+          <div className="prose prose-invert prose-xl max-w-none prose-headings:font-serif prose-headings:font-medium prose-p:text-neutral-300 prose-p:leading-relaxed prose-p:mb-16 prose-a:text-yellow-500 prose-a:no-underline hover:prose-a:underline prose-blockquote:border-l-yellow-500 prose-blockquote:text-white prose-blockquote:font-serif prose-blockquote:italic prose-strong:text-white prose-strong:font-medium">
             
             <p className="lead text-2xl md:text-3xl font-serif text-white leading-relaxed mb-12">
               Look, I'm going to tell you something that goes against basically everything you've heard about career advice.
