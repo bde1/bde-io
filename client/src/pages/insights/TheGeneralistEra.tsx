@@ -70,22 +70,14 @@ export default function TheGeneralistEra() {
 
         {/* Article Content */}
         <div className="container mx-auto px-6 max-w-3xl">
-          <div className="prose prose-invert prose-xl max-w-none prose-headings:font-serif prose-headings:font-medium prose-p:text-neutral-300 prose-p:leading-loose prose-p:mb-16 prose-a:text-yellow-500 prose-a:no-underline hover:prose-a:underline prose-blockquote:border-l-yellow-500 prose-blockquote:text-white prose-blockquote:font-serif prose-blockquote:italic prose-strong:text-white prose-strong:font-medium">
+          <div className="prose prose-invert prose-xl max-w-none prose-headings:font-serif prose-headings:font-medium prose-p:text-neutral-300 prose-p:leading-relaxed prose-p:mb-8 prose-a:text-yellow-500 prose-a:no-underline hover:prose-a:underline prose-blockquote:border-l-yellow-500 prose-blockquote:text-white prose-blockquote:font-serif prose-blockquote:italic prose-strong:text-white prose-strong:font-medium">
             
-            <p className="lead text-2xl md:text-3xl font-serif text-white leading-relaxed mb-20">
+            <p className="lead text-2xl md:text-3xl font-serif text-white leading-relaxed mb-12">
               Look, I'm going to tell you something that goes against basically everything you've heard about career advice.
             </p>
 
             <p>
-              Early in my career, someone I respected told me to pick one thing and get really, really good at it.
-            </p>
-
-            <p>
-              Specialize. Go deep. That was the path.
-            </p>
-
-            <p>
-              And honestly? It made sense at the time. Still makes sense for a lot of people.
+              Early in my career, someone I respected told me to pick one thing and get really, really good at it. Specialize. Go deep. That was the path. And honestly? It made sense at the time. Still makes sense for a lot of people.
             </p>
 
             <p>
@@ -93,11 +85,7 @@ export default function TheGeneralistEra() {
             </p>
 
             <p>
-              I kept wanting to learn about product. Then development. Then marketing. Then how communities actually work. Finance. Operations. All of it.
-            </p>
-
-            <p>
-              People definitely thought I was unfocused. Scattered, even. I get it. From the outside, it probably looked that way.
+              I kept wanting to learn about product. Then development. Then marketing. Then how communities actually work. Finance. Operations. All of it. People definitely thought I was unfocused. Scattered, even. I get it. From the outside, it probably looked that way.
             </p>
 
             <p>
@@ -113,15 +101,7 @@ export default function TheGeneralistEra() {
             </p>
 
             <p>
-              That copywriter who spent years getting great at their craft? AI writes stuff that's maybe 85% as good. In seconds.
-            </p>
-
-            <p>
-              The designer who put in a decade? AI makes designs that are close. Not perfect, but close.
-            </p>
-
-            <p>
-              Engineers with 15 years of experience? Same story.
+              That copywriter who spent years getting great at their craft? AI writes stuff that's maybe 85% as good. In seconds. The designer who put in a decade? AI makes designs that are close. Not perfect, but close. Engineers with 15 years of experience? Same story.
             </p>
 
             <p>
@@ -129,11 +109,7 @@ export default function TheGeneralistEra() {
             </p>
 
             <p>
-              I'm not trying to be dramatic here, but specialists are in trouble. Not "disrupted" trouble. Replaced trouble.
-            </p>
-
-            <p>
-              The ones who'll make it are already pivoting toward knowing more things, not just one thing better.
+              I'm not trying to be dramatic here, but specialists are in trouble. Not "disrupted" trouble. Replaced trouble. The ones who'll make it are already pivoting toward knowing more things, not just one thing better.
             </p>
 
             <p>
@@ -148,34 +124,18 @@ export default function TheGeneralistEra() {
               It can't choose.
             </p>
 
-            <hr className="border-white/10 my-20" />
+            <hr className="border-white/10 my-12" />
 
             <p>
-              I ran an experiment last month. Had GPT look at fifty different investment opportunities for a fund I work with.
+              I ran an experiment last month. Had GPT look at fifty different investment opportunities for a fund I work with. Every single analysis it gave me was solid. Logical. Well-argued. Looked great on paper.
             </p>
 
             <p>
-              Every single analysis it gave me was solid. Logical. Well-argued. Looked great on paper.
+              But it couldn't tell me which founder actually had that thing. You know what I mean? That fire. The one who's going to push through when everything falls apart. It couldn't pick up on the fact that a certain market was about to shift because of conversations I'd had that week with people in the space. It couldn't feel which opportunity had real edge versus which one was just... fine.
             </p>
 
             <p>
-              But it couldn't tell me which founder actually had that thing. You know what I mean? That fire. The one who's going to push through when everything falls apart.
-            </p>
-
-            <p>
-              It couldn't pick up on the fact that a certain market was about to shift because of conversations I'd had that week with people in the space.
-            </p>
-
-            <p>
-              It couldn't feel which opportunity had real edge versus which one was just... fine.
-            </p>
-
-            <p>
-              Here's the thing. AI doesn't lie awake at night wondering if it made the right call. It doesn't have anything on the line. No reputation. No consequences.
-            </p>
-
-            <p>
-              It just processes stuff and spits out answers.
+              Here's the thing. AI doesn't lie awake at night wondering if it made the right call. It doesn't have anything on the line. No reputation. No consequences. It just processes stuff and spits out answers.
             </p>
 
             <p>
@@ -187,11 +147,7 @@ export default function TheGeneralistEra() {
             </p>
 
             <p>
-              AI learns from what's out there. What's been written. Published. Documented.
-            </p>
-
-            <p>
-              But what about the stuff that's so specific, so niche, that it barely exists online? Maybe it's been mentioned five times total on the entire internet.
+              AI learns from what's out there. What's been written. Published. Documented. But what about the stuff that's so specific, so niche, that it barely exists online? Maybe it's been mentioned five times total on the entire internet.
             </p>
 
             <p>
@@ -199,14 +155,10 @@ export default function TheGeneralistEra() {
             </p>
 
             <p>
-              Someone who's spent ten years deep in a specific market knows things that have never been written down anywhere. The unspoken rules. The weird edge cases. The lessons from screwing up that only exist in their head.
+              Someone who's spent ten years deep in a specific market knows things that have never been written down anywhere. The unspoken rules. The weird edge cases. The lessons from screwing up that only exist in their head. AI will never have access to that. It literally can't.
             </p>
 
-            <p>
-              AI will never have access to that. It literally can't.
-            </p>
-
-            <hr className="border-white/10 my-20" />
+            <hr className="border-white/10 my-12" />
 
             <p>
               I didn't really get this next part until recently.
@@ -217,11 +169,7 @@ export default function TheGeneralistEra() {
             </p>
 
             <p>
-              Think about Elon and The Boring Company. He had zero background in tunneling. Zero.
-            </p>
-
-            <p>
-              Within months he was questioning assumptions that the industry had accepted for decades. Same thing happened with batteries at Tesla. With rockets at SpaceX.
+              Think about Elon and The Boring Company. He had zero background in tunneling. Zero. Within months he was questioning assumptions that the industry had accepted for decades. Same thing happened with batteries at Tesla. With rockets at SpaceX.
             </p>
 
             <p>
@@ -253,11 +201,7 @@ export default function TheGeneralistEra() {
             </p>
 
             <p>
-              Someone who understands multiple domains and uses AI? That's a multiplier.
-            </p>
-
-            <p>
-              A specialist using AI is just a slightly faster specialist. Still getting replaced.
+              Someone who understands multiple domains and uses AI? That's a multiplier. A specialist using AI is just a slightly faster specialist. Still getting replaced.
             </p>
 
             <p>
@@ -269,30 +213,18 @@ export default function TheGeneralistEra() {
             </p>
 
             <p>
-              Put AI against him in a strategic decision. AI generates a thousand options. Elon looks at them and knows which one actually matters.
+              Put AI against him in a strategic decision. AI generates a thousand options. Elon looks at them and knows which one actually matters. Because he's been through manufacturing disasters. He understands the physics in ways that aren't in any dataset. He's built multiple companies across totally different industries. He has made decisions that were seemingly "odd" at the time, that AI wouldn't necessarily be able to choose.
             </p>
 
             <p>
-              Because he's been through manufacturing disasters. He understands the physics in ways that aren't in any dataset. He's built multiple companies across totally different industries.
-            </p>
-
-            <p>
-              He has made decisions that were seemingly "odd" at the time, that AI wouldn't necessarily be able to choose.
-            </p>
-
-            <p>
-              Plus his network. He can call the best engineers in the world. Get information that isn't public.
-            </p>
-
-            <p>
-              But it's not just about information. It's about being able to run teams on rockets, cars, and brain interfaces all at the same time. Because he understands all of them well enough to actually direct them.
+              Plus his network. He can call the best engineers in the world. Get information that isn't public. But it's not just about information. It's about being able to run teams on rockets, cars, and brain interfaces all at the same time. Because he understands all of them well enough to actually direct them.
             </p>
 
             <p>
               AI loses that matchup every time. Not because it's dumb. Because Elon has stuff it can never have.
             </p>
 
-            <hr className="border-white/10 my-20" />
+            <hr className="border-white/10 my-12" />
 
             <p>
               I know what you're thinking. Cool, but I'm not Elon. What about normal people?
@@ -303,11 +235,7 @@ export default function TheGeneralistEra() {
             </p>
 
             <p>
-              You don't need to be world-class at forty five things. You need to be genuinely good at a few things.
-            </p>
-
-            <p>
-              Good enough to have real judgment. Good enough to catch when AI is wrong. Good enough to point it in the right direction.
+              You don't need to be world-class at forty five things. You need to be genuinely good at a few things. Good enough to have real judgment. Good enough to catch when AI is wrong. Good enough to point it in the right direction.
             </p>
 
             <p>
@@ -347,11 +275,7 @@ export default function TheGeneralistEra() {
             </p>
 
             <p>
-              If you're building your own career, start getting good at more than one thing. Focus on learning faster.
-            </p>
-
-            <p>
-              The goal isn't knowing a little about everything. It's being dangerous in several areas. Use AI to learn quicker, but don't let it replace your actual understanding.
+              If you're building your own career, start getting good at more than one thing. Focus on learning faster. The goal isn't knowing a little about everything. It's being dangerous in several areas. Use AI to learn quicker, but don't let it replace your actual understanding.
             </p>
 
             <p>
@@ -363,11 +287,7 @@ export default function TheGeneralistEra() {
             </p>
 
             <p>
-              The specialist era is winding down. The generalist era is starting.
-            </p>
-
-            <p>
-              Not because generalists know more than AI. But because they have real stakes. They learn fast. They have judgment and taste. They have knowledge from actually doing the work that doesn't exist anywhere else.
+              The specialist era is winding down. The generalist era is starting. Not because generalists know more than AI. But because they have real stakes. They learn fast. They have judgment and taste. They have knowledge from actually doing the work that doesn't exist anywhere else.
             </p>
 
             <p>
