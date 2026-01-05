@@ -124,8 +124,6 @@ export default function TheGeneralistEra() {
               It can't choose.
             </p>
 
-            <hr className="border-white/10 my-12" />
-
             <p>
               I ran an experiment last month. Had GPT look at fifty different investment opportunities for a fund I work with. Every single analysis it gave me was solid. Logical. Well-argued. Looked great on paper.
             </p>
@@ -155,10 +153,12 @@ export default function TheGeneralistEra() {
             </p>
 
             <p>
-              Someone who's spent ten years deep in a specific market knows things that have never been written down anywhere. The unspoken rules. The weird edge cases. The lessons from screwing up that only exist in their head. AI will never have access to that. It literally can't.
+              Someone who's spent ten years deep in a specific market knows things that have never been written down anywhere. The unspoken rules. The weird edge cases. The lessons from screwing up that only exist in their head.
             </p>
 
-            <hr className="border-white/10 my-12" />
+            <p>
+              AI will never have access to that. It literally can't.
+            </p>
 
             <p>
               I didn't really get this next part until recently.
@@ -177,11 +177,7 @@ export default function TheGeneralistEra() {
             </p>
 
             <p>
-              And here's the cool part. It compounds.
-            </p>
-
-            <p>
-              The more different things you learn, the faster you learn the next thing. You start seeing patterns. Principles that work across domains. You build this mental framework that speeds everything up.
+              And here's the cool part. It compounds. The more different things you learn, the faster you learn the next thing. You start seeing patterns. Principles that work across domains. You build this mental framework that speeds everything up.
             </p>
 
             <p>
@@ -189,7 +185,7 @@ export default function TheGeneralistEra() {
             </p>
 
             <p>
-              The question isn't whether AI can beat a person at strategy, etc. The question is whether a person using AI can beat a person not using AI.
+              The question isn't whether AI can beat a person at strategy, etc.. The question is whether a person using AI can beat a person not using AI.
             </p>
 
             <p>
@@ -223,8 +219,6 @@ export default function TheGeneralistEra() {
             <p>
               AI loses that matchup every time. Not because it's dumb. Because Elon has stuff it can never have.
             </p>
-
-            <hr className="border-white/10 my-12" />
 
             <p>
               I know what you're thinking. Cool, but I'm not Elon. What about normal people?
