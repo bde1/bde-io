@@ -234,96 +234,34 @@ export default function TheOnlyThingThatMatters() {
             </p>
 
             <p className={pStyle}>
-              Remember Yahoo? For a while, they were the internet. They had everything. Search, email, news, a massive global audience. They had more distribution than almost anyone. But what happened? A series of catastrophic data breaches. First 500 million users. Then it turned out to be 3 billion. All of their users. Their trust was completely vaporized. The company, once a titan, became a cautionary tale. Their brand, once synonymous with the internet itself, is now a punchline. All that distribution meant nothing when trust was gone.
+              So, if you’re building in the AI space, stop worrying about whether your model is slightly better than the next guy’s. It won’t be for long.
             </p>
 
             <p className={pStyle}>
-              Contrast that with a company like DuckDuckGo. They’re tiny compared to Google. Their search algorithm is probably not as “advanced.” But they have one thing Google is bleeding: trust. They built their entire brand on privacy. And they’re growing. Slowly, but surely. They’re building a real moat, one user at a time.
+              Start worrying about your distribution. Start worrying about your brand. Start worrying about earning the trust of your users.
             </p>
 
             <p className={pStyle}>
-              Or look at Apple. Say what you will about them, but they understood this early. They made privacy a selling point. A differentiator. While everyone else was racing to collect more data, Apple was running ads about how they don’t. That’s not just marketing. That’s a moat.
+              Because in the end, that’s the only thing that matters.
             </p>
 
-            <p className={pStyle}>
-              I can hear the counterargument already. “But Brian, a truly superior AI will just create better, more personalized experiences. It will know what I want before I do. That will win my trust.”
-            </p>
-
-            <p className={pStyle}>
-              Fair question.
-            </p>
-
-            <p className={pStyle}>
-              But that’s a dangerous game. That’s the siren song of convenience. It’s the idea that we’ll trade our privacy for a slightly better recommendation engine. And for a while, maybe we will. But it’s a short-term play. Because eventually, there will be a breach. There will be a scandal. There will be a moment when the curtain is pulled back, and we see just how much we’ve given away.
-            </p>
-
-            <p className={pStyle}>
-              And in that moment, trust will be shattered. And it will be almost impossible to get back.
-            </p>
-
-            <p className={pStyle}>
-              I’ve seen this play out. I advised another startup that had incredible personalization tech. They knew everything about their users. Shopping habits. Location data. Browsing history. The whole nine yards. And their recommendations were scary good. Users loved it. For a while.
-            </p>
-
-            <p className={pStyle}>
-              Then they had a data breach. Nothing catastrophic. No credit cards stolen. Just emails and some behavioral data. But it was enough. Users fled. The company never recovered. All that tech, all that personalization, meant nothing when trust was gone.
-            </p>
-
-            <p className={pStyle}>
-              I’m not saying AI isn’t a powerful tool. It is. But it’s a tool. It’s not the product. The product is the relationship you have with your audience. The product is the trust you’ve earned over time.
-            </p>
-
-            <p className={pStyle}>
-              The real winners in the AI era won’t be the companies with the best algorithms. They’ll be the ones with the biggest hearts. The ones who see their users as people, not data points. The ones who understand that trust is the only thing that matters.
-            </p>
-
-            <p className={pStyle}>
-              Steve Jobs understood this. He didn’t just sell computers. He sold a relationship. A promise. When you bought an Apple product, you were buying into a vision. You trusted that they had your back. That’s why people lined up around the block. That’s why they still do.
-            </p>
-
-            <p className={pStyle}>
-              So what does this mean for you? It means you need to stop chasing the latest shiny object. Stop worrying about whether you’re using the “best” AI model. And start focusing on what actually matters.
-            </p>
-
-            <p className={pStyle}>
-              Building your own distribution. Your own audience. Your own email list. Your own community. That means understanding marketing. It means understanding people. It means understanding culture. These are the skills that will matter in the age of AI. Not your ability to code.
-            </p>
-
-            <p className={pStyle}>
-              And earning their trust. Every single day.
-            </p>
-
-            <p className={pStyle}>
-              That means being transparent about how you use data. It means giving people control. It means treating privacy not as a legal requirement, but as a core value. It means showing up consistently, even when no one is watching.
-            </p>
-
-            <p className={pStyle}>
-              That’s the real work. That’s the hard part. And that’s the only thing that’s going to protect you when the AI tsunami hits.
-            </p>
-
-            <p className={pStyle}>
-              I learned this lesson by watching a brilliant team go down in flames. You don't have to learn it the same way.
-            </p>
-
-            <p className={pStyle}>
-              Great tech still matters. But great tech without distribution is just an expensive hobby. Distribution is the final moat.
-            </p>
-            
             <div className="mt-24 pt-12 border-t border-white/10">
-              <div className="flex items-center justify-between">
-                <div>
-                  <h4 className="text-white font-serif text-xl mb-2">Written by Brian D. Evans</h4>
-                  <p className="text-neutral-400 font-mono text-sm">Founder, BDE Ventures</p>
+              <div className="flex items-center gap-6">
+                <div className="h-16 w-16 rounded-full bg-neutral-800 overflow-hidden border border-white/10">
+                  <img 
+                    src="/images/brian-d-evans-portrait.webp" 
+                    alt="Brian D. Evans" 
+                    className="h-full w-full object-cover"
+                  />
                 </div>
-                <img 
-                  src="/images/signature.png" 
-                  alt="Brian D. Evans Signature" 
-                  className="h-16 opacity-50 invert"
-                  onError={(e) => e.currentTarget.style.display = 'none'}
-                />
+                <div>
+                  <div className="text-white font-serif text-xl mb-1">Brian D. Evans</div>
+                  <div className="text-neutral-400 text-sm font-mono uppercase tracking-widest">
+                    Founder, BDE Ventures
+                  </div>
+                </div>
               </div>
             </div>
-
         </div>
       </article>
     </Layout>
