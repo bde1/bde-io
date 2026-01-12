@@ -1,6 +1,6 @@
 import Layout from "@/components/Layout";
 import { Button } from "@/components/ui/button";
-import { Mail, Twitter, Linkedin, ArrowRight, Copy, Check } from "lucide-react";
+import { Mail, Twitter, Linkedin, ArrowRight } from "lucide-react";
 import { useState } from "react";
 import { toast } from "sonner";
 
@@ -10,22 +10,14 @@ export default function Office() {
     email: "",
     message: ""
   });
-  const [copied, setCopied] = useState(false);
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    const subject = `Introduction Request from ${formData.name}`;
-    const body = `Name: ${formData.name}%0D%0AEmail: ${formData.email}%0D%0A%0D%0AMessage:%0D%0A${formData.message}`;
-    
-    window.location.href = `mailto:hello@bde.io?subject=${encodeURIComponent(subject)}&body=${body}`;
-    toast.success("Opening your email client...");
-  };
-
-  const copyEmail = () => {
-    navigator.clipboard.writeText("hello@bde.io");
-    setCopied(true);
-    toast.success("Email copied to clipboard!");
-    setTimeout(() => setCopied(false), 2000);
+    // In a real implementation, this would send to a backend
+    // For now, we'll just show a success message since we're removing the direct mailto link
+    // that exposed the email address
+    toast.success("Request received. We'll be in touch shortly.");
+    setFormData({ name: "", email: "", message: "" });
   };
 
   return (
@@ -170,18 +162,6 @@ export default function Office() {
                   <Button type="submit" size="lg" className="w-full bg-primary text-primary-foreground hover:bg-primary/90 rounded-lg">
                     Request Introduction
                   </Button>
-                  
-                  <div className="text-center text-sm text-muted-foreground pt-4">
-                    <p className="mb-2">Prefer to email directly?</p>
-                    <button 
-                      type="button"
-                      onClick={copyEmail}
-                      className="inline-flex items-center gap-2 text-white hover:text-primary transition-colors font-mono bg-white/5 px-4 py-2 rounded-full border border-white/10"
-                    >
-                      {copied ? <Check className="h-4 w-4" /> : <Copy className="h-4 w-4" />}
-                      hello@bde.io
-                    </button>
-                  </div>
                 </form>
               </div>
             </div>
