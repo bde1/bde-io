@@ -71,7 +71,7 @@ export default function Office() {
                     loading="lazy"
                     width={600}
                     height={800}
-                    className="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-700"
+                    className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
                   />
                   <div className="absolute bottom-8 left-8 z-20">
                     <h2 className="text-3xl font-serif font-bold text-white mb-1">Brian D. Evans</h2>

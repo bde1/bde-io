@@ -118,7 +118,7 @@ export default function Home() {
                 loading="lazy"
                 width={600}
                 height={800}
-                className="w-full h-full object-cover object-top grayscale"
+                className="w-full h-full object-cover object-top transition-transform duration-700 hover:scale-105"
               />
             </div>
             <div>
