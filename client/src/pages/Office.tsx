@@ -63,10 +63,10 @@ export default function Office() {
             {/* Left Column: Image/Profile */}
             <div className="lg:col-span-5">
               <div className="sticky top-32">
-                <div className="relative aspect-[3/4] rounded-2xl overflow-hidden border border-white/10 mb-8 group">
+                <div className="relative aspect-[1651/1700] rounded-2xl overflow-hidden border border-white/10 mb-8 group">
                   <div className="absolute inset-0 bg-gradient-to-b from-transparent to-black/80 z-10" />
                   <img
-                    src="https://d2xsxph8kpxj0f.cloudfront.net/310519663077684115/nLNx4gEup6hKQEtExgUkNn/Brian_Turtleneck_6d010fb3.webp"
+                    src="https://d2xsxph8kpxj0f.cloudfront.net/310519663077684115/nLNx4gEup6hKQEtExgUkNn/Brian_Turtleneck_cropped_17b4b49c.webp"
                     alt="Brian D. Evans — Founder of BDE Ventures"
                     loading="lazy"
                     width={600}

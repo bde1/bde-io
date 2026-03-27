@@ -54,3 +54,10 @@
 - [ ] Initialize git repository
 - [ ] Create GitHub repository `bde-io`
 - [ ] Push code to GitHub
+
+## Image Cropping Updates
+- [ ] Crop Brian_Turtleneck.webp to remove the watch and Gemini logo at the bottom.
+- [ ] Upload the cropped image to CDN.
+- [ ] Update the image URL in Home.tsx and Office.tsx.
+- [ ] Adjust the aspect ratio of the image container in Office.tsx to match the new cropped image.
+- [ ] Save checkpoint and push to GitHub.
