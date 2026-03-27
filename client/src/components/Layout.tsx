@@ -1,7 +1,7 @@
 import { Link, useLocation } from "wouter";
 import { cn } from "@/lib/utils";
 import { Button } from "@/components/ui/button";
-import { Menu, X } from "lucide-react";
+import { Menu, X, Terminal } from "lucide-react";
 import { useState, useEffect, useCallback } from "react";
 import { LogoMark } from "@/components/LogoMark";
 
@@ -43,25 +43,38 @@ export default function Layout({ children }: LayoutProps) {
   const closeMobileMenu = useCallback(() => setMobileMenuOpen(false), []);
 
   return (
-    <div className="min-h-screen bg-background text-foreground flex flex-col font-sans">
+    <div className="min-h-screen bg-background text-foreground flex flex-col font-sans relative selection:bg-accent selection:text-background">
+      {/* Noise Overlay */}
+      <div className="noise-overlay" />
+
       {/* Skip to Content */}
       <a
         href="#main-content"
-        className="sr-only focus:not-sr-only focus:fixed focus:top-4 focus:left-4 focus:z-[60] focus:bg-primary focus:text-primary-foreground focus:px-4 focus:py-2 focus:rounded-lg focus:outline-none"
+        className="sr-only focus:not-sr-only focus:fixed focus:top-4 focus:left-4 focus:z-[60] focus:bg-accent focus:text-background focus:px-4 focus:py-2 focus:rounded-none focus:outline-none font-mono text-xs uppercase tracking-widest"
       >
-        Skip to content
+        [ Skip to content ]
       </a>
 
       {/* Navigation */}
       <header
         className={cn(
-          "fixed top-0 left-0 right-0 z-50 transition-all duration-500 border-b border-transparent",
-          isScrolled ? "bg-background/80 backdrop-blur-md border-white/5 py-4" : "bg-transparent py-6"
+          "fixed top-0 left-0 right-0 z-50 transition-all duration-500 border-b",
+          isScrolled ? "bg-background/90 backdrop-blur-md border-border py-4" : "bg-transparent border-transparent py-6"
         )}
       >
-        <div className="container flex items-center justify-between">
-          <Link href="/" className="hover:opacity-80 transition-opacity">
-            <LogoMark className="text-2xl tracking-tighter" />
+        <div className="container flex items-center justify-between relative">
+          {isScrolled && (
+            <>
+              <div className="crosshair-tl" />
+              <div className="crosshair-tr" />
+              <div className="crosshair-bl" />
+              <div className="crosshair-br" />
+            </>
+          )}
+          
+          <Link href="/" className="hover:opacity-80 transition-opacity flex items-center gap-3">
+            <Terminal className="w-5 h-5 text-accent" />
+            <span className="font-mono font-bold text-lg tracking-tighter uppercase">BDE.SYS</span>
           </Link>
 
           {/* Desktop Nav */}
@@ -71,26 +84,28 @@ export default function Layout({ children }: LayoutProps) {
                 key={link.href}
                 href={link.href}
                 className={cn(
-                  "text-sm font-medium tracking-wide transition-colors hover:text-primary",
-                  location === link.href ? "text-primary" : "text-muted-foreground"
+                  "text-xs font-mono uppercase tracking-widest transition-colors hover:text-accent relative group",
+                  location === link.href ? "text-accent" : "text-muted-foreground"
                 )}
               >
+                <span className="opacity-0 group-hover:opacity-100 transition-opacity mr-1 text-accent/50">[</span>
                 {link.label}
+                <span className="opacity-0 group-hover:opacity-100 transition-opacity ml-1 text-accent/50">]</span>
               </Link>
             ))}
             <Link href="/office#contact">
               <Button
                 variant="outline"
-                className="ml-4 border-primary/20 hover:bg-primary/10 hover:text-primary hover:border-primary/50 transition-all duration-300 text-xs font-semibold tracking-widest uppercase"
+                className="ml-4 border-border hover:bg-accent/10 hover:text-accent hover:border-accent transition-all duration-300 text-xs font-mono tracking-widest uppercase rounded-none"
               >
-                Request Access
+                [ Connect ]
               </Button>
             </Link>
           </nav>
 
           {/* Mobile Menu Toggle */}
           <button
-            className="md:hidden text-foreground"
+            className="md:hidden text-foreground hover:text-accent transition-colors"
             onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
             aria-label={mobileMenuOpen ? "Close navigation menu" : "Open navigation menu"}
             aria-expanded={mobileMenuOpen}
@@ -103,12 +118,21 @@ export default function Layout({ children }: LayoutProps) {
       {/* Mobile Menu Overlay */}
       {mobileMenuOpen && (
         <div
-          className="fixed inset-0 z-40 bg-background/95 backdrop-blur-xl flex flex-col items-center justify-center gap-8 md:hidden motion-safe:animate-in motion-safe:fade-in motion-safe:duration-200"
+          className="fixed inset-0 z-40 bg-background/95 backdrop-blur-xl flex flex-col items-center justify-center gap-8 md:hidden motion-safe:animate-in motion-safe:fade-in motion-safe:duration-200 border border-border m-4"
           onClick={closeMobileMenu}
           role="dialog"
           aria-modal="true"
           aria-label="Navigation menu"
         >
+          <div className="crosshair-tl" />
+          <div className="crosshair-tr" />
+          <div className="crosshair-bl" />
+          <div className="crosshair-br" />
+          
+          <div className="absolute top-4 left-4 text-accent font-mono text-xs">
+            SYS.NAV_ACTIVE
+          </div>
+
           <nav aria-label="Mobile navigation">
             <ul className="flex flex-col items-center gap-8">
               {navLinks.map((link) => (
@@ -117,8 +141,8 @@ export default function Layout({ children }: LayoutProps) {
                     href={link.href}
                     onClick={closeMobileMenu}
                     className={cn(
-                      "text-3xl font-serif font-medium transition-colors hover:text-primary",
-                      location === link.href ? "text-primary" : "text-muted-foreground"
+                      "text-2xl font-mono uppercase tracking-widest transition-colors hover:text-accent",
+                      location === link.href ? "text-accent" : "text-muted-foreground"
                     )}
                   >
                     {link.label}
@@ -129,9 +153,9 @@ export default function Layout({ children }: LayoutProps) {
                 <Link href="/office#contact" onClick={closeMobileMenu}>
                   <Button
                     variant="outline"
-                    className="mt-8 border-primary/50 text-primary hover:bg-primary/10 px-8 py-6 text-lg"
+                    className="mt-8 border-border text-primary hover:bg-accent/10 hover:text-accent hover:border-accent px-8 py-6 text-sm font-mono uppercase tracking-widest rounded-none"
                   >
-                    Request Access
+                    [ Connect ]
                   </Button>
                 </Link>
               </li>
@@ -141,28 +165,29 @@ export default function Layout({ children }: LayoutProps) {
       )}
 
       {/* Main Content */}
-      <main id="main-content" className="flex-grow pt-0">
+      <main id="main-content" className="flex-grow pt-0 relative z-10">
         {children}
       </main>
 
       {/* Footer */}
-      <footer className="border-t border-white/5 bg-black/40 py-20 mt-20">
-        <div className="container grid grid-cols-1 md:grid-cols-4 gap-12">
+      <footer className="border-t border-border bg-card/30 py-20 mt-20 relative z-10">
+        <div className="container grid grid-cols-1 md:grid-cols-4 gap-12 relative">
           <div className="col-span-1 md:col-span-2">
-            <div className="text-2xl mb-6">
-              <LogoMark />
+            <div className="flex items-center gap-3 mb-6">
+              <Terminal className="w-5 h-5 text-accent" />
+              <span className="font-mono font-bold text-lg tracking-tighter uppercase">BDE.SYS</span>
             </div>
-            <p className="text-muted-foreground max-w-md leading-relaxed">
-              The family office of Brian D. Evans. Partnering with exceptional founders building the critical infrastructure for the next generation of the internet.
+            <p className="text-muted-foreground font-mono text-sm max-w-md leading-relaxed">
+              &gt; The family office of Brian D. Evans. Partnering with exceptional founders building the critical infrastructure for the next generation of the internet.
             </p>
           </div>
 
           <nav aria-label="Footer sitemap">
-            <h3 className="text-xs font-semibold uppercase tracking-widest text-muted-foreground mb-6">Sitemap</h3>
+            <h3 className="text-xs font-mono uppercase tracking-widest text-accent mb-6">[ Sitemap ]</h3>
             <ul className="space-y-4">
               {navLinks.map((link) => (
                 <li key={link.href}>
-                  <Link href={link.href} className="text-sm hover:text-primary transition-colors">
+                  <Link href={link.href} className="text-sm font-mono text-muted-foreground hover:text-accent transition-colors">
                     {link.label}
                   </Link>
                 </li>
@@ -171,14 +196,14 @@ export default function Layout({ children }: LayoutProps) {
           </nav>
 
           <nav aria-label="Footer connect">
-            <h3 className="text-xs font-semibold uppercase tracking-widest text-muted-foreground mb-6">Connect</h3>
+            <h3 className="text-xs font-mono uppercase tracking-widest text-accent mb-6">[ Connect ]</h3>
             <ul className="space-y-4">
               <li>
                 <a
                   href="https://x.com/briandevans"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-sm hover:text-primary transition-colors"
+                  className="text-sm font-mono text-muted-foreground hover:text-accent transition-colors"
                 >
                   Twitter / X
                 </a>
@@ -188,24 +213,24 @@ export default function Layout({ children }: LayoutProps) {
                   href="https://www.linkedin.com/in/briandevansla/"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-sm hover:text-primary transition-colors"
+                  className="text-sm font-mono text-muted-foreground hover:text-accent transition-colors"
                 >
                   LinkedIn
                 </a>
               </li>
               <li>
-                <Link href="/office#contact" className="text-sm hover:text-primary transition-colors">
+                <Link href="/office#contact" className="text-sm font-mono text-muted-foreground hover:text-accent transition-colors">
                   Contact
                 </Link>
               </li>
             </ul>
           </nav>
         </div>
-        <div className="container mt-20 pt-8 border-t border-white/5 flex flex-col md:flex-row justify-between items-center gap-4 text-xs text-muted-foreground">
-          <p>&copy; {new Date().getFullYear()} BDE Ventures. All rights reserved.</p>
+        <div className="container mt-20 pt-8 border-t border-border flex flex-col md:flex-row justify-between items-center gap-4 text-xs font-mono text-muted-foreground">
+          <p>SYS.STATUS: ONLINE // &copy; {new Date().getFullYear()} BDE Ventures.</p>
           <div className="flex gap-8">
-            <span className="text-muted-foreground/60">Privacy Policy</span>
-            <span className="text-muted-foreground/60">Terms of Service</span>
+            <span className="hover:text-accent cursor-pointer transition-colors">Privacy Policy</span>
+            <span className="hover:text-accent cursor-pointer transition-colors">Terms of Service</span>
           </div>
         </div>
       </footer>

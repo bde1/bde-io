@@ -61,3 +61,31 @@
 - [ ] Update the image URL in Home.tsx and Office.tsx.
 - [ ] Adjust the aspect ratio of the image container in Office.tsx to match the new cropped image.
 - [ ] Save checkpoint and push to GitHub.
+
+## Dapper Tech Lab Redesign
+- [ ] Create a new SVG render based on the "Dapper Tech Lab" aesthetic (sleek, dark mode, precise grid lines, technical monospace fonts, sharp geometric sans-serifs, subtle electric/neon accents).
+- [ ] Convert the new SVG to PNG.
+- [ ] Send the new render to the user for approval.
+- [ ] Implement the approved design in code.
+
+## Refined Dapper Tech Lab Redesign
+- [ ] Remove cliché AI tropes (SYS.INIT, 01/02 numbering, latency readouts).
+- [ ] Update copy to focus on "Capital with Conviction" and advisory rather than "institutional checks".
+- [ ] Add credibility logos to the render.
+- [ ] Add founder headshot and mini-bio to the render.
+- [ ] Create refined SVG render and convert to PNG.
+- [ ] Send the refined render to the user for approval.
+- [ ] Implement the approved design in code.
+
+## Premium Dapper Tech Lab Render
+- [ ] Add atmospheric glow/radial gradients to simulate depth.
+- [ ] Add precision crosshairs at corners of containers.
+- [ ] Enhance contrast and texture simulation in the SVG.
+- [ ] Convert to PNG and send to user.
+
+## Code Implementation: Dapper Tech Lab
+- [ ] Update `index.html` with new Google Fonts (Space Grotesk, JetBrains Mono).
+- [ ] Update `index.css` with new color palette, grid background, and animations.
+- [ ] Implement new design in `Home.tsx` (Hero, Credibility Logos, Approach, Areas of Focus).
+- [ ] Implement new design in `Office.tsx` (Founder Section with crosshairs and glows).
+- [ ] Add interactive elements (hover states, parallax grid, entrance animations).
