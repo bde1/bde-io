@@ -1,7 +1,7 @@
 import Layout from "@/components/Layout";
 import { SEO } from "@/components/SEO";
 import { Button } from "@/components/ui/button";
-import { ArrowRight, Terminal } from "lucide-react";
+import { ArrowRight } from "lucide-react";
 import { Link } from "wouter";
 
 export default function Home() {
@@ -35,7 +35,7 @@ export default function Home() {
           </h1>
 
           <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mb-12 leading-relaxed font-mono">
-            &gt; We provide operator-led advisory for founders and leadership teams building at the intersection of technology, blockchain, and culture.
+            We provide operator-led advisory for founders and leadership teams building at the intersection of technology, blockchain, and culture.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-6">
@@ -57,7 +57,7 @@ export default function Home() {
       <section className="py-12 border-y border-border bg-card/30 backdrop-blur-sm relative">
         <div className="container max-w-6xl mx-auto px-4">
           <div className="flex flex-col md:flex-row items-center justify-between gap-8">
-            <p className="text-xs font-mono tracking-widest uppercase text-muted-foreground">As Seen In // </p>
+            <p className="text-xs font-mono tracking-widest uppercase text-muted-foreground">As Seen In</p>
             <div className="flex flex-wrap items-center justify-center gap-12 md:gap-20 opacity-50 grayscale hover:grayscale-0 transition-all duration-500">
               <span className="text-2xl md:text-3xl font-serif italic text-primary">Forbes</span>
               <span className="text-3xl md:text-4xl font-serif font-black italic text-primary leading-none">Inc.</span>
@@ -78,9 +78,8 @@ export default function Home() {
               <div className="crosshair-bl" />
               <div className="crosshair-br" />
               
-              <div className="flex items-center gap-2 mb-8 text-accent font-mono text-sm">
-                <Terminal className="w-4 h-4" />
-                <span>SYS.PHILOSOPHY</span>
+              <div className="flex items-center gap-2 mb-8 text-accent font-mono text-sm uppercase tracking-widest">
+                <span>Philosophy</span>
               </div>
               
               <h2 className="text-4xl md:text-5xl font-bold mb-8 leading-tight text-primary">
@@ -137,8 +136,8 @@ export default function Home() {
                 loading="lazy"
                 className="w-full h-full object-cover object-top filter grayscale hover:grayscale-0 transition-all duration-700"
               />
-              <div className="absolute bottom-4 right-4 bg-background/80 backdrop-blur-md border border-border px-3 py-1 font-mono text-xs text-accent">
-                ID: BDE_FOUNDER
+              <div className="absolute bottom-4 right-4 bg-background/80 backdrop-blur-md border border-border px-3 py-1 font-mono text-xs text-accent uppercase tracking-widest">
+                Brian D. Evans
               </div>
             </div>
             
@@ -148,9 +147,8 @@ export default function Home() {
               <div className="crosshair-bl" />
               <div className="crosshair-br" />
               
-              <div className="flex items-center gap-2 mb-8 text-accent font-mono text-sm">
-                <Terminal className="w-4 h-4" />
-                <span>DIR.LEADERSHIP</span>
+              <div className="flex items-center gap-2 mb-8 text-accent font-mono text-sm uppercase tracking-widest">
+                <span>Leadership</span>
               </div>
               
               <h2 className="text-5xl md:text-6xl font-bold mb-8 leading-tight text-primary uppercase tracking-tighter">Brian D. Evans</h2>
@@ -183,17 +181,17 @@ export default function Home() {
             
             <h2 className="text-4xl md:text-5xl font-bold mb-6 text-primary uppercase tracking-tighter">Ready to <span className="text-accent">connect</span>?</h2>
             <p className="text-lg text-muted-foreground mb-10 font-mono text-sm max-w-xl mx-auto">
-              &gt; We work with a small number of exceptional teams each year. If you're building something that matters, we'd like to hear from you.
+              We work with a small number of exceptional teams each year. If you're building something that matters, we'd like to hear from you.
             </p>
             <div className="flex flex-col sm:flex-row justify-center gap-6">
               <Link href="/office#contact">
                 <Button size="lg" className="h-14 px-10 text-base bg-primary text-primary-foreground hover:bg-primary/90 rounded-none font-mono uppercase tracking-wider">
-                  Initialize Contact
+                  Get in Touch
                 </Button>
               </Link>
               <Link href="/office">
                 <Button size="lg" variant="outline" className="h-14 px-10 text-base border-border hover:bg-accent/10 hover:text-accent hover:border-accent rounded-none font-mono uppercase tracking-wider transition-colors">
-                  View Office Specs
+                  The Office
                 </Button>
               </Link>
             </div>

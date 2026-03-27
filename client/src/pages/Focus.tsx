@@ -1,7 +1,7 @@
 import Layout from "@/components/Layout";
 import { SEO } from "@/components/SEO";
 import { Button } from "@/components/ui/button";
-import { ArrowRight, Terminal } from "lucide-react";
+import { ArrowRight } from "lucide-react";
 import { Link } from "wouter";
 
 export default function Focus() {
@@ -19,9 +19,8 @@ export default function Focus() {
         <div className="absolute inset-0 glow-hero z-0 opacity-30" />
         
         <div className="container relative z-10 max-w-4xl mx-auto px-4">
-          <div className="inline-flex items-center gap-2 mb-8 text-accent font-mono text-sm px-4 py-2 border border-border bg-card/30">
-            <Terminal className="w-4 h-4" />
-            <span>SYS.FOCUS_AREAS</span>
+          <div className="inline-flex items-center gap-2 mb-8 text-accent font-mono text-sm px-4 py-2 border border-border bg-card/30 uppercase tracking-widest">
+            <span>Focus Areas</span>
           </div>
           
           <h1 className="text-5xl md:text-7xl font-bold mb-12 leading-tight text-primary uppercase tracking-tighter">
@@ -31,7 +30,7 @@ export default function Focus() {
 
           <div className="mb-16">
             <p className="text-xl text-muted-foreground font-mono leading-relaxed border-l-2 border-accent pl-6">
-              &gt; We don't just follow the trends; we've been shaping them for over a decade. Our advisory is grounded in a deep, nuanced understanding of the forces that will define the next generation of the internet.
+              We don't just follow the trends; we've been shaping them for over a decade. Our advisory is grounded in a deep, nuanced understanding of the forces that will define the next generation of the internet.
             </p>
           </div>
 
@@ -66,10 +65,7 @@ export default function Focus() {
                 
                 <div className="absolute left-0 top-0 w-1 h-full bg-accent scale-y-0 group-hover:scale-y-100 transition-transform origin-top" />
                 
-                <div className="flex flex-col md:flex-row gap-6 md:gap-8">
-                  <div className="font-mono text-accent/50 font-bold text-2xl group-hover:text-accent transition-colors">
-                    [{item.id}]
-                  </div>
+                <div className="flex flex-col gap-6">
                   <div>
                     <h2 className="text-2xl font-bold mb-4 text-primary uppercase tracking-wider">{item.title}</h2>
                     <p className="text-muted-foreground font-mono text-sm leading-relaxed">
@@ -89,11 +85,11 @@ export default function Focus() {
             
             <div>
               <h2 className="text-2xl font-bold mb-2 text-primary uppercase tracking-wider">Building in these areas?</h2>
-              <p className="text-muted-foreground font-mono text-sm">&gt; We are actively seeking new partners.</p>
+              <p className="text-muted-foreground font-mono text-sm">We are actively seeking new partners.</p>
             </div>
             <Link href="/office#contact">
               <Button size="lg" className="bg-primary text-primary-foreground hover:bg-primary/90 rounded-none font-mono uppercase tracking-wider h-14 px-8 whitespace-nowrap">
-                Establish Connection <ArrowRight className="ml-2 h-4 w-4" />
+                Get in Touch <ArrowRight className="ml-2 h-4 w-4" />
               </Button>
             </Link>
           </div>

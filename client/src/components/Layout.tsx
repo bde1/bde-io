@@ -52,7 +52,7 @@ export default function Layout({ children }: LayoutProps) {
         href="#main-content"
         className="sr-only focus:not-sr-only focus:fixed focus:top-4 focus:left-4 focus:z-[60] focus:bg-accent focus:text-background focus:px-4 focus:py-2 focus:rounded-none focus:outline-none font-mono text-xs uppercase tracking-widest"
       >
-        [ Skip to content ]
+        Skip to content
       </a>
 
       {/* Navigation */}
@@ -74,7 +74,7 @@ export default function Layout({ children }: LayoutProps) {
           
           <Link href="/" className="hover:opacity-80 transition-opacity flex items-center gap-3">
             <Terminal className="w-5 h-5 text-accent" />
-            <span className="font-mono font-bold text-lg tracking-tighter uppercase">BDE.SYS</span>
+            <span className="font-mono font-bold text-lg tracking-tighter uppercase">BDE</span>
           </Link>
 
           {/* Desktop Nav */}
@@ -88,9 +88,7 @@ export default function Layout({ children }: LayoutProps) {
                   location === link.href ? "text-accent" : "text-muted-foreground"
                 )}
               >
-                <span className="opacity-0 group-hover:opacity-100 transition-opacity mr-1 text-accent/50">[</span>
                 {link.label}
-                <span className="opacity-0 group-hover:opacity-100 transition-opacity ml-1 text-accent/50">]</span>
               </Link>
             ))}
             <Link href="/office#contact">
@@ -98,7 +96,7 @@ export default function Layout({ children }: LayoutProps) {
                 variant="outline"
                 className="ml-4 border-border hover:bg-accent/10 hover:text-accent hover:border-accent transition-all duration-300 text-xs font-mono tracking-widest uppercase rounded-none"
               >
-                [ Connect ]
+                Connect
               </Button>
             </Link>
           </nav>
@@ -129,9 +127,7 @@ export default function Layout({ children }: LayoutProps) {
           <div className="crosshair-bl" />
           <div className="crosshair-br" />
           
-          <div className="absolute top-4 left-4 text-accent font-mono text-xs">
-            SYS.NAV_ACTIVE
-          </div>
+          
 
           <nav aria-label="Mobile navigation">
             <ul className="flex flex-col items-center gap-8">
@@ -155,7 +151,7 @@ export default function Layout({ children }: LayoutProps) {
                     variant="outline"
                     className="mt-8 border-border text-primary hover:bg-accent/10 hover:text-accent hover:border-accent px-8 py-6 text-sm font-mono uppercase tracking-widest rounded-none"
                   >
-                    [ Connect ]
+                    Connect
                   </Button>
                 </Link>
               </li>
@@ -175,15 +171,15 @@ export default function Layout({ children }: LayoutProps) {
           <div className="col-span-1 md:col-span-2">
             <div className="flex items-center gap-3 mb-6">
               <Terminal className="w-5 h-5 text-accent" />
-              <span className="font-mono font-bold text-lg tracking-tighter uppercase">BDE.SYS</span>
+              <span className="font-mono font-bold text-lg tracking-tighter uppercase">BDE</span>
             </div>
             <p className="text-muted-foreground font-mono text-sm max-w-md leading-relaxed">
-              &gt; The family office of Brian D. Evans. Partnering with exceptional founders building the critical infrastructure for the next generation of the internet.
+              The family office of Brian D. Evans. Partnering with exceptional founders building the critical infrastructure for the next generation of the internet.
             </p>
           </div>
 
           <nav aria-label="Footer sitemap">
-            <h3 className="text-xs font-mono uppercase tracking-widest text-accent mb-6">[ Sitemap ]</h3>
+            <h3 className="text-xs font-mono uppercase tracking-widest text-accent mb-6">Sitemap</h3>
             <ul className="space-y-4">
               {navLinks.map((link) => (
                 <li key={link.href}>
@@ -196,7 +192,7 @@ export default function Layout({ children }: LayoutProps) {
           </nav>
 
           <nav aria-label="Footer connect">
-            <h3 className="text-xs font-mono uppercase tracking-widest text-accent mb-6">[ Connect ]</h3>
+            <h3 className="text-xs font-mono uppercase tracking-widest text-accent mb-6">Connect</h3>
             <ul className="space-y-4">
               <li>
                 <a
@@ -227,7 +223,7 @@ export default function Layout({ children }: LayoutProps) {
           </nav>
         </div>
         <div className="container mt-20 pt-8 border-t border-border flex flex-col md:flex-row justify-between items-center gap-4 text-xs font-mono text-muted-foreground">
-          <p>SYS.STATUS: ONLINE // &copy; {new Date().getFullYear()} BDE Ventures.</p>
+          <p>&copy; {new Date().getFullYear()} BDE Ventures.</p>
           <div className="flex gap-8">
             <span className="hover:text-accent cursor-pointer transition-colors">Privacy Policy</span>
             <span className="hover:text-accent cursor-pointer transition-colors">Terms of Service</span>

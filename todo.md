@@ -89,3 +89,11 @@
 - [ ] Implement new design in `Home.tsx` (Hero, Credibility Logos, Approach, Areas of Focus).
 - [ ] Implement new design in `Office.tsx` (Founder Section with crosshairs and glows).
 - [ ] Add interactive elements (hover states, parallax grid, entrance animations).
+
+## Remove AI Slop
+- [ ] Audit and clean Layout.tsx (remove BDE.SYS, //, etc.)
+- [ ] Audit and clean Home.tsx (remove >_, SYS., DIR., ID:BDE_FOUNDER, //, etc.)
+- [ ] Audit and clean Office.tsx (remove AI tropes, numbered lists, etc.)
+- [ ] Audit and clean Approach.tsx (remove AI tropes, numbered lists, etc.)
+- [ ] Audit and clean Focus.tsx (remove AI tropes, numbered lists, etc.)
+- [ ] Review all copy for generic AI template language

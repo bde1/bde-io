@@ -45,7 +45,7 @@ export default function Office() {
     setIsSubmitting(false);
     setFormState({ name: "", email: "", message: "" });
     setErrors({});
-    toast.success("Transmission successful. We will respond shortly.");
+    toast.success("Message sent successfully. We will respond shortly.");
   };
 
   return (
@@ -79,8 +79,8 @@ export default function Office() {
                     className="w-full h-full object-cover filter grayscale group-hover:grayscale-0 transition-all duration-700"
                   />
                   
-                  <div className="absolute bottom-4 right-4 bg-background/90 backdrop-blur-md border border-border px-3 py-1 font-mono text-xs text-accent">
-                    ID: BDE_FOUNDER
+                  <div className="absolute bottom-4 right-4 bg-background/90 backdrop-blur-md border border-border px-3 py-1 font-mono text-xs text-accent uppercase tracking-widest">
+                    Brian D. Evans
                   </div>
                 </div>
 
@@ -116,9 +116,8 @@ export default function Office() {
 
             {/* Right Column: Content */}
             <div className="lg:col-span-7">
-              <div className="inline-flex items-center gap-2 mb-8 text-accent font-mono text-sm px-4 py-2 border border-border bg-card/30">
-                <Terminal className="w-4 h-4" />
-                <span>SYS.OFFICE_PROFILE</span>
+              <div className="inline-flex items-center gap-2 mb-8 text-accent font-mono text-sm px-4 py-2 border border-border bg-card/30 uppercase tracking-widest">
+                <span>Profile</span>
               </div>
               
               <h1 className="text-5xl md:text-6xl font-bold mb-12 leading-tight text-primary uppercase tracking-tighter">
@@ -127,7 +126,7 @@ export default function Office() {
 
               <div className="space-y-8 text-muted-foreground font-mono text-sm leading-relaxed">
                 <p className="text-lg text-primary border-l-2 border-accent pl-4">
-                  &gt; BDE is the single-family office of Brian D. Evans. We are operators first, investors second.
+                  BDE is the single-family office of Brian D. Evans. We are operators first, investors second.
                 </p>
 
                 <p>
@@ -141,9 +140,8 @@ export default function Office() {
                 </p>
 
                 <div className="mt-16 mb-8">
-                  <div className="flex items-center gap-2 mb-6 text-accent font-mono text-sm">
-                    <Terminal className="w-4 h-4" />
-                    <span>SYS.ACCOLADES</span>
+                  <div className="flex items-center gap-2 mb-6 text-accent font-mono text-sm uppercase tracking-widest">
+                    <span>Accolades</span>
                   </div>
                   <ul className="space-y-4 list-none pl-0">
                     {[
@@ -163,9 +161,8 @@ export default function Office() {
                 </div>
 
                 <div className="mt-16 mb-8">
-                  <div className="flex items-center gap-2 mb-6 text-accent font-mono text-sm">
-                    <Terminal className="w-4 h-4" />
-                    <span>SYS.PHILOSOPHY</span>
+                  <div className="flex items-center gap-2 mb-6 text-accent font-mono text-sm uppercase tracking-widest">
+                    <span>Philosophy</span>
                   </div>
                   <blockquote className="p-6 border border-border bg-card/30 text-primary/90 italic relative">
                     <div className="crosshair-tl" />
@@ -176,20 +173,20 @@ export default function Office() {
               </div>
 
               <div ref={contactRef} id="contact" className="mt-24 pt-16 border-t border-border scroll-mt-32 relative">
-                <div className="absolute top-0 left-1/2 -translate-x-1/2 -translate-y-1/2 bg-background px-4 text-accent font-mono text-xs">
-                  [ INITIALIZE_CONTACT ]
+                <div className="absolute top-0 left-1/2 -translate-x-1/2 -translate-y-1/2 bg-background px-4 text-accent font-mono text-xs uppercase tracking-widest">
+                  Contact
                 </div>
                 
                 <h2 className="text-3xl font-bold mb-6 text-primary uppercase tracking-tighter">Establish Connection</h2>
                 <p className="text-muted-foreground mb-8 font-mono text-sm">
-                  &gt; We partner with a select number of teams each year. If you are a founder or leader working on a generational challenge in our areas of focus, we invite you to reach out.
+                  We partner with a select number of teams each year. If you are a founder or leader working on a generational challenge in our areas of focus, we invite you to reach out.
                 </p>
 
                 <form onSubmit={handleSubmit} className="space-y-6" noValidate>
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                     <div className="space-y-2">
                       <label htmlFor="contact-name" className="text-xs font-mono uppercase tracking-widest text-accent">
-                        [ Name ]
+                        Name
                       </label>
                       <input
                         id="contact-name"
@@ -203,7 +200,7 @@ export default function Office() {
                     </div>
                     <div className="space-y-2">
                       <label htmlFor="contact-email" className="text-xs font-mono uppercase tracking-widest text-accent">
-                        [ Email ]
+                        Email
                       </label>
                       <input
                         id="contact-email"
@@ -218,7 +215,7 @@ export default function Office() {
                   </div>
                   <div className="space-y-2">
                     <label htmlFor="contact-message" className="text-xs font-mono uppercase tracking-widest text-accent">
-                      [ Transmission ]
+                      Message
                     </label>
                     <textarea
                       id="contact-message"
@@ -236,7 +233,7 @@ export default function Office() {
                     disabled={isSubmitting}
                     className="w-full bg-primary text-primary-foreground hover:bg-primary/90 rounded-none font-mono uppercase tracking-wider h-14 disabled:opacity-50"
                   >
-                    {isSubmitting ? "Transmitting..." : "Send Transmission"}
+                    {isSubmitting ? "Sending..." : "Send Message"}
                   </Button>
                 </form>
               </div>
