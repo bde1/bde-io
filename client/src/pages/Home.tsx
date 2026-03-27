@@ -113,7 +113,7 @@ export default function Home() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
             <div className="relative aspect-square max-w-md mx-auto lg:mx-0 rounded-2xl overflow-hidden border border-white/10">
               <img
-                src="/images/brian-turtleneck.jpg"
+                src="https://d2xsxph8kpxj0f.cloudfront.net/310519663077684115/nLNx4gEup6hKQEtExgUkNn/Brian_Turtleneck_6d010fb3.webp"
                 alt="Brian D. Evans — Founder of BDE Ventures"
                 loading="lazy"
                 width={600}

@@ -66,7 +66,7 @@ export default function Office() {
                 <div className="relative aspect-[3/4] rounded-2xl overflow-hidden border border-white/10 mb-8 group">
                   <div className="absolute inset-0 bg-gradient-to-b from-transparent to-black/80 z-10" />
                   <img
-                    src="/images/brian-turtleneck.jpg"
+                    src="https://d2xsxph8kpxj0f.cloudfront.net/310519663077684115/nLNx4gEup6hKQEtExgUkNn/Brian_Turtleneck_6d010fb3.webp"
                     alt="Brian D. Evans — Founder of BDE Ventures"
                     loading="lazy"
                     width={600}
