@@ -139,6 +139,18 @@ export default function Office() {
                   We don't just read the whitepaper; we understand the go-to-market. We don't just look at the cap table; we look at the community. When we partner with a founder, we bring the scars, the network, and the playbook of someone who has actually built.
                 </p>
 
+                <div className="pt-8 border-t border-border/50 mt-8">
+                  <p className="mb-8">
+                    Brian D. Evans is an Inc. 500 entrepreneur, angel investor, and seasoned strategic advisor who has spent his career building at the intersection of emerging technology and digital marketing. He built one of the top digital marketing agencies in the world and achieved multiple successful exits across media, eCom, and tech, earning recognition from Forbes, Entrepreneur, and Inc., along with multiple 40 Under 40 honors.
+                  </p>
+                  <p className="mb-8">
+                    He is a blockchain pioneer who entered the space early, backed category-defining projects, and contributed to the broader shift toward web3. As founder of BDE Ventures, he leads a private investment firm focused on blockchain, web3, AI, and entertainment, supporting founders working on the next wave of digital infrastructure. To date, the firm has helped raise more than $100M in capital.
+                  </p>
+                  <p>
+                    His work has reached more than 100 million people, including running massive marketing campaigns for some of the world's biggest brands, such as Netflix in their early days. He appeared as a judge on a TV series evaluating high-growth startups and has served on multiple advisory boards, helping founders navigate fundraising and strategic growth. Across platforms, he has built an audience of over one million followers.
+                  </p>
+                </div>
+
                 <div className="mt-16 mb-8">
                   <div className="flex items-center gap-2 mb-6 text-accent font-mono text-sm uppercase tracking-widest">
                     <span>Accolades</span>

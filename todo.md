@@ -97,3 +97,12 @@
 - [ ] Audit and clean Approach.tsx (remove AI tropes, numbered lists, etc.)
 - [ ] Audit and clean Focus.tsx (remove AI tropes, numbered lists, etc.)
 - [ ] Review all copy for generic AI template language
+
+## Parallax Effect
+- [ ] Investigate how the grid background is currently implemented (CSS, Tailwind, etc.)
+- [ ] Implement a subtle parallax effect on the grid background
+- [ ] Test the parallax effect across different pages
+- [ ] Save checkpoint and push to GitHub
+
+## Bio Update
+- [ ] Append Brian's original bio to the current copy on the Office page
