@@ -1,203 +1,183 @@
 import Layout from "@/components/Layout";
 import { SEO } from "@/components/SEO";
-import { Button } from "@/components/ui/button";
-import { ArrowRight } from "lucide-react";
 import { Link } from "wouter";
+import { ArrowRight, Hexagon, Brain, Cog } from "lucide-react";
 
 export default function Home() {
   return (
     <Layout>
       <SEO
         title="BDE Ventures | Family Office of Brian D. Evans"
-        description="BDE is the family office of Brian D. Evans. We provide operator-led advisory for founders building at the intersection of technology, blockchain, and culture."
+        description="BDE is the family office of Brian D. Evans. We provide operator-led advisory for founders building at the intersection of technology, blockchain, and AI."
       />
 
-      {/* Noise Overlay */}
-      <div className="noise-overlay" />
-
-      {/* Hero Section */}
-      <section className="relative min-h-screen flex items-center justify-center overflow-hidden pt-20 bg-grid-pattern">
-        <div className="absolute inset-0 glow-hero z-0" />
-        
-        <div className="container relative z-10 flex flex-col items-start max-w-6xl mx-auto px-4">
-          <div className="inline-flex items-center gap-3 px-4 py-2 border border-border bg-card/50 backdrop-blur-sm mb-12 relative">
-            <div className="crosshair-tl" />
-            <div className="crosshair-tr" />
-            <div className="crosshair-bl" />
-            <div className="crosshair-br" />
-            <div className="w-2 h-2 bg-accent rounded-none animate-pulse" />
-            <span className="text-xs font-mono tracking-widest text-accent uppercase">Strategic Advisory Active</span>
-          </div>
-
-          <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold tracking-tighter leading-[1.1] mb-8 text-primary max-w-5xl">
-            Guidance for the <br />
-            <span className="text-accent">architects</span> of tomorrow.
-          </h1>
-
-          <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mb-12 leading-relaxed font-mono">
-            We provide operator-led advisory for founders and leadership teams building at the intersection of technology, blockchain, and culture.
-          </p>
-
-          <div className="flex flex-col sm:flex-row gap-6">
-            <Link href="/focus">
-              <Button size="lg" className="h-14 px-8 text-base bg-primary text-primary-foreground hover:bg-primary/90 rounded-none font-mono uppercase tracking-wider">
-                Explore Focus <ArrowRight className="ml-2 h-4 w-4" />
-              </Button>
-            </Link>
-            <Link href="/approach">
-              <Button size="lg" variant="outline" className="h-14 px-8 text-base border-border hover:bg-accent/10 hover:text-accent hover:border-accent rounded-none font-mono uppercase tracking-wider transition-colors">
-                Our Approach
-              </Button>
-            </Link>
-          </div>
-        </div>
-      </section>
-
-      {/* As Featured In */}
-      <section className="py-12 border-y border-border bg-card/30 backdrop-blur-sm relative">
-        <div className="container max-w-6xl mx-auto px-4">
-          <div className="flex flex-col md:flex-row items-center justify-between gap-8">
-            <p className="text-xs font-mono tracking-widest uppercase text-muted-foreground">As Seen In</p>
-            <div className="flex flex-wrap items-center justify-center gap-12 md:gap-20 opacity-50 grayscale hover:grayscale-0 transition-all duration-500">
-              <span className="text-2xl md:text-3xl font-serif italic text-primary">Forbes</span>
-              <span className="text-3xl md:text-4xl font-serif font-black italic text-primary leading-none">Inc.</span>
-              <span className="text-xl md:text-2xl font-sans font-light tracking-wide text-primary">Entrepreneur</span>
-              <span className="text-xl md:text-2xl font-sans font-bold text-primary tracking-tight">Rolling Stone</span>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Philosophy */}
-      <section className="py-32 relative bg-grid-pattern">
-        <div className="container max-w-6xl mx-auto px-4">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-start">
-            <div className="relative p-8 border border-border bg-card/50 backdrop-blur-sm">
-              <div className="crosshair-tl" />
-              <div className="crosshair-tr" />
-              <div className="crosshair-bl" />
-              <div className="crosshair-br" />
-              
-              <div className="flex items-center gap-2 mb-8 text-accent font-mono text-sm uppercase tracking-widest">
-                <span>Philosophy</span>
-              </div>
-              
-              <h2 className="text-4xl md:text-5xl font-bold mb-8 leading-tight text-primary">
-                Capital with <br /><span className="text-accent">conviction.</span>
-              </h2>
-              <p className="text-lg text-muted-foreground leading-relaxed mb-6 font-mono text-sm">
-                Most capital is passive. Ours is active. We bring decades of operational experience — building a media empire that reached over 100 million people, navigating emerging markets since their earliest days, and advising some of the world's most ambitious teams.
-              </p>
-              <p className="text-lg text-muted-foreground leading-relaxed font-mono text-sm">
-                When we partner with a founder, we bring the scars, the network, and the playbook of someone who has actually built.
-              </p>
-            </div>
-
-            <div className="space-y-6 lg:pt-12">
-              <div className="p-6 border border-border bg-card/30 hover:border-accent/50 transition-colors relative group">
-                <div className="absolute top-0 left-0 w-1 h-full bg-accent scale-y-0 group-hover:scale-y-100 transition-transform origin-top" />
-                <h3 className="text-xl font-bold mb-2 text-primary font-mono uppercase tracking-wide">Operator DNA</h3>
-                <p className="text-muted-foreground leading-relaxed text-sm font-mono">
-                  Born from the trenches of building, not just advising. Every recommendation is grounded in direct experience scaling companies.
-                </p>
-              </div>
-              <div className="p-6 border border-border bg-card/30 hover:border-accent/50 transition-colors relative group">
-                <div className="absolute top-0 left-0 w-1 h-full bg-accent scale-y-0 group-hover:scale-y-100 transition-transform origin-top" />
-                <h3 className="text-xl font-bold mb-2 text-primary font-mono uppercase tracking-wide">Active Strategy</h3>
-                <p className="text-muted-foreground leading-relaxed text-sm font-mono">
-                  We don't follow markets; we help you define them. Our guidance is grounded in high conviction and deep domain expertise.
-                </p>
-              </div>
-              <div className="p-6 border border-border bg-card/30 hover:border-accent/50 transition-colors relative group">
-                <div className="absolute top-0 left-0 w-1 h-full bg-accent scale-y-0 group-hover:scale-y-100 transition-transform origin-top" />
-                <h3 className="text-xl font-bold mb-2 text-primary font-mono uppercase tracking-wide">Enduring Value</h3>
-                <p className="text-muted-foreground leading-relaxed text-sm font-mono">
-                  Building for the next decade, not the next quarter. We help structure your narrative and operations for long-term resilience.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* The Founder */}
-      <section className="py-32 relative">
-        <div className="absolute inset-0 glow-founder z-0" />
-        <div className="container relative z-10 max-w-6xl mx-auto px-4">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
-            <div className="relative aspect-[1651/1700] max-w-md mx-auto lg:mx-0 border border-border p-2 bg-card/50">
-              <div className="crosshair-tl" />
-              <div className="crosshair-tr" />
-              <div className="crosshair-bl" />
-              <div className="crosshair-br" />
-              <img
-                src="https://d2xsxph8kpxj0f.cloudfront.net/310519663077684115/nLNx4gEup6hKQEtExgUkNn/Brian_Turtleneck_cropped_17b4b49c.webp"
-                alt="Brian D. Evans — Founder of BDE Ventures"
-                loading="lazy"
-                className="w-full h-full object-cover object-top filter grayscale hover:grayscale-0 transition-all duration-700"
-              />
-              <div className="absolute bottom-4 right-4 bg-background/80 backdrop-blur-md border border-border px-3 py-1 font-mono text-xs text-accent uppercase tracking-widest">
-                Brian D. Evans
-              </div>
-            </div>
-            
-            <div className="relative p-8 border border-border bg-card/30 backdrop-blur-sm">
-              <div className="crosshair-tl" />
-              <div className="crosshair-tr" />
-              <div className="crosshair-bl" />
-              <div className="crosshair-br" />
-              
-              <div className="flex items-center gap-2 mb-8 text-accent font-mono text-sm uppercase tracking-widest">
-                <span>Leadership</span>
-              </div>
-              
-              <h2 className="text-5xl md:text-6xl font-bold mb-8 leading-tight text-primary uppercase tracking-tighter">Brian D. Evans</h2>
-              <p className="text-lg text-muted-foreground leading-relaxed mb-6 font-mono text-sm border-l-2 border-accent pl-4">
-                "For over two decades, I've operated at the forefront of emerging tech, blending digital marketing mastery with human psychology. Technology is easily replicated, but attention is not. In this era, the final moat is distribution."
-              </p>
-              <p className="text-lg text-muted-foreground leading-relaxed mb-8 font-mono text-sm">
-                As an Inc. 500 entrepreneur and lifelong builder, Brian brings a unique operator's perspective to every project. His approach combines deep marketing understanding with a genuine commitment to long-term value creation.
-              </p>
-              <Link href="/office">
-                <Button variant="outline" className="border-border hover:bg-accent/10 hover:text-accent hover:border-accent rounded-none px-8 font-mono uppercase tracking-wider transition-colors">
-                  Access Full Bio <ArrowRight className="ml-2 h-4 w-4" />
-                </Button>
-              </Link>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* CTA Section */}
-      <section className="py-32 flex items-center justify-center relative overflow-hidden border-t border-border bg-grid-pattern">
-        <div className="absolute inset-0 bg-background/90 z-0" />
-        
-        <div className="container relative z-10 text-center max-w-3xl px-4">
-          <div className="inline-block relative p-12 border border-border bg-card/50 backdrop-blur-sm">
-            <div className="crosshair-tl" />
-            <div className="crosshair-tr" />
-            <div className="crosshair-bl" />
-            <div className="crosshair-br" />
-            
-            <h2 className="text-4xl md:text-5xl font-bold mb-6 text-primary uppercase tracking-tighter">Ready to <span className="text-accent">connect</span>?</h2>
-            <p className="text-lg text-muted-foreground mb-10 font-mono text-sm max-w-xl mx-auto">
-              We work with a small number of exceptional teams each year. If you're building something that matters, we'd like to hear from you.
+      <div className="max-w-[1200px] mx-auto px-6 lg:px-12 py-16 relative z-10">
+        {/* Hero Section */}
+        <section aria-label="Hero Section" className="mb-24 pt-12 md:pt-24">
+          <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[800px] h-[600px] glow-hero pointer-events-none z-[-1]"></div>
+          <div className="max-w-4xl">
+            <h1 className="text-6xl md:text-7xl lg:text-[5.5rem] font-black tracking-tight leading-[1.05] mb-6 uppercase">
+              <span className="block">Guidance for</span>
+              <span className="block">The <span className="text-accent text-glow">Architects</span></span>
+              <span className="block">of <span className="text-accent text-glow">Tomorrow.</span></span>
+            </h1>
+            <p className="text-lg text-gray-300 max-w-2xl mb-10 leading-relaxed font-light">
+              We provide operator-led advisory for founders and leadership teams building at the intersection of technology, blockchain, and AI.
             </p>
-            <div className="flex flex-col sm:flex-row justify-center gap-6">
-              <Link href="/office#contact">
-                <Button size="lg" className="h-14 px-10 text-base bg-primary text-primary-foreground hover:bg-primary/90 rounded-none font-mono uppercase tracking-wider">
-                  Get in Touch
-                </Button>
+            <div className="flex flex-wrap items-center gap-4">
+              <Link href="/focus">
+                <button className="inline-flex items-center justify-center px-6 py-3 bg-accent text-accent-foreground font-bold text-sm uppercase tracking-wider rounded-sm hover:bg-accent/90 transition-colors">
+                  Explore Focus
+                  <ArrowRight className="w-4 h-4 ml-2" />
+                </button>
               </Link>
-              <Link href="/office">
-                <Button size="lg" variant="outline" className="h-14 px-10 text-base border-border hover:bg-accent/10 hover:text-accent hover:border-accent rounded-none font-mono uppercase tracking-wider transition-colors">
-                  The Office
-                </Button>
+              <Link href="/approach">
+                <button className="inline-flex items-center justify-center px-6 py-3 border border-gray-700 text-white font-bold text-sm uppercase tracking-wider rounded-sm hover:border-accent transition-colors">
+                  Our Approach
+                </button>
               </Link>
             </div>
           </div>
-        </div>
-      </section>
+        </section>
+
+        {/* As Seen In Section */}
+        <section aria-label="Logos Section" className="mb-32 border-t border-b border-border/50 py-8 relative">
+          <span className="absolute -top-3 left-4 bg-background px-2 text-xs font-semibold text-gray-500 uppercase tracking-widest">As Seen In</span>
+          <div className="flex flex-wrap justify-around items-center gap-12 opacity-80 hover:opacity-100 transition-all duration-500 py-4 w-full">
+            <div className="h-8 flex items-center justify-center text-3xl font-serif font-bold text-gray-300">Forbes</div>
+            <div className="h-8 flex items-center justify-center text-4xl font-sans font-black tracking-tighter text-gray-300">Inc.</div>
+            <div className="h-8 flex items-center justify-center text-3xl font-serif text-gray-300">Entrepreneur</div>
+            <div className="h-8 flex items-center justify-center text-3xl font-serif italic font-bold tracking-tighter text-gray-300">RollingStone</div>
+          </div>
+        </section>
+
+        {/* Active Thesis Section */}
+        <section className="mb-32" id="active-thesis">
+          <h2 className="text-4xl md:text-5xl font-black uppercase text-accent mb-10 tracking-tight text-glow">Active Thesis</h2>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+            {/* Thesis Card 1 */}
+            <div className="bg-card p-8 border-gradient rounded-sm card-hover group">
+              <div className="text-accent mb-6 w-12 h-12">
+                <Hexagon className="w-full h-full" strokeWidth={1.5} />
+              </div>
+              <h3 className="text-xl font-bold mb-4 uppercase">Web3</h3>
+              <p className="text-sm text-gray-400 leading-relaxed font-light">
+                Web3 is an overarching term noted to encompass a new iteration of the World Wide Web which incorporates concepts such as decentralization, blockchain technologies, and token-based economics.
+              </p>
+            </div>
+            {/* Thesis Card 2 */}
+            <div className="bg-card p-8 border-gradient rounded-sm card-hover group">
+              <div className="text-accent mb-6 w-12 h-12">
+                <Brain className="w-full h-full" strokeWidth={1.5} />
+              </div>
+              <h3 className="text-xl font-bold mb-4 uppercase">AI</h3>
+              <p className="text-sm text-gray-400 leading-relaxed font-light">
+                AI enables development and foundational capabilities that empower founders and leadership teams to create new paradigms of technology, blockchain, and innovations.
+              </p>
+            </div>
+            {/* Thesis Card 3 */}
+            <div className="bg-card p-8 border-gradient rounded-sm card-hover group">
+              <div className="text-accent mb-6 w-12 h-12">
+                <Cog className="w-full h-full" strokeWidth={1.5} />
+              </div>
+              <h3 className="text-xl font-bold mb-4 uppercase">Deep Tech</h3>
+              <p className="text-sm text-gray-400 leading-relaxed font-light">
+                Deep tech is often defined as technology based on tangible scientific discoveries or engineering innovations. They try to solve big issues that really affect the world.
+              </p>
+            </div>
+          </div>
+        </section>
+
+        {/* Philosophy Section */}
+        <section className="mb-32" id="philosophy">
+          <div className="flex flex-col md:flex-row gap-12 md:gap-24 mb-16">
+            <div className="md:w-1/2">
+              <span className="text-xs font-semibold text-accent uppercase tracking-[0.2em] mb-4 block">Philosophy</span>
+              <h2 className="text-4xl md:text-5xl font-black uppercase text-accent tracking-tight leading-[1.1] text-glow">
+                Capital With<br />Conviction.
+              </h2>
+            </div>
+            <div className="md:w-1/2 flex items-center">
+              <p className="text-sm text-gray-300 leading-relaxed font-light">
+                BDE Ventures is an emerging thesis-driven advisory firm. We combine operator-led guidance with deep ecosystem knowledge to support founders navigating complex technological landscapes. We build lasting relationships based on trust, mutual respect, and shared vision, focusing on high-impact areas where our expertise can catalyze significant growth.
+              </p>
+            </div>
+          </div>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 border-t border-border/50 pt-12">
+            <div>
+              <h4 className="text-lg font-bold text-accent mb-3 uppercase tracking-wide">Operator DNA</h4>
+              <p className="text-sm text-gray-400 font-light leading-relaxed">
+                Operator DNA is the cornerstone of our advisory model. We bring hands-on experience and strategic foresight to every partnership, drawn from real-world operational backgrounds.
+              </p>
+            </div>
+            <div>
+              <h4 className="text-lg font-bold text-accent mb-3 uppercase tracking-wide">Active Strategy</h4>
+              <p className="text-sm text-gray-400 font-light leading-relaxed">
+                Strategy isn't static; it requires dynamic adaptation. We work actively alongside teams to refine approaches, mitigate risks, and seize emerging opportunities in volatile markets.
+              </p>
+            </div>
+            <div>
+              <h4 className="text-lg font-bold text-accent mb-3 uppercase tracking-wide">Enduring Value</h4>
+              <p className="text-sm text-gray-400 font-light leading-relaxed">
+                Enduring value is created through sustainable business models, robust governance, and a commitment to long-term impact rather than short-term gains.
+              </p>
+            </div>
+          </div>
+        </section>
+
+        {/* Leadership Bio Section */}
+        <section className="mb-32" id="leadership">
+          <div className="flex flex-col lg:flex-row gap-8">
+            {/* Image Column */}
+            <div className="lg:w-1/3 relative">
+              <div className="aspect-[3/4] bg-gray-800 rounded-sm overflow-hidden border border-border/50 relative">
+                <img 
+                  alt="Brian D. Evans" 
+                  className="w-full h-full object-cover grayscale opacity-80 hover:grayscale-0 hover:opacity-100 transition-all duration-500" 
+                  src="https://d2xsxph8kpxj0f.cloudfront.net/310519663077684115/nLNx4gEup6hKQEtExgUkNn/Brian_Turtleneck_cropped_17b4b49c.webp"
+                />
+                <div className="absolute bottom-0 left-0 bg-accent text-accent-foreground px-4 py-2 font-bold uppercase text-sm tracking-wider">
+                  Brian D. Evans
+                </div>
+              </div>
+            </div>
+            {/* Bio Content Column */}
+            <div className="lg:w-2/3 bg-card p-8 md:p-12 border-gradient rounded-sm flex flex-col justify-center">
+              <div className="text-accent mb-6 opacity-50">
+                <svg className="w-10 h-10" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z"></path></svg>
+              </div>
+              <p className="text-base text-gray-300 mb-6 leading-relaxed font-light">
+                Brian D. Evans is a proven entrepreneur and operator who has built and scaled multiple successful companies. He offers invaluable guidance on leadership, strategy, growth, and the practical realities of creating an enduring business at the intersection of technology, blockchain, and AI.
+              </p>
+              <p className="text-sm text-accent mb-8 font-medium">
+                We will provide a consistent and objective perspective to empower teams navigating growth and volatile environments.
+              </p>
+              <div>
+                <Link href="/office">
+                  <button className="inline-flex items-center justify-center px-6 py-3 bg-accent text-accent-foreground font-bold text-sm uppercase tracking-wider rounded-sm hover:bg-accent/90 transition-colors">
+                    Access Full Bio
+                    <ArrowRight className="w-4 h-4 ml-2" />
+                  </button>
+                </Link>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* Contact Section */}
+        <section className="mb-12 flex flex-col md:flex-row justify-between items-start md:items-center gap-8" id="connect">
+          <div>
+            <h2 className="text-4xl md:text-5xl font-black uppercase text-white tracking-tight leading-[1.1]">
+              Ready To<br /><span className="text-accent text-glow">Connect?</span>
+            </h2>
+          </div>
+          <div className="text-sm font-light text-gray-400 max-w-sm">
+            <p className="mb-4">Contact information, our connect zone: connect @ BDE ventures.</p>
+            <p className="text-white">(800) 388-6968</p>
+            <a className="text-accent hover:underline block mt-1" href="mailto:hello@bdeventures.com">hello@bdeventures.com</a>
+          </div>
+        </section>
+      </div>
     </Layout>
   );
 }

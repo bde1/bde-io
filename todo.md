@@ -106,3 +106,8 @@
 
 ## Bio Update
 - [ ] Append Brian's original bio to the current copy on the Office page
+
+## New Design Direction
+- [ ] Extract and analyze the new design direction from the zip file
+- [ ] Implement the new design (layout, branding, image, copy)
+- [ ] Save checkpoint and present to user for approval

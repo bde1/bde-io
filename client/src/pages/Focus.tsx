@@ -1,6 +1,5 @@
 import Layout from "@/components/Layout";
 import { SEO } from "@/components/SEO";
-import { Button } from "@/components/ui/button";
 import { ArrowRight } from "lucide-react";
 import { Link } from "wouter";
 
@@ -8,90 +7,69 @@ export default function Focus() {
   return (
     <Layout>
       <SEO
-        title="Areas of Focus | BDE Ventures"
+        title="Active Thesis | BDE Ventures"
         description="BDE Ventures focuses on AI & decentralized infrastructure, tokenization of real-world assets, digital identity, and go-to-market for complex technologies."
       />
-      
-      {/* Noise Overlay */}
-      <div className="noise-overlay" />
 
-      <div className="pt-32 pb-20 relative bg-grid-pattern min-h-screen">
-        <div className="absolute inset-0 glow-hero z-0 opacity-30" />
-        
-        <div className="container relative z-10 max-w-4xl mx-auto px-4">
-          <div className="inline-flex items-center gap-2 mb-8 text-accent font-mono text-sm px-4 py-2 border border-border bg-card/30 uppercase tracking-widest">
-            <span>Focus Areas</span>
-          </div>
+      <div className="max-w-[1200px] mx-auto px-6 lg:px-12 py-16 relative z-10">
+        <div className="pt-12 md:pt-24 pb-20 relative min-h-screen">
+          <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[800px] h-[600px] glow-hero pointer-events-none z-[-1]"></div>
           
-          <h1 className="text-5xl md:text-7xl font-bold mb-12 leading-tight text-primary uppercase tracking-tighter">
-            The future doesn't arrive. <br />
-            It's <span className="text-accent">built</span>.
-          </h1>
+          <div className="max-w-4xl">
+            <span className="text-xs font-semibold text-accent uppercase tracking-[0.2em] mb-4 block">Active Thesis</span>
+            
+            <h1 className="text-5xl md:text-7xl font-black mb-12 leading-[1.1] text-white uppercase tracking-tight">
+              The future doesn't arrive. <br />
+              It's <span className="text-accent text-glow">built</span>.
+            </h1>
 
-          <div className="mb-16">
-            <p className="text-xl text-muted-foreground font-mono leading-relaxed border-l-2 border-accent pl-6">
-              We don't just follow the trends; we've been shaping them for over a decade. Our advisory is grounded in a deep, nuanced understanding of the forces that will define the next generation of the internet.
-            </p>
-          </div>
+            <div className="mb-16">
+              <p className="text-lg text-gray-300 leading-relaxed font-light">
+                We don't just follow the trends; we've been shaping them for over a decade. Our advisory is grounded in a deep, nuanced understanding of the forces that will define the next generation of the internet.
+              </p>
+            </div>
 
-          <div className="space-y-8">
-            {[
-              {
-                id: "01",
-                title: "The Convergence of AI & Decentralized Infrastructure",
-                desc: "The next wave of artificial intelligence will be autonomous, requiring a new financial and computational substrate. We advise on the critical intersection of AI and blockchain, helping partners build the decentralized protocols, machine-to-machine payment rails, and verifiable compute layers that will power the future of intelligent systems."
-              },
-              {
-                id: "02",
-                title: "Tokenization of Real-World Assets (RWAs)",
-                desc: "The boundary between physical and digital value is dissolving. We provide strategic guidance on tokenizing real-world assets, from navigating the complex regulatory landscape to designing novel financial instruments. Our expertise helps partners unlock liquidity, create new markets, and build the infrastructure for a tokenized economy."
-              },
-              {
-                id: "03",
-                title: "The Future of Digital Identity & Social Platforms",
-                desc: "As digital life becomes central, verifiable identity and user-owned data are no longer optional. We partner with teams building the next generation of social platforms, decentralized identity solutions, and data sovereignty protocols. We help them design sustainable ecosystems that empower users and create long-term value."
-              },
-              {
-                id: "04",
-                title: "Go-to-Market for Complex Technologies",
-                desc: "Breakthrough technology requires a breakthrough strategy. We specialize in crafting and executing go-to-market plans for companies with complex products. From developer relations and community building to enterprise sales and narrative design, we provide a playbook for reaching critical adoption and achieving market leadership."
-              }
-            ].map((item) => (
-              <div key={item.id} className="relative border border-border bg-card/30 p-8 group hover:border-accent/50 transition-colors">
-                <div className="crosshair-tl" />
-                <div className="crosshair-tr" />
-                <div className="crosshair-bl" />
-                <div className="crosshair-br" />
-                
-                <div className="absolute left-0 top-0 w-1 h-full bg-accent scale-y-0 group-hover:scale-y-100 transition-transform origin-top" />
-                
-                <div className="flex flex-col gap-6">
-                  <div>
-                    <h2 className="text-2xl font-bold mb-4 text-primary uppercase tracking-wider">{item.title}</h2>
-                    <p className="text-muted-foreground font-mono text-sm leading-relaxed">
+            <div className="space-y-6">
+              {[
+                {
+                  title: "The Convergence of AI & Decentralized Infrastructure",
+                  desc: "The next wave of artificial intelligence will be autonomous, requiring a new financial and computational substrate. We advise on the critical intersection of AI and blockchain, helping partners build the decentralized protocols, machine-to-machine payment rails, and verifiable compute layers that will power the future of intelligent systems."
+                },
+                {
+                  title: "Tokenization of Real-World Assets (RWAs)",
+                  desc: "The boundary between physical and digital value is dissolving. We provide strategic guidance on tokenizing real-world assets, from navigating the complex regulatory landscape to designing novel financial instruments. Our expertise helps partners unlock liquidity, create new markets, and build the infrastructure for a tokenized economy."
+                },
+                {
+                  title: "The Future of Digital Identity & Social Platforms",
+                  desc: "As digital life becomes central, verifiable identity and user-owned data are no longer optional. We partner with teams building the next generation of social platforms, decentralized identity solutions, and data sovereignty protocols. We help them design sustainable ecosystems that empower users and create long-term value."
+                },
+                {
+                  title: "Go-to-Market for Complex Technologies",
+                  desc: "Breakthrough technology requires a breakthrough strategy. We specialize in crafting and executing go-to-market plans for companies with complex products. From developer relations and community building to enterprise sales and narrative design, we provide a playbook for reaching critical adoption and achieving market leadership."
+                }
+              ].map((item, index) => (
+                <div key={index} className="bg-card p-8 md:p-10 border-gradient rounded-sm card-hover group">
+                  <div className="flex flex-col gap-4">
+                    <h2 className="text-2xl font-bold text-white uppercase tracking-wider">{item.title}</h2>
+                    <p className="text-sm text-gray-400 leading-relaxed font-light">
                       {item.desc}
                     </p>
                   </div>
                 </div>
-              </div>
-            ))}
-          </div>
-
-          <div className="mt-24 relative border border-border bg-card/30 p-8 md:p-12 flex flex-col md:flex-row items-center justify-between gap-8">
-            <div className="crosshair-tl" />
-            <div className="crosshair-tr" />
-            <div className="crosshair-bl" />
-            <div className="crosshair-br" />
-            
-            <div>
-              <h2 className="text-2xl font-bold mb-2 text-primary uppercase tracking-wider">Building in these areas?</h2>
-              <p className="text-muted-foreground font-mono text-sm">We are actively seeking new partners.</p>
+              ))}
             </div>
-            <Link href="/office#contact">
-              <Button size="lg" className="bg-primary text-primary-foreground hover:bg-primary/90 rounded-none font-mono uppercase tracking-wider h-14 px-8 whitespace-nowrap">
-                Get in Touch <ArrowRight className="ml-2 h-4 w-4" />
-              </Button>
-            </Link>
+
+            <div className="mt-24 bg-card p-8 md:p-12 border-gradient rounded-sm flex flex-col md:flex-row items-start md:items-center justify-between gap-8">
+              <div>
+                <h2 className="text-2xl font-bold mb-2 text-white uppercase tracking-wider">Building in these areas?</h2>
+                <p className="text-sm text-gray-400 font-light">We are actively seeking new partners.</p>
+              </div>
+              <Link href="/office#contact">
+                <button className="inline-flex items-center justify-center px-8 py-4 bg-accent text-accent-foreground font-bold text-sm uppercase tracking-wider rounded-sm hover:bg-accent/90 transition-colors whitespace-nowrap">
+                  Get in Touch <ArrowRight className="ml-2 h-4 w-4" />
+                </button>
+              </Link>
+            </div>
           </div>
         </div>
       </div>

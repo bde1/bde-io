@@ -1,6 +1,5 @@
 import Layout from "@/components/Layout";
 import { SEO } from "@/components/SEO";
-import { Button } from "@/components/ui/button";
 import { ArrowRight } from "lucide-react";
 import { Link } from "wouter";
 
@@ -8,90 +7,69 @@ export default function Approach() {
   return (
     <Layout>
       <SEO
-        title="Our Approach | BDE Ventures"
+        title="Philosophy | BDE Ventures"
         description="BDE provides hands-on, operator-led advisory. We work with a select group of founders on strategic counsel, ecosystem activation, and capital strategy."
       />
-      
-      {/* Noise Overlay */}
-      <div className="noise-overlay" />
 
-      <div className="pt-32 pb-20 relative bg-grid-pattern min-h-screen">
-        <div className="absolute inset-0 glow-hero z-0 opacity-30" />
-        
-        <div className="container relative z-10 max-w-4xl mx-auto px-4">
-          <div className="inline-flex items-center gap-2 mb-8 text-accent font-mono text-sm px-4 py-2 border border-border bg-card/30 uppercase tracking-widest">
-            <span>Approach</span>
-          </div>
+      <div className="max-w-[1200px] mx-auto px-6 lg:px-12 py-16 relative z-10">
+        <div className="pt-12 md:pt-24 pb-20 relative min-h-screen">
+          <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[800px] h-[600px] glow-hero pointer-events-none z-[-1]"></div>
           
-          <h1 className="text-5xl md:text-7xl font-bold mb-8 leading-tight text-primary uppercase tracking-tighter">
-            Hands-on <br /><span className="text-accent">partnership</span>.
-          </h1>
-          
-          <p className="text-xl text-muted-foreground font-mono leading-relaxed mb-20 max-w-3xl border-l-2 border-accent pl-6">
-            Our advisory is not theoretical. It is built on years of operational experience. We work with a select group of founders and leadership teams, providing tailored guidance through three interconnected disciplines.
-          </p>
+          <div className="max-w-4xl">
+            <span className="text-xs font-semibold text-accent uppercase tracking-[0.2em] mb-4 block">Philosophy</span>
+            
+            <h1 className="text-5xl md:text-7xl font-black mb-12 leading-[1.1] text-white uppercase tracking-tight">
+              Hands-on <br /><span className="text-accent text-glow">partnership</span>.
+            </h1>
+            
+            <p className="text-lg text-gray-300 leading-relaxed font-light mb-20 max-w-3xl">
+              Our advisory is not theoretical. It is built on years of operational experience. We work with a select group of founders and leadership teams, providing tailored guidance through three interconnected disciplines.
+            </p>
 
-          {/* Narrative sequence */}
-          <div className="space-y-12">
-            {[
-              {
-                id: "01",
-                title: "Strategic Counsel & Narrative Design",
-                desc1: "We help you refine your vision and articulate a compelling narrative that resonates with investors, customers, and partners.",
-                desc2: "Acting as a strategic sounding board, we pressure-test assumptions and help you navigate pivotal decisions with clarity and conviction. From pitch positioning to market messaging, we help you tell the story that unlocks the next stage of growth."
-              },
-              {
-                id: "02",
-                title: "Ecosystem & Go-to-Market Activation",
-                desc1: "A great product is not enough. We help you build and activate the ecosystem around it.",
-                desc2: "This includes tokenomics design, developer relations, community growth strategies, and forging key partnerships that accelerate your path to market leadership. We bring the network and playbook to turn technology into traction."
-              },
-              {
-                id: "03",
-                title: "Capital & Corporate Strategy",
-                desc1: "We guide you through the complexities of the capital landscape.",
-                desc2: "From fundraising strategy and investor relations to treasury management and corporate structuring, we provide the expertise needed to build a resilient, well-capitalized organization that can weather volatility and seize opportunity."
-              }
-            ].map((item, index) => (
-              <div key={item.id} className="relative border border-border bg-card/30 p-8 md:p-12 group hover:border-accent/50 transition-colors">
-                <div className="crosshair-tl" />
-                <div className="crosshair-tr" />
-                <div className="crosshair-bl" />
-                <div className="crosshair-br" />
-                
-                <div className="absolute top-0 left-0 w-1 h-full bg-accent scale-y-0 group-hover:scale-y-100 transition-transform origin-top" />
-                
-                <div className="flex flex-col gap-6 items-start">
-                  <div>
-                    <h2 className="text-2xl font-bold mb-4 text-primary uppercase tracking-wider">{item.title}</h2>
-                    <p className="text-lg text-primary/80 font-mono mb-4">
+            {/* Narrative sequence */}
+            <div className="space-y-8">
+              {[
+                {
+                  title: "Strategic Counsel & Narrative Design",
+                  desc1: "We help you refine your vision and articulate a compelling narrative that resonates with investors, customers, and partners.",
+                  desc2: "Acting as a strategic sounding board, we pressure-test assumptions and help you navigate pivotal decisions with clarity and conviction. From pitch positioning to market messaging, we help you tell the story that unlocks the next stage of growth."
+                },
+                {
+                  title: "Ecosystem & Go-to-Market Activation",
+                  desc1: "A great product is not enough. We help you build and activate the ecosystem around it.",
+                  desc2: "This includes tokenomics design, developer relations, community growth strategies, and forging key partnerships that accelerate your path to market leadership. We bring the network and playbook to turn technology into traction."
+                },
+                {
+                  title: "Capital & Corporate Strategy",
+                  desc1: "We guide you through the complexities of the capital landscape.",
+                  desc2: "From fundraising strategy and investor relations to treasury management and corporate structuring, we provide the expertise needed to build a resilient, well-capitalized organization that can weather volatility and seize opportunity."
+                }
+              ].map((item, index) => (
+                <div key={index} className="bg-card p-8 md:p-12 border-gradient rounded-sm card-hover group">
+                  <div className="flex flex-col gap-4">
+                    <h2 className="text-2xl font-bold text-white uppercase tracking-wider">{item.title}</h2>
+                    <p className="text-base text-gray-300 font-medium">
                       {item.desc1}
                     </p>
-                    <p className="text-muted-foreground font-mono text-sm leading-relaxed">
+                    <p className="text-sm text-gray-400 leading-relaxed font-light">
                       {item.desc2}
                     </p>
                   </div>
                 </div>
-              </div>
-            ))}
-          </div>
-
-          <div className="mt-24 text-center relative border border-border bg-card/30 p-12">
-            <div className="crosshair-tl" />
-            <div className="crosshair-tr" />
-            <div className="crosshair-bl" />
-            <div className="crosshair-br" />
-            
-            <div className="absolute top-0 left-1/2 -translate-x-1/2 -translate-y-1/2 bg-background px-4 text-accent font-mono text-xs uppercase tracking-widest">
-              Next Steps
+              ))}
             </div>
-            
-            <h2 className="text-2xl font-bold mb-6 text-primary uppercase tracking-wider">Ready to build?</h2>
-            <Link href="/office#contact">
-              <Button size="lg" className="bg-primary text-primary-foreground hover:bg-primary/90 rounded-none font-mono uppercase tracking-wider h-14 px-10">
-                Get in Touch <ArrowRight className="ml-2 h-4 w-4" />
-              </Button>
-            </Link>
+
+            <div className="mt-24 bg-card p-8 md:p-12 border-gradient rounded-sm flex flex-col md:flex-row items-start md:items-center justify-between gap-8">
+              <div>
+                <h2 className="text-2xl font-bold mb-2 text-white uppercase tracking-wider">Ready to build?</h2>
+                <p className="text-sm text-gray-400 font-light">We are actively seeking new partners.</p>
+              </div>
+              <Link href="/office#contact">
+                <button className="inline-flex items-center justify-center px-8 py-4 bg-accent text-accent-foreground font-bold text-sm uppercase tracking-wider rounded-sm hover:bg-accent/90 transition-colors whitespace-nowrap">
+                  Get in Touch <ArrowRight className="ml-2 h-4 w-4" />
+                </button>
+              </Link>
+            </div>
           </div>
         </div>
       </div>
