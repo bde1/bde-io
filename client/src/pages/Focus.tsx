@@ -46,6 +46,10 @@ export default function Focus() {
                 {
                   title: "Go-to-Market for Complex Technologies",
                   desc: "Breakthrough technology requires a breakthrough strategy. We specialize in crafting and executing go-to-market plans for companies with complex products. From developer relations and community building to enterprise sales and narrative design, we provide a playbook for reaching critical adoption and achieving market leadership."
+                },
+                {
+                  title: "Consumer & AdTech",
+                  desc: "We partner with brands redefining direct-to-consumer (DTC) and consumer packaged goods (CPG), as well as the advertising technologies that scale them. We leverage our deep expertise in digital marketing and audience building to accelerate growth."
                 }
               ].map((item, index) => (
                 <div key={index} className="bg-card p-8 md:p-10 border-gradient rounded-sm card-hover group">

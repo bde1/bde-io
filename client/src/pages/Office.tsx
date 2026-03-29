@@ -52,7 +52,7 @@ export default function Office() {
     <Layout>
       <SEO
         title="Leadership | BDE Ventures"
-        description="BDE is the single-family office of Brian D. Evans. Learn about our operator-first philosophy, accolades, and connect with us."
+        description="BDE Ventures was founded by Brian D. Evans. Learn about our operator-first philosophy, accolades, and connect with us."
       />
 
       <div className="max-w-[1200px] mx-auto px-6 lg:px-12 py-16 relative z-10">
@@ -115,7 +115,7 @@ export default function Office() {
 
               <div className="space-y-8 text-gray-300 font-light leading-relaxed">
                 <p className="text-lg text-white font-medium">
-                  BDE is the single-family office of Brian D. Evans. We are operators first, investors second.
+                  BDE Ventures was founded by Brian D. Evans. We are operators first, investors second.
                 </p>
 
                 <p>

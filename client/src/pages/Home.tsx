@@ -1,14 +1,14 @@
 import Layout from "@/components/Layout";
 import { SEO } from "@/components/SEO";
 import { Link } from "wouter";
-import { ArrowRight, Hexagon, Brain, Cog } from "lucide-react";
+import { ArrowRight, Hexagon, Brain, Cog, ShoppingCart } from "lucide-react";
 
 export default function Home() {
   return (
     <Layout>
       <SEO
-        title="BDE Ventures | Family Office of Brian D. Evans"
-        description="BDE is the family office of Brian D. Evans. We provide operator-led advisory for founders building at the intersection of technology, blockchain, and AI."
+        title="BDE Ventures | Founded by Brian D. Evans"
+        description="BDE Ventures was founded by Brian D. Evans. We provide operator-led advisory for founders building at the intersection of technology, blockchain, and AI."
       />
 
       <div className="max-w-[1200px] mx-auto px-6 lg:px-12 py-16 relative z-10">
@@ -22,7 +22,7 @@ export default function Home() {
               <span className="block">of <span className="text-accent text-glow">Tomorrow.</span></span>
             </h1>
             <p className="text-lg text-gray-300 max-w-2xl mb-10 leading-relaxed font-light">
-              We provide operator-led advisory for founders and leadership teams building at the intersection of technology, blockchain, and AI.
+              We provide operator-led advisory for founders and leadership teams building at the intersection of technology, blockchain, AI, and consumer brands.
             </p>
             <div className="flex flex-wrap items-center gap-4">
               <Link href="/focus">
@@ -54,7 +54,7 @@ export default function Home() {
         {/* Active Thesis Section */}
         <section className="mb-32" id="active-thesis">
           <h2 className="text-4xl md:text-5xl font-black uppercase text-accent mb-10 tracking-tight text-glow">Active Thesis</h2>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
             {/* Thesis Card 1 */}
             <div className="bg-card p-8 border-gradient rounded-sm card-hover group">
               <div className="text-accent mb-6 w-12 h-12">
@@ -83,6 +83,16 @@ export default function Home() {
               <h3 className="text-xl font-bold mb-4 uppercase">Deep Tech</h3>
               <p className="text-sm text-gray-400 leading-relaxed font-light">
                 Deep tech is often defined as technology based on tangible scientific discoveries or engineering innovations. They try to solve big issues that really affect the world.
+              </p>
+            </div>
+            {/* Thesis Card 4 */}
+            <div className="bg-card p-8 border-gradient rounded-sm card-hover group">
+              <div className="text-accent mb-6 w-12 h-12">
+                <ShoppingCart className="w-full h-full" strokeWidth={1.5} />
+              </div>
+              <h3 className="text-xl font-bold mb-4 uppercase">Consumer & AdTech</h3>
+              <p className="text-sm text-gray-400 leading-relaxed font-light">
+                We partner with brands redefining direct-to-consumer (DTC) and consumer packaged goods (CPG), as well as the advertising technologies that scale them.
               </p>
             </div>
           </div>

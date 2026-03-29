@@ -114,3 +114,9 @@
 
 ## Anti-Pitch Filter
 - [ ] Replace the "Ready to connect" section on the homepage with an "Anti-Pitch" filter
+
+## Copy Update
+- [ ] Update copy across the site to say "founded by Brian D. Evans" instead of explicitly stating it's the family office
+
+## Additional Focus Areas
+- [ ] Expand areas of focus to include DTC, CPG, and advertising
