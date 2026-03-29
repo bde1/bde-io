@@ -12,7 +12,7 @@ const navLinks = [
   { href: "/", label: "Home" },
   { href: "/focus", label: "Active Thesis" },
   { href: "/approach", label: "Philosophy" },
-  { href: "/office", label: "Leadership" },
+  { href: "/office", label: "Founder" },
 ] as const;
 
 export default function Layout({ children }: LayoutProps) {
@@ -115,7 +115,7 @@ export default function Layout({ children }: LayoutProps) {
             <div className="md:col-span-5">
               <h3 className="text-2xl font-black uppercase text-white mb-4 tracking-wider">BDE</h3>
               <p className="text-xs text-muted-foreground leading-relaxed font-light max-w-md">
-                BDE Ventures is a provider of generalist advisory services for founders and operating leadership teams building at the intersection of technology, blockchain, and AI services.
+                BDE Ventures is a provider of advisory services for founders and operating leadership teams building at the intersection of technology, blockchain, and AI services.
               </p>
             </div>
             

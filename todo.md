@@ -120,3 +120,10 @@
 
 ## Additional Focus Areas
 - [ ] Expand areas of focus to include DTC, CPG, and advertising
+
+## Copy and Navigation Updates
+- [ ] Remove "generalist" from "generalist advisory services" across the site
+- [ ] Change "Leadership" navigation category to "Founder"
+
+## Color Update
+- [ ] Change the accent color from teal to a subtle monochrome/silver
