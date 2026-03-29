@@ -111,3 +111,6 @@
 - [ ] Extract and analyze the new design direction from the zip file
 - [ ] Implement the new design (layout, branding, image, copy)
 - [ ] Save checkpoint and present to user for approval
+
+## Anti-Pitch Filter
+- [ ] Replace the "Ready to connect" section on the homepage with an "Anti-Pitch" filter

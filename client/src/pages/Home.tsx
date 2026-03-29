@@ -164,17 +164,24 @@ export default function Home() {
           </div>
         </section>
 
-        {/* Contact Section */}
-        <section className="mb-12 flex flex-col md:flex-row justify-between items-start md:items-center gap-8" id="connect">
-          <div>
-            <h2 className="text-4xl md:text-5xl font-black uppercase text-white tracking-tight leading-[1.1]">
-              Ready To<br /><span className="text-accent text-glow">Connect?</span>
+        {/* Anti-Pitch Section */}
+        <section className="mb-12 bg-card p-8 md:p-12 border-gradient rounded-sm flex flex-col md:flex-row justify-between items-start md:items-center gap-8" id="connect">
+          <div className="md:w-2/3">
+            <span className="text-xs font-semibold text-accent uppercase tracking-[0.2em] mb-4 block">The Filter</span>
+            <h2 className="text-3xl md:text-4xl font-black uppercase text-white tracking-tight leading-[1.1] mb-4">
+              We do not back <br /><span className="text-accent text-glow">tourists.</span>
             </h2>
+            <p className="text-sm text-gray-400 font-light leading-relaxed max-w-xl">
+              We partner exclusively with operators building the next iteration of the internet. If you are solving a generational challenge in our areas of focus, we invite you to reach out.
+            </p>
           </div>
-          <div className="text-sm font-light text-gray-400 max-w-sm">
-            <p className="mb-4">Contact information, our connect zone: connect @ BDE ventures.</p>
-            <p className="text-white">(800) 388-6968</p>
-            <a className="text-accent hover:underline block mt-1" href="mailto:hello@bdeventures.com">hello@bdeventures.com</a>
+          <div className="md:w-1/3 flex md:justify-end">
+            <Link href="/office#contact">
+              <button className="inline-flex items-center justify-center px-8 py-4 bg-accent text-accent-foreground font-bold text-sm uppercase tracking-wider rounded-sm hover:bg-accent/90 transition-colors whitespace-nowrap">
+                Establish Connection
+                <ArrowRight className="w-4 h-4 ml-2" />
+              </button>
+            </Link>
           </div>
         </section>
       </div>
