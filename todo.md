@@ -165,3 +165,10 @@
 - [ ] Restore the typography-only hero section design.
 - [ ] Keep the real logos in the "As Seen In" section.
 - [ ] Save checkpoint and show the updated design to the user.
+
+## Combine Logos
+- [ ] Write a Python script to combine the four logos into a single transparent image.
+- [ ] Ensure all logos are pure white.
+- [ ] Upload the combined image to webdev assets.
+- [ ] Update Home.tsx to use the single combined image.
+- [ ] Save checkpoint and show the updated design to the user.

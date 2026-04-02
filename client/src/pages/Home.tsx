@@ -43,11 +43,12 @@ export default function Home() {
         {/* As Seen In Section */}
         <section aria-label="Logos Section" className="mb-32 border-t border-b border-border/50 py-8 relative">
           <span className="absolute -top-3 left-4 bg-background px-2 text-xs font-semibold text-gray-500 uppercase tracking-widest">As Seen In</span>
-          <div className="flex flex-wrap justify-around items-center gap-12 opacity-60 hover:opacity-100 transition-all duration-500 py-4 w-full">
-            <img src="https://d2xsxph8kpxj0f.cloudfront.net/310519663077684115/nLNx4gEup6hKQEtExgUkNn/NX2muduJh8Wn_977b86b7.png" alt="Forbes" className="h-8 object-contain filter invert" />
-            <img src="https://d2xsxph8kpxj0f.cloudfront.net/310519663077684115/nLNx4gEup6hKQEtExgUkNn/cf38b93b_FuPzXnMkV3GG.png" alt="Inc." className="h-10 object-contain filter invert" />
-            <img src="https://d2xsxph8kpxj0f.cloudfront.net/310519663077684115/nLNx4gEup6hKQEtExgUkNn/414989df_4SX7qhuwu5tD.png" alt="Entrepreneur" className="h-8 object-contain filter invert" />
-            <img src="https://d2xsxph8kpxj0f.cloudfront.net/310519663077684115/nLNx4gEup6hKQEtExgUkNn/744bcc2a_5kEPJLOfDbWr.png" alt="Rolling Stone" className="h-8 object-contain filter invert" />
+          <div className="flex justify-center items-center opacity-60 hover:opacity-100 transition-all duration-500 py-4 w-full">
+            <img 
+              src="https://d2xsxph8kpxj0f.cloudfront.net/310519663077684115/nLNx4gEup6hKQEtExgUkNn/combined_logos_503c8476.png" 
+              alt="As Seen In: Forbes, Inc., Entrepreneur, Rolling Stone" 
+              className="h-12 md:h-16 object-contain" 
+            />
           </div>
         </section>
 
