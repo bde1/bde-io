@@ -127,3 +127,17 @@
 
 ## Color Update
 - [ ] Change the accent color from teal to a subtle monochrome/silver
+
+## Redesign: McKinsey + Elon + Jack Dorsey
+- [ ] Generate high-fidelity visual mockup of the new homepage design
+- [ ] Present mockup to user for approval
+- [ ] Implement approved design in code (Homepage, Focus, Approach, Office)
+- [ ] Save checkpoint and push to GitHub
+
+## Implement New Design
+- [ ] Update index.css with pure black/white minimalist theme
+- [ ] Rewrite Home.tsx with massive typography and high contrast
+- [ ] Rewrite Focus.tsx to match the new aesthetic
+- [ ] Rewrite Approach.tsx to match the new aesthetic
+- [ ] Rewrite Office.tsx to match the new aesthetic
+- [ ] Update Layout.tsx to ensure navigation matches the new design
