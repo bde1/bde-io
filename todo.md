@@ -159,3 +159,9 @@
 - [ ] Fetch real SVG/PNG logos for Forbes, Inc., Entrepreneur, and Rolling Stone.
 - [ ] Replace the text placeholders in the "As Seen In" section with the real logos.
 - [ ] Save checkpoint and show the updated design to the user.
+
+## Revert Hero Section
+- [ ] Remove the hero image and split layout from Home.tsx.
+- [ ] Restore the typography-only hero section design.
+- [ ] Keep the real logos in the "As Seen In" section.
+- [ ] Save checkpoint and show the updated design to the user.

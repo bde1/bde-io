@@ -13,9 +13,10 @@ export default function Home() {
 
       <div className="max-w-[1200px] mx-auto px-6 lg:px-12 py-16 relative z-10">
         {/* Hero Section */}
-        <section aria-label="Hero Section" className="mb-24 pt-12 md:pt-24 flex flex-col lg:flex-row items-center gap-12">
-          <div className="lg:w-1/2 relative z-10">
-            <h1 className="text-6xl md:text-7xl lg:text-[5.5rem] font-black tracking-tight leading-[1.05] mb-6 uppercase">
+        <section aria-label="Hero Section" className="mb-24 pt-12 md:pt-24 relative">
+          <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[800px] h-[600px] glow-hero pointer-events-none z-[-1]"></div>
+          <div className="max-w-4xl relative z-10">
+            <h1 className="text-6xl md:text-7xl lg:text-[6.5rem] font-black tracking-tight leading-[1.05] mb-6 uppercase">
               <span className="block">Guidance for</span>
               <span className="block">The <span className="text-accent text-glow">Architects</span></span>
               <span className="block">of <span className="text-accent text-glow">Tomorrow.</span></span>
@@ -35,16 +36,6 @@ export default function Home() {
                   Our Approach
                 </button>
               </Link>
-            </div>
-          </div>
-          <div className="lg:w-1/2 w-full relative">
-            <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[120%] h-[120%] glow-hero pointer-events-none z-[-1]"></div>
-            <div className="aspect-square md:aspect-[4/3] lg:aspect-square relative rounded-sm overflow-hidden border border-border/50">
-              <img 
-                src="https://d2xsxph8kpxj0f.cloudfront.net/310519663077684115/nLNx4gEup6hKQEtExgUkNn/hero-image-exciting-2-BRHk3unxKpcV8DqiuHPnMz.webp" 
-                alt="Precision engineered artifact" 
-                className="w-full h-full object-cover"
-              />
             </div>
           </div>
         </section>
