@@ -147,3 +147,8 @@
 - [ ] Integrate the hero image into the homepage background.
 - [ ] Ensure the image maintains the stark, high-contrast, pure black aesthetic.
 - [ ] Save checkpoint and show the updated design to the user.
+
+## Hero Image Visibility Fix
+- [ ] Adjust the opacity and gradients in Home.tsx so the brutalist architecture in the hero image is clearly visible.
+- [ ] Ensure the white text remains perfectly readable against the background.
+- [ ] Save checkpoint and show the updated design to the user.

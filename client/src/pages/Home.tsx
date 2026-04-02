@@ -18,10 +18,10 @@ export default function Home() {
             <img 
               src="https://d2xsxph8kpxj0f.cloudfront.net/310519663077684115/nLNx4gEup6hKQEtExgUkNn/hero-image-1-fru9CMow7bDdZ49QfLvhb9.webp" 
               alt="Architectural abstract" 
-              className="w-full h-full object-cover opacity-40 mix-blend-luminosity"
+              className="w-full h-full object-cover opacity-70 mix-blend-luminosity"
             />
-            <div className="absolute inset-0 bg-gradient-to-b from-black/20 via-black/60 to-black"></div>
-            <div className="absolute inset-0 bg-gradient-to-r from-black via-black/80 to-transparent"></div>
+            <div className="absolute inset-0 bg-gradient-to-b from-transparent via-black/40 to-black"></div>
+            <div className="absolute inset-0 bg-gradient-to-r from-black/80 via-black/40 to-transparent"></div>
           </div>
           <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[800px] h-[600px] glow-hero pointer-events-none z-[-1]"></div>
           <div className="max-w-4xl relative z-10">
