@@ -152,3 +152,10 @@
 - [ ] Adjust the opacity and gradients in Home.tsx so the brutalist architecture in the hero image is clearly visible.
 - [ ] Ensure the white text remains perfectly readable against the background.
 - [ ] Save checkpoint and show the updated design to the user.
+
+## Hero Image & Logos Update
+- [ ] Generate a new, more exciting hero image that stands out and isn't buried behind text.
+- [ ] Adjust the layout in Home.tsx so the hero image is a distinct visual element, not just a background.
+- [ ] Fetch real SVG/PNG logos for Forbes, Inc., Entrepreneur, and Rolling Stone.
+- [ ] Replace the text placeholders in the "As Seen In" section with the real logos.
+- [ ] Save checkpoint and show the updated design to the user.

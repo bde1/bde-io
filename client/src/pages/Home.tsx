@@ -13,18 +13,8 @@ export default function Home() {
 
       <div className="max-w-[1200px] mx-auto px-6 lg:px-12 py-16 relative z-10">
         {/* Hero Section */}
-        <section aria-label="Hero Section" className="mb-24 pt-12 md:pt-24 relative">
-          <div className="absolute inset-0 -mx-6 lg:-mx-12 -mt-16 mb-12 z-[-2] overflow-hidden">
-            <img 
-              src="https://d2xsxph8kpxj0f.cloudfront.net/310519663077684115/nLNx4gEup6hKQEtExgUkNn/hero-image-1-fru9CMow7bDdZ49QfLvhb9.webp" 
-              alt="Architectural abstract" 
-              className="w-full h-full object-cover opacity-70 mix-blend-luminosity"
-            />
-            <div className="absolute inset-0 bg-gradient-to-b from-transparent via-black/40 to-black"></div>
-            <div className="absolute inset-0 bg-gradient-to-r from-black/80 via-black/40 to-transparent"></div>
-          </div>
-          <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[800px] h-[600px] glow-hero pointer-events-none z-[-1]"></div>
-          <div className="max-w-4xl relative z-10">
+        <section aria-label="Hero Section" className="mb-24 pt-12 md:pt-24 flex flex-col lg:flex-row items-center gap-12">
+          <div className="lg:w-1/2 relative z-10">
             <h1 className="text-6xl md:text-7xl lg:text-[5.5rem] font-black tracking-tight leading-[1.05] mb-6 uppercase">
               <span className="block">Guidance for</span>
               <span className="block">The <span className="text-accent text-glow">Architects</span></span>
@@ -47,16 +37,26 @@ export default function Home() {
               </Link>
             </div>
           </div>
+          <div className="lg:w-1/2 w-full relative">
+            <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[120%] h-[120%] glow-hero pointer-events-none z-[-1]"></div>
+            <div className="aspect-square md:aspect-[4/3] lg:aspect-square relative rounded-sm overflow-hidden border border-border/50">
+              <img 
+                src="https://d2xsxph8kpxj0f.cloudfront.net/310519663077684115/nLNx4gEup6hKQEtExgUkNn/hero-image-exciting-2-BRHk3unxKpcV8DqiuHPnMz.webp" 
+                alt="Precision engineered artifact" 
+                className="w-full h-full object-cover"
+              />
+            </div>
+          </div>
         </section>
 
         {/* As Seen In Section */}
         <section aria-label="Logos Section" className="mb-32 border-t border-b border-border/50 py-8 relative">
           <span className="absolute -top-3 left-4 bg-background px-2 text-xs font-semibold text-gray-500 uppercase tracking-widest">As Seen In</span>
-          <div className="flex flex-wrap justify-around items-center gap-12 opacity-80 hover:opacity-100 transition-all duration-500 py-4 w-full">
-            <div className="h-8 flex items-center justify-center text-3xl font-serif font-bold text-gray-300">Forbes</div>
-            <div className="h-8 flex items-center justify-center text-4xl font-sans font-black tracking-tighter text-gray-300">Inc.</div>
-            <div className="h-8 flex items-center justify-center text-3xl font-serif text-gray-300">Entrepreneur</div>
-            <div className="h-8 flex items-center justify-center text-3xl font-serif italic font-bold tracking-tighter text-gray-300">RollingStone</div>
+          <div className="flex flex-wrap justify-around items-center gap-12 opacity-60 hover:opacity-100 transition-all duration-500 py-4 w-full">
+            <img src="https://d2xsxph8kpxj0f.cloudfront.net/310519663077684115/nLNx4gEup6hKQEtExgUkNn/NX2muduJh8Wn_977b86b7.png" alt="Forbes" className="h-8 object-contain filter invert" />
+            <img src="https://d2xsxph8kpxj0f.cloudfront.net/310519663077684115/nLNx4gEup6hKQEtExgUkNn/cf38b93b_FuPzXnMkV3GG.png" alt="Inc." className="h-10 object-contain filter invert" />
+            <img src="https://d2xsxph8kpxj0f.cloudfront.net/310519663077684115/nLNx4gEup6hKQEtExgUkNn/414989df_4SX7qhuwu5tD.png" alt="Entrepreneur" className="h-8 object-contain filter invert" />
+            <img src="https://d2xsxph8kpxj0f.cloudfront.net/310519663077684115/nLNx4gEup6hKQEtExgUkNn/744bcc2a_5kEPJLOfDbWr.png" alt="Rolling Stone" className="h-8 object-contain filter invert" />
           </div>
         </section>
 
