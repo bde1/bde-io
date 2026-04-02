@@ -13,9 +13,18 @@ export default function Home() {
 
       <div className="max-w-[1200px] mx-auto px-6 lg:px-12 py-16 relative z-10">
         {/* Hero Section */}
-        <section aria-label="Hero Section" className="mb-24 pt-12 md:pt-24">
+        <section aria-label="Hero Section" className="mb-24 pt-12 md:pt-24 relative">
+          <div className="absolute inset-0 -mx-6 lg:-mx-12 -mt-16 mb-12 z-[-2] overflow-hidden">
+            <img 
+              src="https://d2xsxph8kpxj0f.cloudfront.net/310519663077684115/nLNx4gEup6hKQEtExgUkNn/hero-image-1-fru9CMow7bDdZ49QfLvhb9.webp" 
+              alt="Architectural abstract" 
+              className="w-full h-full object-cover opacity-40 mix-blend-luminosity"
+            />
+            <div className="absolute inset-0 bg-gradient-to-b from-black/20 via-black/60 to-black"></div>
+            <div className="absolute inset-0 bg-gradient-to-r from-black via-black/80 to-transparent"></div>
+          </div>
           <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[800px] h-[600px] glow-hero pointer-events-none z-[-1]"></div>
-          <div className="max-w-4xl">
+          <div className="max-w-4xl relative z-10">
             <h1 className="text-6xl md:text-7xl lg:text-[5.5rem] font-black tracking-tight leading-[1.05] mb-6 uppercase">
               <span className="block">Guidance for</span>
               <span className="block">The <span className="text-accent text-glow">Architects</span></span>

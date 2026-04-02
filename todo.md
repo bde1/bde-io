@@ -141,3 +141,9 @@
 - [ ] Rewrite Approach.tsx to match the new aesthetic
 - [ ] Rewrite Office.tsx to match the new aesthetic
 - [ ] Update Layout.tsx to ensure navigation matches the new design
+
+## Hero Image Upgrade
+- [ ] Generate an iconic hero image that portrays legacy, innovation, and pioneering technology.
+- [ ] Integrate the hero image into the homepage background.
+- [ ] Ensure the image maintains the stark, high-contrast, pure black aesthetic.
+- [ ] Save checkpoint and show the updated design to the user.
