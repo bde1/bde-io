@@ -203,3 +203,10 @@
 - [ ] Create a new private GitHub repository named bde-io.
 - [ ] Push the code to the new repository.
 - [ ] Report successful deployment to the user.
+
+## Replace Entrepreneur Logo
+- [ ] Find a clean, high-quality Entrepreneur logo.
+- [ ] Combine the new Entrepreneur logo with the others.
+- [ ] Upload the new combined image to webdev assets.
+- [ ] Update Home.tsx to use the new combined image.
+- [ ] Save checkpoint and push to GitHub.
