@@ -196,3 +196,10 @@
 - [ ] Upload the new combined image to webdev assets.
 - [ ] Update Home.tsx to use the new combined image.
 - [ ] Save checkpoint and show the updated design to the user.
+
+## Push to GitHub
+- [ ] Initialize git repository in /home/ubuntu/bde-io.
+- [ ] Add and commit all files.
+- [ ] Create a new private GitHub repository named bde-io.
+- [ ] Push the code to the new repository.
+- [ ] Report successful deployment to the user.
