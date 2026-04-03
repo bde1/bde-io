@@ -189,3 +189,10 @@
 - [ ] Upload the new combined image to webdev assets.
 - [ ] Update Home.tsx to use the new combined image.
 - [ ] Save checkpoint and show the updated design to the user.
+
+## Fix Combined Logos (Final)
+- [ ] Download proper transparent PNG logos for Forbes and Rolling Stone.
+- [ ] Combine all four transparent PNG logos into a single image.
+- [ ] Upload the new combined image to webdev assets.
+- [ ] Update Home.tsx to use the new combined image.
+- [ ] Save checkpoint and show the updated design to the user.
