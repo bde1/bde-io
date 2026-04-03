@@ -172,3 +172,12 @@
 - [ ] Upload the combined image to webdev assets.
 - [ ] Update Home.tsx to use the single combined image.
 - [ ] Save checkpoint and show the updated design to the user.
+
+## Fix Combined Logos
+- [ ] Write an improved Python script to process logos.
+- [ ] Extract logos from solid backgrounds (make background transparent).
+- [ ] Convert logos to pure white.
+- [ ] Scale logos proportionally so they look balanced.
+- [ ] Upload the new combined image to webdev assets.
+- [ ] Update Home.tsx to use the new combined image.
+- [ ] Save checkpoint and show the updated design to the user.

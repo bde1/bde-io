@@ -45,7 +45,7 @@ export default function Home() {
           <span className="absolute -top-3 left-4 bg-background px-2 text-xs font-semibold text-gray-500 uppercase tracking-widest">As Seen In</span>
           <div className="flex justify-center items-center opacity-60 hover:opacity-100 transition-all duration-500 py-4 w-full">
             <img 
-              src="https://d2xsxph8kpxj0f.cloudfront.net/310519663077684115/nLNx4gEup6hKQEtExgUkNn/combined_logos_503c8476.png" 
+              src="https://d2xsxph8kpxj0f.cloudfront.net/310519663077684115/nLNx4gEup6hKQEtExgUkNn/combined_logos_v2_aeca3172.png" 
               alt="As Seen In: Forbes, Inc., Entrepreneur, Rolling Stone" 
               className="h-12 md:h-16 object-contain" 
             />
