@@ -215,3 +215,8 @@
 - [ ] Rewrite Brian's bio into a polished, third-person narrative.
 - [ ] Update Home.tsx with the new bio.
 - [ ] Save checkpoint and push to GitHub.
+
+## Rewrite Long-Form Bio
+- [ ] Rewrite the long-form bio to emphasize the 'always early' and 'marketer lens' narrative.
+- [ ] Update the long-form bio page with the new content.
+- [ ] Save checkpoint and push to GitHub.

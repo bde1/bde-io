@@ -119,24 +119,24 @@ export default function Office() {
                 </p>
 
                 <p>
-                  Most capital is passive. Ours is active. Brian has spent over two decades in the trenches—building a media empire that reached over 100 million people, building and exiting numerous tech and e-commerce companies, and navigating the volatility of emerging markets since the early days.
+                  Most capital is passive. Ours is active. Brian has spent over two decades in the trenches, consistently positioning himself at the inception of major technological shifts. He built a media empire that reached over 100 million people, successfully exited numerous tech and e-commerce companies, and navigated the volatility of emerging markets long before they hit the mainstream.
                 </p>
                 <p>
-                  His work has influenced millions, running massive marketing campaigns for some of the world's biggest brands in their early stages. He didn't just watch the industry evolve; he helped shape it.
+                  His edge comes from viewing these emerging markets through a distinct marketing lens. He focuses on how to craft the narrative and drive real adoption early. He didn't just watch the industry evolve; he helped shape it by running massive marketing campaigns for some of the world's biggest brands during their critical early stages.
                 </p>
                 <p>
-                  We don't just read the whitepaper; we understand the go-to-market. We don't just look at the cap table; we look at the community. When we partner with a founder, we bring the scars, the network, and the playbook of someone who has actually built.
+                  We don't just read the whitepaper; we understand the go-to-market strategy. We don't just look at the cap table; we look at the community. When we partner with a founder, we bring the scars, the network, and the playbook of someone who has actually built and scaled companies from the ground up.
                 </p>
 
                 <div className="pt-8 border-t border-border/50 mt-8">
                   <p className="mb-8">
-                    Brian D. Evans is an Inc. 500 entrepreneur, angel investor, and seasoned strategic advisor who has spent his career building at the intersection of emerging technology and digital marketing. He built one of the top digital marketing agencies in the world and achieved multiple successful exits across media, eCom, and tech, earning recognition from Forbes, Entrepreneur, and Inc., along with multiple 40 Under 40 honors.
+                    Brian is a marketer who consistently gets in at the very beginning of big waves. He founded one of the first influencer marketing agencies and scaled it into a top 25 Inc. 500 company in America. He achieved multiple successful exits across media, eCom, and tech, earning recognition from Forbes, Entrepreneur, and Inc., along with multiple 40 Under 40 honors.
                   </p>
                   <p className="mb-8">
-                    He is a blockchain pioneer who entered the space early, backed category-defining projects, and contributed to the broader shift toward web3. As founder of BDE Ventures, he leads a private investment firm focused on blockchain, web3, AI, and entertainment, supporting founders working on the next wave of digital infrastructure. To date, the firm has helped raise more than $100M in capital.
+                    He jumped into the crypto and blockchain space in 2013, backing category-defining projects and contributing to the broader shift toward web3. In 2018, he began angel investing in AI, with a specific focus on privacy technology. As founder of BDE Ventures, he leads a private investment firm focused on blockchain, web3, AI, and entertainment, supporting founders working on the next wave of digital infrastructure. To date, the firm has helped raise more than $100M in capital.
                   </p>
                   <p>
-                    His work has reached more than 100 million people, including running massive marketing campaigns for some of the world's biggest brands, such as Netflix in their early days. He appeared as a judge on a TV series evaluating high-growth startups and has served on multiple advisory boards, helping founders navigate fundraising and strategic growth. Across platforms, he has built an audience of over one million followers.
+                    His work has reached more than 100 million people, including running massive marketing campaigns for brands like Netflix in their early days. He appeared as a judge on a TV series evaluating high-growth startups and has served on multiple advisory boards, helping founders navigate fundraising and strategic growth. Across platforms, he has built an audience of over one million followers.
                   </p>
                 </div>
 
