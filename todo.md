@@ -220,3 +220,8 @@
 - [ ] Rewrite the long-form bio to emphasize the 'always early' and 'marketer lens' narrative.
 - [ ] Update the long-form bio page with the new content.
 - [ ] Save checkpoint and push to GitHub.
+
+## Update Bios with Exact Text
+- [ ] Update Home.tsx with the new short bio.
+- [ ] Update Office.tsx with the new full bio.
+- [ ] Save checkpoint and push to GitHub.

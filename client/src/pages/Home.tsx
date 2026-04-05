@@ -158,10 +158,10 @@ export default function Home() {
                 <svg className="w-10 h-10" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z"></path></svg>
               </div>
               <p className="text-base text-gray-300 mb-6 leading-relaxed font-light">
-                Brian is a marketer who consistently positions himself at the inception of major technological shifts. He founded one of the first influencer marketing agencies and scaled it into a top 25 Inc. 500 company. He entered the crypto and blockchain space in 2013, earning a 40 Under 40 recognition, and began angel investing in AI and privacy technology in 2018.
+                Brian D. Evans is a marketer who consistently positions himself at the inception of major technological shifts. He founded one of the earliest influencer marketing agencies and scaled it into a top 25 Inc. 500 company.
               </p>
               <p className="text-sm text-accent mb-8 font-medium">
-                His edge comes from viewing emerging markets through a marketing lens: identifying how to craft the narrative and drive real adoption early.
+                His edge comes from viewing emerging markets through a distinct operator's lens, informed by decades of hands-on experience in building and scaling companies. He identifies how to craft the narrative and drive real adoption early. This approach guided his backing of foundational blockchain projects and his subsequent focus on AI privacy technology.
               </p>
               <div>
                 <Link href="/office">
