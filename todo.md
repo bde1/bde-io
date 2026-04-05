@@ -225,3 +225,8 @@
 - [ ] Update Home.tsx with the new short bio.
 - [ ] Update Office.tsx with the new full bio.
 - [ ] Save checkpoint and push to GitHub.
+
+## Update Bios with Pioneering AI Privacy
+- [ ] Update Home.tsx with the revised short bio.
+- [ ] Update Office.tsx with the revised full bio.
+- [ ] Save checkpoint and push to GitHub.

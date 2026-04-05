@@ -130,7 +130,7 @@ export default function Office() {
 
                 <div className="pt-8 border-t border-border/50 mt-8">
                   <p className="mb-8">
-                    Brian earned recognition from Forbes, Entrepreneur, and Inc., alongside multiple 40 Under 40 honors, because he gets in at the very beginning of big waves. This foresight guided his early backing of foundational blockchain projects and his subsequent investments in AI privacy technology.
+                    Brian earned recognition from Forbes, Entrepreneur, and Inc., alongside multiple 40 Under 40 honors, because he gets in at the very beginning of big waves. This foresight guided his early backing of foundational blockchain projects and his subsequent pioneering investments in AI privacy technology.
                   </p>
                   <p>
                     Today, he leads an advisory and investment firm supporting founders focused on Web3, AI, Deep Tech, and Consumer AdTech. Across platforms, he has built an audience of over one million followers and regularly serves on advisory boards to help founders navigate capital formation and strategic growth. We bring this entire ecosystem to the table. We do not back tourists. We back the architects of tomorrow.

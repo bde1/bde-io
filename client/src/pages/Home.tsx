@@ -161,7 +161,7 @@ export default function Home() {
                 Brian D. Evans is a marketer who consistently positions himself at the inception of major technological shifts. He founded one of the earliest influencer marketing agencies and scaled it into a top 25 Inc. 500 company.
               </p>
               <p className="text-sm text-accent mb-8 font-medium">
-                His edge comes from viewing emerging markets through a distinct operator's lens, informed by decades of hands-on experience in building and scaling companies. He identifies how to craft the narrative and drive real adoption early. This approach guided his backing of foundational blockchain projects and his subsequent focus on AI privacy technology.
+                His edge comes from viewing emerging markets through a distinct operator's lens, informed by decades of hands-on experience in building and scaling companies. He identifies how to craft the narrative and drive real adoption early. This approach guided his backing of foundational blockchain projects and his subsequent pioneering investments in AI privacy technology.
               </p>
               <div>
                 <Link href="/office">
