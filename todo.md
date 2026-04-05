@@ -230,3 +230,7 @@
 - [ ] Update Home.tsx with the revised short bio.
 - [ ] Update Office.tsx with the revised full bio.
 - [ ] Save checkpoint and push to GitHub.
+
+## Remove Quote Icon and Unify Font
+- [ ] Update Home.tsx to remove quote icon and unify font styling.
+- [ ] Save checkpoint and push to GitHub.
