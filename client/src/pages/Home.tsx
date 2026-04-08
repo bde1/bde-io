@@ -110,7 +110,7 @@ export default function Home() {
             </div>
             <div className="md:w-1/2 flex items-center">
               <p className="text-sm text-gray-300 leading-relaxed font-light">
-                BDE Ventures is built to complement traditional institutional capital. We bring operating experience, technical fluency, and a firsthand understanding of how culture and narrative move markets. Our partnership is unusual by design: we back founders with non-consensus insight and help them turn attention into durable advantage.
+                BDE Ventures is focused exclusively on early-stage partnerships. We bring operating experience, technical fluency, and a firsthand understanding of how culture and narrative move markets. Our partnership is unusual by design: we back founders with non-consensus insight and help them turn attention into durable advantage.
               </p>
             </div>
           </div>
