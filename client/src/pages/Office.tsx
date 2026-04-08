@@ -119,22 +119,22 @@ export default function Office() {
                 </p>
 
                 <p>
-                  Most capital is passive. Ours is active. Brian has spent over two decades in the trenches, consistently positioning himself at the inception of major technological shifts. He built a media empire from the ground up, successfully exited numerous tech and eCommerce companies, and navigated the volatility of emerging markets long before they reached the mainstream.
+                  Capital is abundant. Attention is scarce. Brian has spent over two decades in the trenches, consistently positioning himself at the inception of major technological shifts. He built a media empire from the ground up, successfully exited numerous tech and eCommerce companies, and navigated the volatility of emerging markets long before they reached the mainstream.
                 </p>
                 <p>
                   His edge comes from viewing these markets through a distinct operator's lens. He focuses on how to craft the narrative and drive real adoption early. He didn't just watch the digital industry evolve; he helped shape it by running massive distribution campaigns for some of the world's biggest brands, including Netflix during their critical early expansion. His work has reached over 100 million people globally.
                 </p>
                 <p>
-                  We don't just read the whitepaper; we understand the go-to-market strategy. We don't just look at the cap table; we look at the community. When we partner with a founder, we bring the scars, the network, and the playbook of someone who has actually built and scaled companies to the top 25 of the Inc. 500 list.
+                  We don't just read the whitepaper; we understand the go-to-market strategy. We don't just look at the cap table; we look at the community. When we partner with a founder, we bring the scars, the network, and the playbook of someone who has actually built and scaled companies to the top 25 of the Inc. 500 list. We are built through work, not optics.
                 </p>
 
                 <div className="pt-8 border-t border-border/50 mt-8">
                   <p className="mb-8">
                     Brian earned recognition from Forbes, Entrepreneur, and Inc., alongside multiple 40 Under 40 honors, because he gets in at the very beginning of big waves. This foresight guided his early backing of foundational blockchain projects and his subsequent pioneering investments in AI privacy technology.
                   </p>
-                  <p>
-                    Today, he leads an advisory and investment firm supporting founders focused on Web3, AI, Deep Tech, and Consumer AdTech. Across platforms, he has built an audience of over one million followers and regularly serves on advisory boards to help founders navigate capital formation and strategic growth. We bring this entire ecosystem to the table. We do not back tourists. We back the architects of tomorrow.
-                  </p>
+<p>
+                  Today, he leads an advisory and investment firm supporting founders focused on Blockchain, AI, Infrastructure, and Consumer Platforms & Brands. Across platforms, he has built an audience of over one million followers and regularly serves on advisory boards to help founders navigate capital formation and strategic growth. We bring this entire ecosystem to the table. We do not back tourists. We back the architects of tomorrow.
+                </p>
                 </div>
 
                 <div className="mt-16 mb-8">

@@ -234,3 +234,12 @@
 ## Remove Quote Icon and Unify Font
 - [ ] Update Home.tsx to remove quote icon and unify font styling.
 - [ ] Save checkpoint and push to GitHub.
+
+## Update Active Thesis Terminology
+- [ ] Update Home.tsx with the new Active Thesis terminology.
+- [ ] Save checkpoint and push to GitHub.
+
+## Antifund Inspiration Copy Rewrite
+- [ ] Review Antifund copy for inspiration.
+- [ ] Rewrite and update BDE.io copy in Home.tsx and Office.tsx.
+- [ ] Save checkpoint and push to GitHub.

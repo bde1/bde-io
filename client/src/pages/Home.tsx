@@ -61,9 +61,9 @@ export default function Home() {
               <div className="text-accent mb-6 w-12 h-12">
                 <Hexagon className="w-full h-full" strokeWidth={1.5} />
               </div>
-              <h3 className="text-xl font-bold mb-4 uppercase">Web3</h3>
+              <h3 className="text-xl font-bold mb-4 uppercase">Blockchain</h3>
               <p className="text-sm text-gray-400 leading-relaxed font-light">
-                Web3 is an overarching term noted to encompass a new iteration of the World Wide Web which incorporates concepts such as decentralization, blockchain technologies, and token-based economics.
+                We back founders building the decentralized infrastructure and token-based economies that will define the next iteration of the internet. We look for technical edge and the ability to drive real adoption.
               </p>
             </div>
             {/* Thesis Card 2 */}
@@ -73,7 +73,7 @@ export default function Home() {
               </div>
               <h3 className="text-xl font-bold mb-4 uppercase">AI</h3>
               <p className="text-sm text-gray-400 leading-relaxed font-light">
-                AI enables development and foundational capabilities that empower founders and leadership teams to create new paradigms of technology, blockchain, and innovations.
+                We invest behind founders leveraging artificial intelligence to create new technological paradigms, with a specific focus on privacy-preserving models and foundational capabilities.
               </p>
             </div>
             {/* Thesis Card 3 */}
@@ -81,9 +81,9 @@ export default function Home() {
               <div className="text-accent mb-6 w-12 h-12">
                 <Cog className="w-full h-full" strokeWidth={1.5} />
               </div>
-              <h3 className="text-xl font-bold mb-4 uppercase">Deep Tech</h3>
+              <h3 className="text-xl font-bold mb-4 uppercase">Infrastructure</h3>
               <p className="text-sm text-gray-400 leading-relaxed font-light">
-                Deep tech is often defined as technology based on tangible scientific discoveries or engineering innovations. They try to solve big issues that really affect the world.
+                We partner with teams building the core technological layers and engineering innovations required to solve generational challenges and support global-scale applications.
               </p>
             </div>
             {/* Thesis Card 4 */}
@@ -91,9 +91,9 @@ export default function Home() {
               <div className="text-accent mb-6 w-12 h-12">
                 <ShoppingCart className="w-full h-full" strokeWidth={1.5} />
               </div>
-              <h3 className="text-xl font-bold mb-4 uppercase">Consumer & AdTech</h3>
+              <h3 className="text-xl font-bold mb-4 uppercase">Consumer Platforms & Brands</h3>
               <p className="text-sm text-gray-400 leading-relaxed font-light">
-                We partner with brands redefining direct-to-consumer (DTC) and consumer packaged goods (CPG), as well as the advertising technologies that scale them.
+                We help founders turn attention into durable advantage. We back consumer platforms, brands, and the advertising technologies that scale them, bringing our global distribution expertise to the cap table.
               </p>
             </div>
           </div>
@@ -110,7 +110,7 @@ export default function Home() {
             </div>
             <div className="md:w-1/2 flex items-center">
               <p className="text-sm text-gray-300 leading-relaxed font-light">
-                BDE Ventures is an emerging thesis-driven advisory firm. We combine operator-led guidance with deep ecosystem knowledge to support founders navigating complex technological landscapes. We build lasting relationships based on trust, mutual respect, and shared vision, focusing on high-impact areas where our expertise can catalyze significant growth.
+                BDE Ventures is built to complement traditional institutional capital. We bring operating experience, technical fluency, and a firsthand understanding of how culture and narrative move markets. Our partnership is unusual by design: we back founders with non-consensus insight and help them turn attention into durable advantage.
               </p>
             </div>
           </div>
@@ -118,19 +118,19 @@ export default function Home() {
             <div>
               <h4 className="text-lg font-bold text-accent mb-3 uppercase tracking-wide">Operator DNA</h4>
               <p className="text-sm text-gray-400 font-light leading-relaxed">
-                Operator DNA is the cornerstone of our advisory model. We bring hands-on experience and strategic foresight to every partnership, drawn from real-world operational backgrounds.
+                We are built through work, not optics. We spend time where important companies are actually shaped: product reviews, launch plans, distribution strategy, and moments where the next decision matters more than the next deck.
               </p>
             </div>
             <div>
               <h4 className="text-lg font-bold text-accent mb-3 uppercase tracking-wide">Active Strategy</h4>
               <p className="text-sm text-gray-400 font-light leading-relaxed">
-                Strategy isn't static; it requires dynamic adaptation. We work actively alongside teams to refine approaches, mitigate risks, and seize emerging opportunities in volatile markets.
+                We are most useful when conviction needs sharpening and leverage needs creating. Founders call when a launch has to matter, a round has to clear, a hire has to close, or a narrative has to cut through noise.
               </p>
             </div>
             <div>
               <h4 className="text-lg font-bold text-accent mb-3 uppercase tracking-wide">Enduring Value</h4>
               <p className="text-sm text-gray-400 font-light leading-relaxed">
-                Enduring value is created through sustainable business models, robust governance, and a commitment to long-term impact rather than short-term gains.
+                We combine company building, institutional investing, and global-scale distribution into one cap-table partner, helping founders build what consensus misses.
               </p>
             </div>
           </div>
