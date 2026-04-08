@@ -119,7 +119,7 @@ export default function Office() {
                 </p>
 
                 <p>
-                  Capital is abundant. Attention is scarce. Brian has spent over two decades in the trenches, consistently positioning himself at the inception of major technological shifts. He built a media empire from the ground up, successfully exited numerous tech and eCommerce companies, and navigated the volatility of emerging markets long before they reached the mainstream.
+                  Capital is abundant. Attention is scarce. Brian has spent over two decades in the trenches, consistently positioning himself at the inception of major technological shifts. He built a media empire from the ground up, successfully exited numerous tech and eCommerce companies, and navigated the volatility of emerging markets long before they reached the mainstream. Viewing the world through a marketing lens is our bread and butter.
                 </p>
                 <p>
                   His edge comes from viewing these markets through a distinct operator's lens. He focuses on how to craft the narrative and drive real adoption early. He didn't just watch the digital industry evolve; he helped shape it by running massive distribution campaigns for some of the world's biggest brands, including Netflix during their critical early expansion. His work has reached over 100 million people globally.
